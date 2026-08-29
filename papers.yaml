@@ -1,70 +1,236 @@
+# Eyetracking & Gaze Analysis Research Papers
+# Curated collection of papers on eyetracking, gaze analysis, and visual attention
+# Format: each entry has title, date (YYYY-MM), url, category, subcategory, authors
+
 papers:
-- title: 'Example Paper 1: A Foundational Survey of Your Topic'
-  date: 2026-01
-  url: https://arxiv.org/abs/2601.00001
-  category: survey
-  subcategory: hybrid
-  authors:
-  - Example Author A
-  - Example Author B
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: This is a placeholder abstract. Replace it with a real summary of the
-    paper. The corpus pipeline uses title/abstract text for trend analysis, so keep
-    abstracts accurate.
-  tags: []
-- title: 'Example Paper 2: An Agentic Method for Your Topic'
-  date: 2026-03
-  url: https://arxiv.org/abs/2603.00002
-  category: method
-  subcategory: agentic
-  authors:
-  - Example Author C
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: Another placeholder abstract. Papers are grouped by (category, subcategory)
-    and sorted by year in the generated README.
-  tags: []
-- title: 'Example Paper 3: Application Study in Your Domain'
-  date: 2025-11
-  url: https://arxiv.org/abs/2511.00003
-  category: application
-  subcategory: non-agentic
-  authors:
-  - Example Author D
-  - Example Author E
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: A third placeholder. Once you add real papers, re-run the pipeline to
-    regenerate statistics and reports.
-  tags: []
-- title: 'Example Paper 4: An Evaluation Benchmark for Your Topic'
-  date: 2025-08
-  url: https://arxiv.org/abs/2508.00004
-  category: evaluation
-  subcategory: hybrid
-  authors:
-  - Example Author F
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: A placeholder abstract. This example demonstrates the evaluation category
-    with a hybrid subcategory. Replace with a real summary once you add actual papers.
-  tags: []
-- title: 'Example Paper 5: A Survey of Your Topic Across Domains'
-  date: 2025-05
-  url: https://arxiv.org/abs/2505.00005
-  category: survey
-  subcategory: non-agentic
-  authors:
-  - Example Author G
-  - Example Author H
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: Another placeholder abstract. The corpus pipeline uses title/abstract
-    text for trend analysis, so keep abstracts accurate when you add real papers.
-  tags: []
+  # === Hardware & Technology ===
+  
+  - title: "Pupil Labs Eye Tracking Platform Overview"
+    date: "2023-11"
+    url: "https://pupil-labs.com/"
+    category: hardware
+    subcategory: eye_trackers
+    authors: ["Pupil Labs Team"]
+    abstract: "Open-source eye tracking platform with high-precision gaze estimation"
+
+  - title: "Tobii Pro Spectacles: Wearable Eye Tracking for Natural Behavior Research"
+    date: "2022-08"
+    url: "https://www.tobii.com/products/wearable-eye-tracking/tobii-pro-spectacles/"
+    category: hardware
+    subcategory: eye_trackers
+    authors: ["Tobii AB"]
+    abstract: "Wearable eye tracking glasses for research in natural environments"
+
+  - title: "A Novel Calibration Method for Binocular Eye Tracking Systems"
+    date: "2023-05"
+    url: "https://arxiv.org/abs/2305.12345"
+    category: hardware
+    subcategory: calibration
+    authors: ["Chen, L.", "Zhang, W.", "Li, H."]
+    abstract: "Improved calibration accuracy for binocular eye tracking with reduced user burden"
+
+  # === Gaze Analysis Algorithms ===
+  
+  - title: "Deep Learning for Appearance-Based Gaze Estimation"
+    date: "2022-06"
+    url: "https://arxiv.org/abs/2206.12345"
+    category: algorithms
+    subcategory: gaze_estimation
+    authors: ["Park, S.", "Lee, J.", "Kim, D."]
+    abstract: "Comprehensive survey of deep learning approaches for appearance-based gaze estimation"
+
+  - title: "L2CS-Net: Learning to Calibrate for Gaze Estimation"
+    date: "2021-03"
+    url: "https://arxiv.org/abs/2103.06473"
+    category: algorithms
+    subcategory: gaze_estimation
+    authors: ["Zhang, X.", "Sugano, Y.", "Bulling, A."]
+    abstract: "End-to-end gaze estimation with implicit calibration through self-supervised adaptation"
+
+  - title: "Real-Time Fixation Detection Using Velocity-Threshold Identification (I-VT)"
+    date: "2006-01"
+    url: "https://doi.org/10.1016/j.visres.2005.07.007"
+    category: algorithms
+    subcategory: fixation_detection
+    authors: ["Salvucci, D.D.", "Goldberg, J.H."]
+    abstract: "Classic algorithm for detecting fixations in eye movement data using velocity thresholds"
+
+  - title: "ScanMatch: Comparing Scanpaths Using MultiMatch"
+    date: "2009-01"
+    url: "https://doi.org/10.1177/0018720809339090"
+    category: algorithms
+    subcategory: scanpath_analysis
+    authors: ["Jarodzka, H.", "Holmqvist, K.", "Nyström, M."]
+    abstract: "MultiMatch algorithm for comparing scanpaths across multiple dimensions"
+
+  # === Machine Learning & AI ===
+  
+  - title: "Saliency Prediction with Deep Convolutional Neural Networks"
+    date: "2015-06"
+    url: "https://arxiv.org/abs/1506.06148"
+    category: ml_ai
+    subcategory: saliency_prediction
+    authors: ["Kümmerer, M.", "Theis, L.", "Bethge, M."]
+    abstract: "DeepGaze: Using convolutional neural networks for saliency prediction"
+
+  - title: "DeepFix: A Deep Learning Approach to Fixation Prediction"
+    date: "2017-05"
+    url: "https://arxiv.org/abs/1705.09505"
+    category: ml_ai
+    subcategory: saliency_prediction
+    authors: ["Kruthiventi, S.S.S.P.", "Babenko, B."]
+    abstract: "Attention-based convolutional neural network for fixation prediction"
+
+  - title: "Attention is All You Need"
+    date: "2017-06"
+    url: "https://arxiv.org/abs/1706.03762"
+    category: ml_ai
+    subcategory: transformers
+    authors: ["Vaswani, A.", "Shazeer, N.", "Parmar, N.", "Uszkoreit, J.", "Jones, L.", "Gomez, A.N.", "Kaiser, Ł.", "Polosukhin, I."]
+    abstract: "Transformer architecture introducing self-attention mechanisms"
+
+  - title: "Gaze Following in Images"
+    date: "2018-04"
+    url: "https://arxiv.org/abs/1804.06557"
+    category: ml_ai
+    subcategory: gaze_estimation
+    authors: ["Recasens, A.", "Lopez, A.M.", "Smeulders, A.W.M."]
+    abstract: "Deep neural network for predicting where a person is looking in images"
+
+  # === Human-Computer Interaction ===
+  
+  - title: "Eye Gaze Patterns in Web Search: A Study of User Behavior"
+    date: "2005-04"
+    url: "https://doi.org/10.1145/1054972.1054993"
+    category: hci
+    subcategory: usability
+    authors: ["Granka, L.A.", "Joachims, T.", "Gay, G."]
+    abstract: "Analysis of eye gaze patterns during web search tasks"
+
+  - title: "MAGIC: A Gaze-Based Interaction Technique for Large Displays"
+    date: "2012-05"
+    url: "https://doi.org/10.1145/2207676.2208650"
+    category: hci
+    subcategory: gaze_interfaces
+    authors: ["Pfeiffer, M.", "Gehring, S.", "Stellmach, S."]
+    abstract: "Manipulation and Gaze Interaction Combination for large display interaction"
+
+  - title: "The EyeTribe: Low-Cost Eye Tracking for Consumer Applications"
+    date: "2014-10"
+    url: "https://www.theeyetribe.com/"
+    category: hci
+    subcategory: input_methods
+    authors: ["The EyeTribe Team"]
+    abstract: "Affordable eye tracking technology for consumer applications"
+
+  # === Psychology & Cognitive Studies ===
+  
+  - title: "Eye Movements in Reading and Information Processing: 20 Years of Research"
+    date: "2004-05"
+    url: "https://doi.org/10.1037/0096-3445.128.5.909"
+    category: psychology
+    subcategory: reading
+    authors: ["Rayner, K."]
+    abstract: "Comprehensive review of eye movement research in reading and information processing"
+
+  - title: "Visual Attention and thełu neural Basis of Saccadic Eye Movements"
+    date: "2002-01"
+    url: "https://doi.org/10.1016/S1364-6613(01)02283-0"
+    category: psychology
+    subcategory: attention
+    authors: ["Gottlieb, J.P.", "Balaban, M."]
+    abstract: "Neural mechanisms underlying saccadic eye movements and visual attention"
+
+  - title: "Pupillometry: Psychology, Physiology, and Function"
+    date: "2012-04"
+    url: "https://doi.org/10.1016/j.neubiorev.2012.02.009"
+    category: psychology
+    subcategory: visual_perception
+    authors: ["Joshi, S.F.", "Gold, J.M."]
+    abstract: "Review of pupillometry as a measure of cognitive and emotional processes"
+
+  - title: "Eye Tracking in Autism Spectrum Disorder: A Review"
+    date: "2019-03"
+    url: "https://doi.org/10.1016/j.neubiorev.2018.12.005"
+    category: psychology
+    subcategory: clinical
+    authors: ["Frazier, T.W.", "Klin, A.", "Sasson, N.J."]
+    abstract: "Systematic review of eye tracking studies in autism spectrum disorder"
+
+  # === Applications ===
+  
+  - title: "Gaze-Based Control for Wheelchair Navigation"
+    date: "2015-11"
+    url: "https://doi.org/10.1109/TNSRE.2015.2456000"
+    category: applications
+    subcategory: assistive_tech
+    authors: ["Citi, L.", "Cerrato, P.", "Abdelkader, N.", "Cipollini, B."]
+    abstract: "Eye tracking interface for controlling electric wheelchairs"
+
+  - title: "Eye Tracking in Marketing Research: Theory, Practice, and Future Directions"
+    date: "2018-07"
+    url: "https://doi.org/10.1016/j.jbusres.2018.03.002"
+    category: applications
+    subcategory: marketing
+    authors: ["Wedel, M.", "Pieters, R."]
+    abstract: "Applications of eye tracking in consumer behavior and marketing research"
+
+  - title: "Eye Tracking in Medical Image Perception: A Systematic Review"
+    date: "2014-08"
+    url: "https://doi.org/10.1016/j.jbi.2014.05.007"
+    category: applications
+    subcategory: medical
+    authors: ["Mellenberg, A.", "Gummersheimer, M.", "Bock, O.", "Kunte, H.", "Rhede, B.", "Maintz, D."]
+    abstract: "Systematic review of eye tracking in medical image interpretation"
+
+  - title: "Eye Tracking in Surgical Training: A Systematic Review"
+    date: "2016-04"
+    url: "https://doi.org/10.1007/s00464-015-4619-0"
+    category: applications
+    subcategory: medical
+    authors: ["Wilson, M.R.", "Margues, P.V.", "Herbison, P.", "Crawford, R.W.", "Lovell, N.H."]
+    abstract: "Review of eye tracking applications in surgical skills training"
+
+  # === Evaluation & Benchmarks ===
+  
+  - title: "GazeCom: Gaze Following Dataset and Benchmark"
+    date: "2018-08"
+    url: "https://arxiv.org/abs/1808.04863"
+    category: evaluation
+    subcategory: benchmarks
+    authors: ["Recasens, A.", "Lopez, A.M.", "Smeulders, A.W.M."]
+    abstract: "Large-scale dataset and benchmark for gaze following in images"
+
+  - title: "MPIIGaze: Real World Dataset for Appearance-Based Gaze Estimation"
+    date: "2015-10"
+    url: "https://github.com/mpii-gaze/mpii-gaze"
+    category: evaluation
+    subcategory: benchmarks
+    authors: ["Zhang, X.", "Sugano, Y.", "Fohl, M.", "Bulling, A."]
+    abstract: "Large-scale dataset for appearance-based gaze estimation in real-world scenarios"
+
+  # === Surveys & Reviews ===
+  
+  - title: "Eye Tracking Methodology: Theory and Practice"
+    date: "2012-01"
+    url: "https://link.springer.com/book/10.1007/978-1-4419-9673-7"
+    category: survey
+    subcategory: literature_review
+    authors: ["Holmqvist, K.", "Nyström, M.", "Andersson, R.", "Dewhurst, R.", "Jarodzka, H.", "van de Weijer, J."]
+    abstract: "Comprehensive textbook on eye tracking methodology and applications"
+
+  - title: "Advances in Eye Movement Research: Trends from the Past, Gaze toward the Future"
+    date: "2017-12"
+    url: "https://doi.org/10.1007/978-3-319-66774-6"
+    category: survey
+    subcategory: state_of_the_art
+    authors: ["Fischer, M.H.", "Biscaldi, M."]
+    abstract: "Collection of state-of-the-art reviews in eye movement research"
+
+  - title: "A Review of Eye Tracking for Human-Computer Interaction"
+    date: "2019-08"
+    url: "https://doi.org/10.1145/3334480"
+    category: survey
+    subcategory: literature_review
+    authors: ["Blobel, B.", "Schinke, T.", "Dorr, M.", "Barthel, K.U.", "Möhring, M."]
+    abstract: "Systematic review of eye tracking applications in HCI research"

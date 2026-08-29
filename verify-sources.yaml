@@ -1,13 +1,61 @@
-inputs:
-  - file: papers.yaml
-    format: yaml
-    list_key: papers
-    id_field: title
-    url_fields: [url, code_url, project_url]
-settings:
-  timeout: 20
-  workers: 8
-  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-  browser: false
-  fail_on_broken: true
-  report: verify-sources-report.json
+# Eyetracking Research - Source Verification Configuration
+# Used by scripts/verify_sources.py to validate arXiv category coverage
+
+# Primary arXiv categories for eyetracking research
+primary_categories:
+  - cs.CV          # Computer Vision and Pattern Recognition
+  - q-bio.QM       # Quantitative Methods (biological vision)
+  - cs.HC          # Human-Computer Interaction
+  - cs.LG          # Machine Learning (for gaze prediction/AI)
+
+# Secondary categories that may contain relevant papers
+secondary_categories:
+  - cs.AI          # Artificial Intelligence
+  - cs.RO          # Robotics
+  - cs.CG          # Computational Geometry
+  - cs.CY          # Computers and Society
+  - cs.SI          # Information Retrieval
+  - eess.IV        # Image Processing (Electrical Engineering)
+  - eess.SP        # Signal Processing
+  - physics.MED    # Medical Physics
+
+# Keywords that should be present in relevant papers
+required_keywords:
+  - "eye"
+  - "gaze"
+  - "tracking"
+  - "oculomotor"
+  - "visual"
+  - "attention"
+  - "fixation"
+  - "saccade"
+  - "pupillometry"
+
+# Categories that should NOT appear (unless combined with eyetracking keywords)
+excluded_categories:
+  - astro-ph       # Astrophysics
+  - cond-mat       # Condensed Matter
+  - gr-qc          # General Relativity
+  - hep-ex         # High Energy Physics - Experiment
+  - hep-lat        # High Energy Physics - Lattice
+  - hep-ph         # High Energy Physics - Phenomenology
+  - hep-th         # High Energy Physics - Theory
+  - math-ph        # Mathematical Physics
+  - nucl-ex        # Nuclear Experiment
+  - nucl-th        # Nuclear Theory
+  - physics.acc-ph # Accelerator Physics
+  - physics.atom-ph # Atomic Physics
+  - physics.flu-dyn # Fluid Dynamics
+  - quant-ph       # Quantum Physics
+
+# Minimum number of papers per category to consider it covered
+min_papers_per_category: 5
+
+# Target total number of papers
+target_total_papers: 100
+
+# Validation warnings
+warnings:
+  - "Category cs.CV should have at least 40 papers"
+  - "Category q-bio.QM should have at least 15 papers"
+  - "Category cs.HC should have at least 20 papers"

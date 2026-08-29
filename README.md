@@ -1,18 +1,26 @@
 <h1 align="center">
-  <strong>Research Corpus Skeleton</strong>
+  <strong>Eyetracking Research Corpus</strong>
 </h1>
-<h3 align="center">Agentic literature review, jump-started — fork me for your own topic</h3>
+<h3 align="center">Comprehensive collection of eyetracking and gaze analysis research papers</h3>
 
 ### 🔗 Links
 
-- **License**: https://github.com/tobias-weiss-ai-xr/skeleton-research/blob/main/LICENSE
-- **CI**: https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/validate.yml
-- **GitHub Pages**: https://<YOUR_ORG>.github.io/<YOUR_REPO>/
+- **License**: https://github.com/tobias-weiss-ai-xr/eyetracking-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/eyetracking-research/actions/workflows/validate.yml
+- **GitHub Pages**: https://tobias-weiss-ai-xr.github.io/eyetracking-research/
 
+> 👁️ **Domain-specific:** This repository contains a curated collection of research papers
+> focused on eyetracking technology, gaze analysis, visual attention, and related topics.
 
-> 🎓 **Workshop-ready:** This repository is the *skeleton* for a data-driven,
-> auto-validated, agentic literature review — the same architecture used by the
-> `*-research` corpus repos (agent-memory, agent-skill, agent-learning, …).
+## What you get
+
+| Domain | Focus |
+|--------|-------|
+| **Eyetracking** | Gaze tracking, eye movement analysis |
+| **Vision** | Visual perception, attention mechanisms |
+| **HCI** | Human-computer interaction with gaze |
+| **Psychology** | Cognitive processes, visual attention |
+| **AI/ML** | Gaze prediction, attention modeling |
 
 ## What you get
 
