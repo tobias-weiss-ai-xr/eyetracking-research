@@ -26,6 +26,8 @@ taxonomy:
       display: "Cognitive & Psychological Studies"
     - id: hci
       display: "Human-Computer Interaction"
+    - id: vr_ar
+      display: "VR, AR & XR"
     - id: ml_ai
       display: "Machine Learning & AI"
     - id: evaluation
@@ -115,6 +117,23 @@ taxonomy:
     - id: input_methods
       display: "Gaze Input Methods"
       category: hci
+    
+    # VR, AR & XR
+    - id: et_in_vr
+      display: "Eyetracking in VR"
+      category: vr_ar
+    - id: et_in_ar
+      display: "Eyetracking in AR"
+      category: vr_ar
+    - id: foveated_rendering
+      display: "Foveated Rendering"
+      category: vr_ar
+    - id: vr_interaction
+      display: "VR Interaction Techniques"
+      category: vr_ar
+    - id: vr_hardware
+      display: "VR Eye Tracking Hardware"
+      category: vr_ar
     
     # ML/AI
     - id: saliency_prediction
@@ -230,6 +249,27 @@ arxiv_queries:
     category: psychology
     subcategory_hint: reading
   
+  # VR & AR
+  - query: 'cat:cs.CV AND (abs:"virtual reality" OR abs:"VR") AND (abs:"eye tracking" OR abs:"gaze")'
+    category: vr_ar
+    subcategory_hint: et_in_vr
+  
+  - query: 'cat:cs.CV AND (abs:"augmented reality" OR abs:"AR") AND (abs:"eye tracking" OR abs:"gaze")'
+    category: vr_ar
+    subcategory_hint: et_in_ar
+  
+  - query: 'cat:cs.CV AND (abs:"foveated rendering" OR abs:"foveated graphics" OR abs:"peripheral vision rendering")'
+    category: vr_ar
+    subcategory_hint: foveated_rendering
+  
+  - query: 'cat:cs.CV AND (abs:"VR interaction" OR abs:"virtual reality interaction" OR abs:"gaze-based VR")'
+    category: vr_ar
+    subcategory_hint: vr_interaction
+  
+  - query: 'cat:cs.CV AND (abs:"VR headset" OR abs:"HMD" OR abs:"eye tracking HMD") AND (abs:"eye" OR abs:"gaze")'
+    category: vr_ar
+    subcategory_hint: vr_hardware
+  
   # Medical & Assistive
   - query: 'cat:cs.HC AND (abs:"assistive technology" OR abs:"gaze-controlled wheelchair" OR abs:"eye-controlled communication")'
     category: applications
@@ -277,6 +317,8 @@ openalex_queries:
     query: "gaze interface assistive technology eye-controlled"
   - category: psychology
     query: "visual attention reading eye movements perception"
+  - category: vr_ar
+    query: "virtual reality eye tracking VR gaze AR augmented reality foveated rendering"
   - category: ml_ai
     query: "saliency prediction attention model gaze synthesis"
   - category: hci
@@ -362,6 +404,18 @@ subcategory_keywords:
   - id: input_methods
     keywords: ["input method", "input device", "pointing device", "gaze input"]
   
+  # VR, AR & XR
+  - id: et_in_vr
+    keywords: ["virtual reality", "VR", "HMD", "head-mounted display", "immersive", "360", "stereoscopic"]
+  - id: et_in_ar
+    keywords: ["augmented reality", "AR", "mixed reality", "MR", "XR", "extended reality", "see-through"]
+  - id: foveated_rendering
+    keywords: ["foveated rendering", "foveated graphics", "peripheral rendering", "gaze-contingent", "adaptive rendering"]
+  - id: vr_interaction
+    keywords: ["VR interaction", "virtual reality interaction", "gaze-based VR", "3D interaction", "spatial interaction"]
+  - id: vr_hardware
+    keywords: ["VR headset", "HMD eye tracking", "VR tracker", "Oculus", "HTC Vive", "Valve Index", "Varjo"]
+  
   # ML/AI
   - id: saliency_prediction
     keywords: ["saliency", "saliency prediction", "saliency map", "attention prediction"]
@@ -395,6 +449,11 @@ trend_keywords:
   - "eye tracking"
   - "gaze tracking"
   - "gaze estimation"
+  - "virtual reality"
+  - "VR"
+  - "augmented reality"
+  - "AR"
+  - "foveated rendering"
   - "visual attention"
   - "pupillometry"
   - "saccade"
@@ -407,6 +466,8 @@ trend_keywords:
   - "foveated vision"
   - "gaze synthesis"
   - "transformer attention"
+  - "ET in VR"
+  - "eye tracking in VR"
 
 # ── Relevance signals for repo fetchers ─────────────────────────────────────
 repo_signals:
@@ -418,3 +479,10 @@ repo_signals:
   - "pupillometry"
   - "visual attention"
   - "gaze estimation"
+  - "virtual reality"
+  - "VR"
+  - "augmented reality"
+  - "AR"
+  - "foveated rendering"
+  - "HMD"
+  - "head-mounted display"

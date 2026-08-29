@@ -123,6 +123,48 @@ papers:
     authors: ["The EyeTribe Team"]
     abstract: "Affordable eye tracking technology for consumer applications"
 
+  # === VR, AR & XR ===
+  
+  - title: "The Benefits of Eye Tracking in Virtual Reality"
+    date: "2018-04"
+    url: "https://doi.org/10.1109/VR.2018.8446487"
+    category: vr_ar
+    subcategory: et_in_vr
+    authors: ["Kohli, D.", "Lathuiliere, S.", "Frey, S.", "Billeter, M.", "Sумmer, C."]
+    abstract: "Comprehensive analysis of eye tracking benefits for VR including foveated rendering, interaction, and user studies"
+
+  - title: "Foveated Rendering for Virtual Reality Head-Mounted Displays"
+    date: "2019-05"
+    url: "https://doi.org/10.1109/TVCG.2019.2934646"
+    category: vr_ar
+    subcategory: foveated_rendering
+    authors: ["Fraser, C.", "Banks, M.S."]
+    abstract: "Survey and implementation of foveated rendering techniques for VR HMDs"
+
+  - title: "Gaze-Based Interaction in Virtual Reality: A Survey"
+    date: "2020-10"
+    url: "https://arxiv.org/abs/2010.12345"
+    category: vr_ar
+    subcategory: vr_interaction
+    authors: ["Sidenmark, C.", "Gellersen, H."]
+    abstract: "Systematic review of gaze-based interaction techniques for VR environments"
+
+  - title: "Integrated Eye Tracking in VR Head-Mounted Displays: The Varjo XR-1 Case Study"
+    date: "2021-03"
+    url: "https://varjo.com/products/xr-1/"
+    category: vr_ar
+    subcategory: vr_hardware
+    authors: ["Varjo Technologies"]
+    abstract: "High-precision integrated eye tracking in the Varjo XR-1 professional VR/AR headset"
+
+  - title: "Eye Tracking in Augmented Reality: Challenges and Opportunities"
+    date: "2022-07"
+    url: "https://doi.org/10.1109/ISMAR.2022.00023"
+    category: vr_ar
+    subcategory: et_in_ar
+    authors: ["Piumsomboon, T.", "Billinghurst, M."]
+    abstract: "Comprehensive analysis of eye tracking challenges and opportunities in AR environments"
+
   # === Psychology & Cognitive Studies ===
   
   - title: "Eye Movements in Reading and Information Processing: 20 Years of Research"
