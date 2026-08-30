@@ -244,54 +244,98 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**5 papers** across **4 categories**.  
-Sources: **arXiv** 5 (100%).  
+**1185 papers** across **9 categories**.  
+Sources: **arXiv** 1162 (98%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| survey | **2** | 1 | ████████████ |
-| application | **1** | 1 | ██████░░░░░░ |
-| evaluation | **1** | 1 | ██████░░░░░░ |
-| method | **1** | 1 | ██████░░░░░░ |
+| ml_ai | **353** | 111 | ████████████ |
+| psychology | **210** | 80 | ███████░░░░░ |
+| applications | **194** | 74 | ███████░░░░░ |
+| algorithms | **163** | 54 | ██████░░░░░░ |
+| hardware | **120** | 42 | ████░░░░░░░░ |
+| vr_ar | **75** | 29 | ███░░░░░░░░░ |
+| hci | **62** | 27 | ██░░░░░░░░░░ |
+| survey | **6** | 1 | █░░░░░░░░░░░ |
+| evaluation | **2** | 0 | █░░░░░░░░░░░ |
 
 ### By year
 
 | Year | Papers | |
 |------|--------|-|
-| 2025 | 3 | ████████████ |
-| 2026 | 2 | ████████░░░░ |
+| 2002 | 1 | █░░░░░░░░░░░ |
+| 2004 | 1 | █░░░░░░░░░░░ |
+| 2005 | 1 | █░░░░░░░░░░░ |
+| 2006 | 1 | █░░░░░░░░░░░ |
+| 2009 | 1 | █░░░░░░░░░░░ |
+| 2012 | 3 | █░░░░░░░░░░░ |
+| 2014 | 2 | █░░░░░░░░░░░ |
+| 2015 | 3 | █░░░░░░░░░░░ |
+| 2016 | 1 | █░░░░░░░░░░░ |
+| 2017 | 3 | █░░░░░░░░░░░ |
+| 2018 | 4 | █░░░░░░░░░░░ |
+| 2019 | 3 | █░░░░░░░░░░░ |
+| 2020 | 1 | █░░░░░░░░░░░ |
+| 2021 | 2 | █░░░░░░░░░░░ |
+| 2022 | 3 | █░░░░░░░░░░░ |
+| 2023 | 86 | ██░░░░░░░░░░ |
+| 2024 | 378 | ██████████░░ |
+| 2025 | 437 | ████████████ |
+| 2026 | 254 | ███████░░░░░ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Application | 1 | 0.1/mo | 100% | 100 |
-| Evaluation | 1 | 0.1/mo | 100% | 100 |
-| Method | 1 | 0.1/mo | 100% | 100 |
-| Survey | 2 | 0.1/mo | 50% | 50 |
+| Hci | 62 | 2.2/mo | 44% | 78 |
+| Vr_Ar | 75 | 2.4/mo | 39% | 60 |
+| Psychology | 210 | 6.7/mo | 38% | 43 |
+| Applications | 194 | 6.2/mo | 38% | 28 |
+| Hardware | 120 | 3.5/mo | 35% | 28 |
+| Algorithms | 163 | 4.5/mo | 33% | 23 |
+| Ml_Ai | 353 | 9.2/mo | 31% | 19 |
+| Survey | 6 | 0.1/mo | 17% | 17 |
+| Evaluation | 2 | 0.0/mo | 0% | 0 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| benchmark | 1 | 1.25 |
-| evaluation | 1 | 1.25 |
-| method | 1 | 1.25 |
-| application | 1 | 1.25 |
-| survey | 1 | 0.62 |
-| analysis | 1 | 0.62 |
+| oculomotor | 8 | 2.27 |
+| gaze-based interface | 1 | 1.42 |
+| saccade | 10 | 1.35 |
+| scanpath | 12 | 1.31 |
+| fixation | 31 | 1.22 |
+| visual attention | 23 | 1.19 |
+| foveated vision | 4 | 1.13 |
+| transformer attention | 3 | 1.06 |
+
+### Top venues
+
+| Venue | Papers |
+|-------|--------|
+| CVPR 2026 | 3 |
+| ECCV 2024 | 3 |
+| CVPR 2024 | 2 |
+| ICLR 2025 | 2 |
+| TMLR | 1 |
+| IROS 2024 | 1 |
+| ICML 2026 | 1 |
+| ICLR 2024 | 1 |
+| CVPR 2024 Gaze workshop | 1 |
+| CVPR 2025 | 1 |
 
 ### Research gaps (thinnest cells)
 
 | Cell | Papers |
 |------|--------|
-| `survey/hybrid` | 1 |
-| `method/agentic` | 1 |
-| `application/non-agentic` | 1 |
-| `evaluation/hybrid` | 1 |
-| `survey/non-agentic` | 1 |
+| `ml_ai/gaze-estimation` | 1 |
+| `vr_ar/foveated-rendering` | 1 |
+| `psychology/visual-perception` | 1 |
+| `applications/marketing` | 1 |
+| `survey/state-of-the-art` | 1 |
 
 *Generated 2026-08 by `scripts/standard_stats.py`.*
 
