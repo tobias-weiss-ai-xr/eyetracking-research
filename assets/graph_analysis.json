@@ -75,24 +75,24 @@
   {
    "id": "hardware",
    "name": "Hardware & Technology",
-   "count": 120,
+   "count": 119,
    "trajectory": {
     "2022": 1,
     "2023": 13,
-    "2024": 37,
+    "2024": 36,
     "2025": 42,
     "2026": 27
    },
    "momentum": {
     "id": "hardware",
     "name": "Hardware",
-    "total": 120,
+    "total": 119,
     "recent": 42,
-    "prior": 45,
-    "growth_pct": -6.7,
-    "recent_share": 0.35,
+    "prior": 44,
+    "growth_pct": -4.5,
+    "recent_share": 0.353,
     "papers_per_month": 3.5,
-    "score": 28.3
+    "score": 30.8
    }
   },
   {
@@ -246,7 +246,7 @@
   {
    "id": "calibration",
    "name": "Calibration Methods",
-   "count": 101
+   "count": 100
   },
   {
    "id": "clinical",
@@ -2574,11 +2574,6 @@
    "2024-11",
    "applications",
    "medical"
-  ],
-  [
-   "2024-11",
-   "hardware",
-   "calibration"
   ],
   [
    "2024-11",
@@ -6393,7 +6388,7 @@
    "keyword": "visual attention",
    "recent": 23,
    "total": 55,
-   "burst_score": 1.19,
+   "burst_score": 1.18,
    "recent_share": 0.055
   },
   {

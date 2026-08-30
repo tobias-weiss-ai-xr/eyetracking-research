@@ -244,8 +244,8 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**1185 papers** across **9 categories**.  
-Sources: **arXiv** 1162 (98%).  
+**1184 papers** across **9 categories**.  
+Sources: **arXiv** 1161 (98%).  
 
 ### Top categories
 
@@ -255,7 +255,7 @@ Sources: **arXiv** 1162 (98%).
 | psychology | **210** | 80 | ███████░░░░░ |
 | applications | **194** | 74 | ███████░░░░░ |
 | algorithms | **163** | 54 | ██████░░░░░░ |
-| hardware | **120** | 42 | ████░░░░░░░░ |
+| hardware | **119** | 42 | ████░░░░░░░░ |
 | vr-ar | **75** | 29 | ███░░░░░░░░░ |
 | hci | **62** | 27 | ██░░░░░░░░░░ |
 | survey | **6** | 1 | █░░░░░░░░░░░ |
@@ -281,7 +281,7 @@ Sources: **arXiv** 1162 (98%).
 | 2021 | 2 | █░░░░░░░░░░░ |
 | 2022 | 3 | █░░░░░░░░░░░ |
 | 2023 | 86 | ██░░░░░░░░░░ |
-| 2024 | 378 | ██████████░░ |
+| 2024 | 377 | ██████████░░ |
 | 2025 | 437 | ████████████ |
 | 2026 | 254 | ███████░░░░░ |
 
@@ -292,8 +292,8 @@ Sources: **arXiv** 1162 (98%).
 | Hci | 62 | 2.2/mo | 44% | 78 |
 | Vr Ar | 75 | 2.4/mo | 39% | 60 |
 | Psychology | 210 | 6.7/mo | 38% | 43 |
+| Hardware | 119 | 3.5/mo | 35% | 31 |
 | Applications | 194 | 6.2/mo | 38% | 28 |
-| Hardware | 120 | 3.5/mo | 35% | 28 |
 | Algorithms | 163 | 4.5/mo | 33% | 23 |
 | Ml Ai | 353 | 9.2/mo | 31% | 19 |
 | Survey | 6 | 0.1/mo | 17% | 17 |
@@ -308,7 +308,7 @@ Sources: **arXiv** 1162 (98%).
 | saccade | 10 | 1.35 |
 | scanpath | 12 | 1.31 |
 | fixation | 31 | 1.22 |
-| visual attention | 23 | 1.19 |
+| visual attention | 23 | 1.18 |
 | foveated vision | 4 | 1.13 |
 | transformer attention | 3 | 1.06 |
 

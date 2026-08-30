@@ -1076,37 +1076,6 @@ papers:
     LiDAR-camera methods designed for calibration on one car, our approach achieves
     better and more stable calibration performance in V2X scenarios with fewer parameters.
     The code is available at https://github.com/zhuyaoye/MamV2XCalib.
-- title: Iterative Camera-LiDAR Extrinsic Optimization via Surrogate Diffusion
-  date: 2024-11
-  url: https://arxiv.org/abs/2411.10936
-  category: hardware
-  subcategory: calibration
-  authors:
-  - Ni Ou
-  - Zhuo Chen
-  - Xinru Zhang
-  - Junzheng Wang
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: Cameras and LiDAR are essential sensors for autonomous vehicles. Camera-LiDAR
-    data fusion compensate for deficiencies of stand-alone sensors but relies on precise
-    extrinsic calibration. Many learning-based calibration methods predict extrinsic
-    parameters in a single step. Driven by the growing demand for higher accuracy,
-    a few approaches utilize multi-range models or integrate multiple methods to improve
-    extrinsic parameter predictions, but these strategies incur extended training
-    times and require additional storage for separate models. To address these issues,
-    we propose a single-model iterative approach based on surrogate diffusion to significantly
-    enhance the capacity of individual calibration methods. By applying a buffering
-    technique proposed by us, the inference time of our surrogate diffusion is 43.7%
-    less than that of multi-range models. Additionally, we create a calibration network
-    as our denoiser, featuring both projection-first and encoding-first branches for
-    effective point feature extraction. Extensive experiments demonstrate that our
-    diffusion model outperforms other single-model iterative methods and delivers
-    competitive results compared to multi-range models. Our denoiser exceeds state-of-the-art
-    calibration methods, reducing the rotation error by 24.5% compared to the second-best
-    method. Furthermore, with the proposed diffusion applied, it achieves 20.4% less
-    rotation error and 9.6% less translation error.
 - title: 'PseudoCal: Towards Initialisation-Free Deep Learning-Based Camera-LiDAR
     Self-Calibration'
   date: 2023-09
