@@ -251,12 +251,12 @@ Sources: **arXiv** 1162 (98%).
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| ml_ai | **353** | 111 | ████████████ |
+| ml-ai | **353** | 111 | ████████████ |
 | psychology | **210** | 80 | ███████░░░░░ |
 | applications | **194** | 74 | ███████░░░░░ |
 | algorithms | **163** | 54 | ██████░░░░░░ |
 | hardware | **120** | 42 | ████░░░░░░░░ |
-| vr_ar | **75** | 29 | ███░░░░░░░░░ |
+| vr-ar | **75** | 29 | ███░░░░░░░░░ |
 | hci | **62** | 27 | ██░░░░░░░░░░ |
 | survey | **6** | 1 | █░░░░░░░░░░░ |
 | evaluation | **2** | 0 | █░░░░░░░░░░░ |
@@ -290,12 +290,12 @@ Sources: **arXiv** 1162 (98%).
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
 | Hci | 62 | 2.2/mo | 44% | 78 |
-| Vr_Ar | 75 | 2.4/mo | 39% | 60 |
+| Vr Ar | 75 | 2.4/mo | 39% | 60 |
 | Psychology | 210 | 6.7/mo | 38% | 43 |
 | Applications | 194 | 6.2/mo | 38% | 28 |
 | Hardware | 120 | 3.5/mo | 35% | 28 |
 | Algorithms | 163 | 4.5/mo | 33% | 23 |
-| Ml_Ai | 353 | 9.2/mo | 31% | 19 |
+| Ml Ai | 353 | 9.2/mo | 31% | 19 |
 | Survey | 6 | 0.1/mo | 17% | 17 |
 | Evaluation | 2 | 0.0/mo | 0% | 0 |
 
@@ -331,8 +331,8 @@ Sources: **arXiv** 1162 (98%).
 
 | Cell | Papers |
 |------|--------|
-| `ml_ai/gaze-estimation` | 1 |
-| `vr_ar/foveated-rendering` | 1 |
+| `ml-ai/gaze-estimation` | 1 |
+| `vr-ar/foveated-rendering` | 1 |
 | `psychology/visual-perception` | 1 |
 | `applications/marketing` | 1 |
 | `survey/state-of-the-art` | 1 |

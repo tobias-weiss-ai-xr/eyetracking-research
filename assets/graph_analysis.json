@@ -121,8 +121,8 @@
    }
   },
   {
-   "id": "ml_ai",
-   "name": "ml_ai",
+   "id": "ml-ai",
+   "name": "Machine Learning & AI",
    "count": 353,
    "trajectory": {
     "2015": 1,
@@ -134,8 +134,8 @@
     "2026": 79
    },
    "momentum": {
-    "id": "ml_ai",
-    "name": "Ml_Ai",
+    "id": "ml-ai",
+    "name": "Ml Ai",
     "total": 353,
     "recent": 111,
     "prior": 127,
@@ -195,8 +195,8 @@
    }
   },
   {
-   "id": "vr_ar",
-   "name": "vr_ar",
+   "id": "vr-ar",
+   "name": "VR, AR & XR",
    "count": 75,
    "trajectory": {
     "2018": 1,
@@ -210,8 +210,8 @@
     "2026": 16
    },
    "momentum": {
-    "id": "vr_ar",
-    "name": "Vr_Ar",
+    "id": "vr-ar",
+    "name": "Vr Ar",
     "total": 75,
     "recent": 29,
     "prior": 24,
@@ -417,7 +417,7 @@
   ],
   [
    "2015-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
@@ -437,12 +437,12 @@
   ],
   [
    "2017-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2017-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -452,12 +452,12 @@
   ],
   [
    "2018-04",
-   "ml_ai",
+   "ml-ai",
    "gaze-estimation"
   ],
   [
    "2018-04",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -477,7 +477,7 @@
   ],
   [
    "2019-05",
-   "vr_ar",
+   "vr-ar",
    "foveated-rendering"
   ],
   [
@@ -487,7 +487,7 @@
   ],
   [
    "2020-10",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -497,7 +497,7 @@
   ],
   [
    "2021-03",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
@@ -507,7 +507,7 @@
   ],
   [
    "2022-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
@@ -537,37 +537,37 @@
   ],
   [
    "2023-09",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-09",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-09",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -617,52 +617,52 @@
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -757,37 +757,37 @@
   ],
   [
    "2023-11",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2023-11",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2023-11",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-11",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-11",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2023-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -817,7 +817,7 @@
   ],
   [
    "2023-11",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
@@ -867,22 +867,22 @@
   ],
   [
    "2023-12",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2023-12",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2023-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2023-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -912,37 +912,37 @@
   ],
   [
    "2023-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2023-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2023-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2023-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2023-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2023-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2023-12",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
@@ -1022,12 +1022,12 @@
   ],
   [
    "2024-01",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -1052,7 +1052,7 @@
   ],
   [
    "2024-01",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
@@ -1117,37 +1117,37 @@
   ],
   [
    "2024-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-02",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -1252,82 +1252,82 @@
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -1347,17 +1347,17 @@
   ],
   [
    "2024-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2024-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2024-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -1422,87 +1422,87 @@
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-04",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -1542,12 +1542,12 @@
   ],
   [
    "2024-04",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2024-04",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -1602,77 +1602,77 @@
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-05",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -1762,72 +1762,72 @@
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -1852,7 +1852,7 @@
   ],
   [
    "2024-06",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -1927,62 +1927,62 @@
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-07",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -2017,12 +2017,12 @@
   ],
   [
    "2024-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2024-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -2112,47 +2112,47 @@
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-08",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -2172,7 +2172,7 @@
   ],
   [
    "2024-08",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -2262,37 +2262,37 @@
   ],
   [
    "2024-09",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-09",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-09",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -2327,27 +2327,27 @@
   ],
   [
    "2024-09",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2024-09",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2024-09",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2024-09",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
    "2024-09",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -2432,67 +2432,67 @@
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-10",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -2532,7 +2532,7 @@
   ],
   [
    "2024-10",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -2607,42 +2607,42 @@
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -2687,12 +2687,12 @@
   ],
   [
    "2024-11",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2024-11",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -2747,57 +2747,57 @@
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2024-12",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -2832,7 +2832,7 @@
   ],
   [
    "2024-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -2902,42 +2902,42 @@
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -2957,12 +2957,12 @@
   ],
   [
    "2025-01",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-01",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -3077,72 +3077,72 @@
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -3247,72 +3247,72 @@
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -3372,17 +3372,17 @@
   ],
   [
    "2025-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -3512,52 +3512,52 @@
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-04",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -3592,12 +3592,12 @@
   ],
   [
    "2025-04",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-04",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -3712,52 +3712,52 @@
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-05",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -3802,22 +3802,22 @@
   ],
   [
    "2025-05",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-05",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
    "2025-05",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
    "2025-05",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -3917,67 +3917,67 @@
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-06",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -4002,7 +4002,7 @@
   ],
   [
    "2025-06",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
@@ -4102,52 +4102,52 @@
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-07",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -4192,12 +4192,12 @@
   ],
   [
    "2025-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2025-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -4287,37 +4287,37 @@
   ],
   [
    "2025-08",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-08",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-08",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-08",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-08",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-08",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-08",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -4357,22 +4357,22 @@
   ],
   [
    "2025-08",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-08",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-08",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
    "2025-08",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -4472,42 +4472,42 @@
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-09",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -4557,7 +4557,7 @@
   ],
   [
    "2025-09",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -4642,47 +4642,47 @@
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2025-10",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
@@ -4732,12 +4732,12 @@
   ],
   [
    "2025-10",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-10",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
@@ -4792,32 +4792,32 @@
   ],
   [
    "2025-11",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-11",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2025-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2025-11",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -4862,17 +4862,17 @@
   ],
   [
    "2025-11",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2025-11",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-11",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -4937,12 +4937,12 @@
   ],
   [
    "2025-12",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2025-12",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
@@ -5007,17 +5007,17 @@
   ],
   [
    "2025-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2025-12",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2025-12",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -5102,62 +5102,62 @@
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-01",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -5192,7 +5192,7 @@
   ],
   [
    "2026-01",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -5267,52 +5267,52 @@
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-02",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -5322,12 +5322,12 @@
   ],
   [
    "2026-02",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2026-02",
-   "vr_ar",
+   "vr-ar",
    "vr-hardware"
   ],
   [
@@ -5442,77 +5442,77 @@
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-03",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -5542,12 +5542,12 @@
   ],
   [
    "2026-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2026-03",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -5637,32 +5637,32 @@
   ],
   [
    "2026-04",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-04",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-04",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-04",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
@@ -5702,7 +5702,7 @@
   ],
   [
    "2026-04",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -5807,52 +5807,52 @@
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-05",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
@@ -5887,32 +5887,32 @@
   ],
   [
    "2026-05",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
    "2026-05",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2026-05",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2026-05",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2026-05",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2026-05",
-   "vr_ar",
+   "vr-ar",
    "vr-interaction"
   ],
   [
@@ -5982,47 +5982,47 @@
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-06",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
@@ -6052,7 +6052,7 @@
   ],
   [
    "2026-06",
-   "vr_ar",
+   "vr-ar",
    "et-in-ar"
   ],
   [
@@ -6117,57 +6117,57 @@
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-07",
-   "ml_ai",
+   "ml-ai",
    "transformers"
   ],
   [
@@ -6187,17 +6187,17 @@
   ],
   [
    "2026-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2026-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
    "2026-07",
-   "vr_ar",
+   "vr-ar",
    "et-in-vr"
   ],
   [
@@ -6247,32 +6247,32 @@
   ],
   [
    "2026-08",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-08",
-   "ml_ai",
+   "ml-ai",
    "attention-models"
   ],
   [
    "2026-08",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-08",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-08",
-   "ml_ai",
+   "ml-ai",
    "foveated-vision"
   ],
   [
    "2026-08",
-   "ml_ai",
+   "ml-ai",
    "saliency-prediction"
   ],
   [

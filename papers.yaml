@@ -71,7 +71,7 @@ papers:
 - title: Saliency Prediction with Deep Convolutional Neural Networks
   date: 2015-06
   url: https://arxiv.org/abs/1506.06148
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Kümmerer, M.
@@ -81,7 +81,7 @@ papers:
 - title: 'DeepFix: A Deep Learning Approach to Fixation Prediction'
   date: 2017-05
   url: https://arxiv.org/abs/1705.09505
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Kruthiventi, S.S.S.P.
@@ -90,7 +90,7 @@ papers:
 - title: Attention is All You Need
   date: 2017-06
   url: https://arxiv.org/abs/1706.03762
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Vaswani, A.
@@ -105,7 +105,7 @@ papers:
 - title: Gaze Following in Images
   date: 2018-04
   url: https://arxiv.org/abs/1804.06557
-  category: ml_ai
+  category: ml-ai
   subcategory: gaze-estimation
   authors:
   - Recasens, A.
@@ -143,7 +143,7 @@ papers:
 - title: The Benefits of Eye Tracking in Virtual Reality
   date: 2018-04
   url: https://doi.org/10.1109/VR.2018.8446487
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Kohli, D.
@@ -156,7 +156,7 @@ papers:
 - title: Foveated Rendering for Virtual Reality Head-Mounted Displays
   date: 2019-05
   url: https://doi.org/10.1109/TVCG.2019.2934646
-  category: vr_ar
+  category: vr-ar
   subcategory: foveated-rendering
   authors:
   - Fraser, C.
@@ -165,7 +165,7 @@ papers:
 - title: 'Gaze-Based Interaction in Virtual Reality: A Survey'
   date: 2020-10
   url: https://arxiv.org/abs/2010.12345
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Sidenmark, C.
@@ -175,7 +175,7 @@ papers:
     Study'
   date: 2021-03
   url: https://varjo.com/products/xr-1/
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Varjo Technologies
@@ -184,7 +184,7 @@ papers:
 - title: 'Eye Tracking in Augmented Reality: Challenges and Opportunities'
   date: 2022-07
   url: https://doi.org/10.1109/ISMAR.2022.00023
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Piumsomboon, T.
@@ -8686,7 +8686,7 @@ papers:
 - title: 'DiffSal: Joint Audio and Video Learning for Diffusion Saliency Prediction'
   date: 2024-03
   url: https://arxiv.org/abs/2403.01226
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Junwen Xiong
@@ -8714,7 +8714,7 @@ papers:
 - title: 'TDSal: Task-Based Top-Down Saliency Prediction Model'
   date: 2026-07
   url: https://arxiv.org/abs/2607.09827
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Can Mizrakli
@@ -8733,7 +8733,7 @@ papers:
 - title: 'DTFSal: Audio-Visual Dynamic Token Fusion for Video Saliency Prediction'
   date: 2025-04
   url: https://arxiv.org/abs/2504.10070
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Kiana Hooshanfar
@@ -8765,7 +8765,7 @@ papers:
 - title: Relevance-guided Audio Visual Fusion for Video Saliency Prediction
   date: 2024-11
   url: https://arxiv.org/abs/2411.11454
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Li Yu
@@ -8796,7 +8796,7 @@ papers:
     and Model
   date: 2024-08
   url: https://arxiv.org/abs/2408.05411
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yuxin Zhu
@@ -8832,7 +8832,7 @@ papers:
 - title: Audio-visual Saliency for Omnidirectional Videos
   date: 2023-11
   url: https://arxiv.org/abs/2311.05190
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yuxin Zhu
@@ -8862,7 +8862,7 @@ papers:
     Face Recognition Systems
   date: 2024-07
   url: https://arxiv.org/abs/2407.05983
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yuhang Lu
@@ -8897,7 +8897,7 @@ papers:
     Videos
   date: 2025-08
   url: https://arxiv.org/abs/2508.20221
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Mert Cokelek
@@ -8931,7 +8931,7 @@ papers:
     Estimation
   date: 2024-11
   url: https://arxiv.org/abs/2411.02844
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Matthias Bartolo
@@ -8958,7 +8958,7 @@ papers:
 - title: 'NTIRE 2026 Challenge on Video Saliency Prediction: Methods and Results'
   date: 2026-04
   url: https://arxiv.org/abs/2604.14816
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Andrey Moskalenko
@@ -8982,7 +8982,7 @@ papers:
 - title: Learning User Embeddings from Human Gaze for Personalised Saliency Prediction
   date: 2024-03
   url: https://arxiv.org/abs/2403.13653
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Florian Strohm
@@ -9007,7 +9007,7 @@ papers:
 - title: Learning Saliency From Fixations
   date: 2023-11
   url: https://arxiv.org/abs/2311.14073
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yasser Abdelaziz Dahou Djilali
@@ -9032,7 +9032,7 @@ papers:
     Prediction with Diffusion'
   date: 2024-08
   url: https://arxiv.org/abs/2408.12009
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yolo Yunlong Tang
@@ -9066,7 +9066,7 @@ papers:
     Viewer Engagement'
   date: 2026-05
   url: https://arxiv.org/abs/2605.29302
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Jianping Ye
@@ -9094,7 +9094,7 @@ papers:
 - title: Text-Audio-Visual-conditioned Diffusion Model for Video Saliency Prediction
   date: 2025-04
   url: https://arxiv.org/abs/2504.14267
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Li Yu
@@ -9132,7 +9132,7 @@ papers:
     Temporal Action Cues
   date: 2025-02
   url: https://arxiv.org/abs/2502.00397
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Rohit Girmaji
@@ -9156,7 +9156,7 @@ papers:
 - title: 'COSE: A Consistency-Sensitivity Metric for Saliency on Image Classification'
   date: 2023-09
   url: https://arxiv.org/abs/2309.10989
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Rangel Daroya
@@ -9183,7 +9183,7 @@ papers:
 - title: 'AIM 2024 Challenge on Video Saliency Prediction: Methods and Results'
   date: 2024-09
   url: https://arxiv.org/abs/2409.14827
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Andrey Moskalenko
@@ -9212,7 +9212,7 @@ papers:
     model
   date: 2026-05
   url: https://arxiv.org/abs/2605.23790
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Romaric Mazna
@@ -9243,7 +9243,7 @@ papers:
 - title: How is Visual Attention Influenced by Text Guidance? Database and Model
   date: 2024-04
   url: https://arxiv.org/abs/2404.07537
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yinan Sun
@@ -9277,7 +9277,7 @@ papers:
     Quality Assessment'
   date: 2026-01
   url: https://arxiv.org/abs/2601.11045
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Mayesha Maliha R. Mithila
@@ -9308,7 +9308,7 @@ papers:
     Saliency-Map Prediction, and Logo Placement Analysis'
   date: 2024-03
   url: https://arxiv.org/abs/2403.02336
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Alireza Hosseini
@@ -9344,7 +9344,7 @@ papers:
 - title: 'BIAS: A Biologically Inspired Algorithm for Video Saliency Detection'
   date: 2026-04
   url: https://arxiv.org/abs/2604.08858
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Zhao-ji Zhang
@@ -9370,7 +9370,7 @@ papers:
     Detection Models'
   date: 2024-05
   url: https://arxiv.org/abs/2405.00650
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Colton R. Crum
@@ -9396,7 +9396,7 @@ papers:
 - title: 'MDS-ViTNet: Improving saliency prediction for Eye-Tracking with Vision Transformer'
   date: 2024-05
   url: https://arxiv.org/abs/2405.19501
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Polezhaev Ignat
@@ -9425,7 +9425,7 @@ papers:
     News Interfaces
   date: 2025-03
   url: https://arxiv.org/abs/2503.17212
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Matthew Kenely
@@ -9455,7 +9455,7 @@ papers:
     Videos'
   date: 2025-05
   url: https://arxiv.org/abs/2505.00394
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Wenxuan Liu
@@ -9484,7 +9484,7 @@ papers:
     Images'
   date: 2024-03
   url: https://arxiv.org/abs/2403.17477
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Chuhan Jiao
@@ -9513,7 +9513,7 @@ papers:
     Interpretation and Saliency Cues'
   date: 2025-02
   url: https://arxiv.org/abs/2502.02172
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Rohit Girmaji
@@ -9543,7 +9543,7 @@ papers:
 - title: 'SalFoM: Dynamic Saliency Prediction with Video Foundation Models'
   date: 2024-04
   url: https://arxiv.org/abs/2404.03097
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Morteza Moradi
@@ -9574,7 +9574,7 @@ papers:
     Hallucination Mitigation'
   date: 2025-10
   url: https://arxiv.org/abs/2510.22067
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Zheng Qi
@@ -9608,7 +9608,7 @@ papers:
     Transport Concept Bottleneck Models
   date: 2025-05
   url: https://arxiv.org/abs/2505.07209
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yan Xie
@@ -9642,7 +9642,7 @@ papers:
 - title: 'VST++: Efficient and Stronger Visual Saliency Transformer'
   date: 2023-10
   url: https://arxiv.org/abs/2310.11725
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Nian Liu
@@ -9677,7 +9677,7 @@ papers:
     in 3D Graphics'
   date: 2024-12
   url: https://arxiv.org/abs/2412.08188
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Kaiwei Zhang
@@ -9710,7 +9710,7 @@ papers:
     with LMMs'
   date: 2025-04
   url: https://arxiv.org/abs/2504.20466
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Woo Yi Yang
@@ -9744,7 +9744,7 @@ papers:
     Equator Bias
   date: 2023-09
   url: https://arxiv.org/abs/2309.08139
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Takao Yamanaka
@@ -9780,7 +9780,7 @@ papers:
 - title: Rethinking Saliency-Guided Weakly-Supervised Semantic Segmentation
   date: 2024-04
   url: https://arxiv.org/abs/2404.00918
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Beomyoung Kim
@@ -9805,7 +9805,7 @@ papers:
     Adaptive Adversarial Training'
   date: 2023-11
   url: https://arxiv.org/abs/2311.05143
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Rui Xu
@@ -9832,7 +9832,7 @@ papers:
 - title: Programmable Silicon Retina on Pixel Processor Array
   date: 2026-06
   url: https://arxiv.org/abs/2606.08370
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Maciej Lewandowski
@@ -9862,7 +9862,7 @@ papers:
 - title: A Super-pixel-based Approach to the Stable Interpretation of Neural Networks
   date: 2024-12
   url: https://arxiv.org/abs/2412.14509
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Shizhan Gong
@@ -9889,7 +9889,7 @@ papers:
 - title: Saliency Map-based Image Retrieval using Invariant Krawtchouk Moments
   date: 2024-11
   url: https://arxiv.org/abs/2411.08567
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Ashkan Nejad
@@ -9920,7 +9920,7 @@ papers:
     Models
   date: 2024-10
   url: https://arxiv.org/abs/2410.23072
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Aymene Mohammed Bouayed
@@ -9953,7 +9953,7 @@ papers:
 - title: Smooth Deep Saliency
   date: 2024-04
   url: https://arxiv.org/abs/2404.02282
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Rudolf Herdt
@@ -9977,7 +9977,7 @@ papers:
     distillation'
   date: 2024-07
   url: https://arxiv.org/abs/2407.20062
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Chakkrit Termritthikun
@@ -10009,7 +10009,7 @@ papers:
 - title: Data Augmentation via Latent Diffusion for Saliency Prediction
   date: 2024-09
   url: https://arxiv.org/abs/2409.07307
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Bahar Aydemir
@@ -10038,7 +10038,7 @@ papers:
 - title: Forward Learning for Gradient-based Black-box Saliency Map Generation
   date: 2024-03
   url: https://arxiv.org/abs/2403.15603
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Zeliang Zhang
@@ -10066,7 +10066,7 @@ papers:
     and Writer Verification
   date: 2025-06
   url: https://arxiv.org/abs/2506.16331
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Viktoria Pundy
@@ -10092,7 +10092,7 @@ papers:
 - title: How Can One Choose the Best CAM-Based Explainability Method for a CNN Model?
   date: 2026-05
   url: https://arxiv.org/abs/2605.02007
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Daniel da Silva Costa
@@ -10129,7 +10129,7 @@ papers:
     with Anatomical Segmentation
   date: 2024-07
   url: https://arxiv.org/abs/2407.08546
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yihan Zhang
@@ -10162,7 +10162,7 @@ papers:
     and Detection'
   date: 2023-09
   url: https://arxiv.org/abs/2309.08220
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Junwen Xiong
@@ -10195,7 +10195,7 @@ papers:
     in Video Diffusion Transformers'
   date: 2026-03
   url: https://arxiv.org/abs/2603.02919
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Youngjun Jun
@@ -10223,7 +10223,7 @@ papers:
 - title: Finding Visual Saliency in Continuous Spike Stream
   date: 2024-03
   url: https://arxiv.org/abs/2403.06233
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Lin Zhu
@@ -10256,7 +10256,7 @@ papers:
 - title: MiSuRe is all you need to explain your image segmentation
   date: 2024-06
   url: https://arxiv.org/abs/2406.12173
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Syed Nouman Hasany
@@ -10287,7 +10287,7 @@ papers:
     and Saliency'
   date: 2024-04
   url: https://arxiv.org/abs/2404.15564
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Jun Huang
@@ -10312,7 +10312,7 @@ papers:
     in LVLMs via Inter-Layer Visual Attention Discrepancy'
   date: 2026-05
   url: https://arxiv.org/abs/2605.20965
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yutong Xie
@@ -10346,7 +10346,7 @@ papers:
 - title: 'SODAWideNet++: Combining Attention and Convolutions for Salient Object Detection'
   date: 2024-08
   url: https://arxiv.org/abs/2408.16645
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Rohit Venkata Sai Dulam
@@ -10377,7 +10377,7 @@ papers:
 - title: CAM-Based Methods Can See through Walls
   date: 2024-04
   url: https://arxiv.org/abs/2404.01964
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Magamed Taimeskhanov
@@ -10402,7 +10402,7 @@ papers:
     on Saliency Map Fidelity, Sparsity, and Concept Coherence
   date: 2025-09
   url: https://arxiv.org/abs/2509.21387
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Sanish Suwal
@@ -10430,7 +10430,7 @@ papers:
     VLMs
   date: 2026-07
   url: https://arxiv.org/abs/2607.16105
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Maeve Hutchinson
@@ -10457,7 +10457,7 @@ papers:
     Networks: A Saliency-guided Approach'
   date: 2024-05
   url: https://arxiv.org/abs/2405.06278
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Amira Guesmi
@@ -10486,7 +10486,7 @@ papers:
 - title: Bridging the Gap Between Saliency Prediction and Image Quality Assessment
   date: 2024-05
   url: https://arxiv.org/abs/2405.04997
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Kirillov Alexey
@@ -10510,7 +10510,7 @@ papers:
 - title: Graphical Perception of Saliency-based Model Explanations
   date: 2024-06
   url: https://arxiv.org/abs/2406.07702
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yayan Zhao
@@ -10536,7 +10536,7 @@ papers:
     Decoding
   date: 2024-01
   url: https://arxiv.org/abs/2401.07942
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Morteza Moradi
@@ -10564,7 +10564,7 @@ papers:
     and State Space Interaction-based Diffusion
   date: 2026-07
   url: https://arxiv.org/abs/2607.15041
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Wenqi Si
@@ -10599,7 +10599,7 @@ papers:
     Explanations'
   date: 2026-08
   url: https://arxiv.org/abs/2608.19407
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Manasi Nerurkar
@@ -10619,7 +10619,7 @@ papers:
 - title: Aggregating Local Saliency Maps for Semi-Global Explainable Image Classification
   date: 2025-06
   url: https://arxiv.org/abs/2506.23247
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - James Hinns
@@ -10647,7 +10647,7 @@ papers:
     Sorting
   date: 2025-02
   url: https://arxiv.org/abs/2502.01455
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Andrea Marelli
@@ -10677,7 +10677,7 @@ papers:
 - title: Scene Parameter Saliency via Differentiable Light Transport
   date: 2026-07
   url: https://arxiv.org/abs/2607.21562
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Linas Beresna
@@ -10706,7 +10706,7 @@ papers:
     Detection
   date: 2026-05
   url: https://arxiv.org/abs/2605.17780
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Hang-Cheng Dong
@@ -10738,7 +10738,7 @@ papers:
 - title: Predicting Visual Attention in Graphic Design Documents
   date: 2024-07
   url: https://arxiv.org/abs/2407.02439
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Souradeep Chakraborty
@@ -10770,7 +10770,7 @@ papers:
 - title: 'Concept Visualization: Explaining the CLIP Multi-modal Embedding Using WordNet'
   date: 2024-05
   url: https://arxiv.org/abs/2405.14563
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Loris Giulivi
@@ -10801,7 +10801,7 @@ papers:
 - title: What Do Deep Saliency Models Learn about Visual Attention?
   date: 2023-10
   url: https://arxiv.org/abs/2310.09679
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Shi Chen
@@ -10830,7 +10830,7 @@ papers:
 - title: Explainable Face Verification via Feature-Guided Gradient Backpropagation
   date: 2024-03
   url: https://arxiv.org/abs/2403.04549
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yuhang Lu
@@ -10855,7 +10855,7 @@ papers:
     Smoothing'
   date: 2026-03
   url: https://arxiv.org/abs/2603.07302
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Dipkamal Bhusal
@@ -10887,7 +10887,7 @@ papers:
     Reconstruction and Multi-Prior Guidance'
   date: 2026-07
   url: https://arxiv.org/abs/2607.03696
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Gongyang Li
@@ -10922,7 +10922,7 @@ papers:
 - title: Effect of Rotation Angle in Self-Supervised Pre-training is Dataset-Dependent
   date: 2024-06
   url: https://arxiv.org/abs/2407.05218
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Amy Saranchuk
@@ -10951,7 +10951,7 @@ papers:
     Explainability of CNN-based Image Classification'
   date: 2024-05
   url: https://arxiv.org/abs/2405.03301
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Matteo Bianchi
@@ -10978,7 +10978,7 @@ papers:
 - title: 'KVQ: Boosting Video Quality Assessment via Saliency-guided Local Perception'
   date: 2025-03
   url: https://arxiv.org/abs/2503.10259
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yunpeng Qu
@@ -11011,7 +11011,7 @@ papers:
 - title: 'CA-Stream: Attention-based pooling for interpretable image recognition'
   date: 2024-04
   url: https://arxiv.org/abs/2404.14996
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Felipe Torres
@@ -11033,7 +11033,7 @@ papers:
 - title: Efficient Multi-Crop Saliency Partitioning for Automatic Image Cropping
   date: 2025-06
   url: https://arxiv.org/abs/2506.22814
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Andrew Hamara
@@ -11052,7 +11052,7 @@ papers:
 - title: EEG-Driven Image Reconstruction with Saliency-Guided Diffusion Models
   date: 2025-10
   url: https://arxiv.org/abs/2510.26391
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Igor Abramov
@@ -11076,7 +11076,7 @@ papers:
 - title: 'Caption-Driven Explainability: Probing CNNs for Bias via CLIP'
   date: 2025-10
   url: https://arxiv.org/abs/2510.22035
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors: []
   venue: ''
@@ -11099,7 +11099,7 @@ papers:
 - title: 'ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features'
   date: 2025-02
   url: https://arxiv.org/abs/2502.04320
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Alec Helbling
@@ -11127,7 +11127,7 @@ papers:
 - title: 'DecomCAM: Advancing Beyond Saliency Maps through Decomposition and Integration'
   date: 2024-05
   url: https://arxiv.org/abs/2405.18882
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yuguang Yang
@@ -11156,7 +11156,7 @@ papers:
     for Hallucination Mitigation'
   date: 2025-03
   url: https://arxiv.org/abs/2503.08216
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Beitao Chen
@@ -11191,7 +11191,7 @@ papers:
     Paper
   date: 2026-01
   url: https://arxiv.org/abs/2601.17555
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Justin Downes
@@ -11217,7 +11217,7 @@ papers:
 - title: XAI for Point Cloud Data using Perturbations based on Meaningful Segmentation
   date: 2025-07
   url: https://arxiv.org/abs/2507.22020
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Raju Ningappa Mulawade
@@ -11254,7 +11254,7 @@ papers:
     Setting
   date: 2024-10
   url: https://arxiv.org/abs/2410.12284
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Maxime Kayser
@@ -11284,7 +11284,7 @@ papers:
     via Saliency-map Alignment Reward'
   date: 2026-04
   url: https://arxiv.org/abs/2604.04500
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Shizhan Gong
@@ -11313,7 +11313,7 @@ papers:
 - title: Uncertainty Guided Refinement for Fine-Grained Salient Object Detection
   date: 2025-04
   url: https://arxiv.org/abs/2504.09666
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Yao Yuan
@@ -11347,7 +11347,7 @@ papers:
 - title: 'DD-CAM: Minimal Sufficient Explanations for Vision Models Using Delta Debugging'
   date: 2026-02
   url: https://arxiv.org/abs/2602.19274
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Krishna Khadka
@@ -11376,7 +11376,7 @@ papers:
     Neural Network Interpretability'
   date: 2024-11
   url: https://arxiv.org/abs/2411.05837
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Zhuorui Ye
@@ -11404,7 +11404,7 @@ papers:
     Attention Network
   date: 2024-05
   url: https://arxiv.org/abs/2405.17444
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Min Hun Lee
@@ -11422,7 +11422,7 @@ papers:
 - title: 'Beyond Scanpaths: Graph-Based Gaze Simulation in Dynamic Scenes'
   date: 2026-03
   url: https://arxiv.org/abs/2603.28319
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Luke Palmer
@@ -11450,7 +11450,7 @@ papers:
 - title: 'Enhancing Saliency Prediction in Monitoring Tasks: The Role of Visual Highlights'
   date: 2024-05
   url: https://arxiv.org/abs/2405.09695
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Zekun Wu
@@ -11470,7 +11470,7 @@ papers:
 - title: A Mutual Learning Method for Salient Object Detection with intertwined Multi-Supervision--Revised
   date: 2025-09
   url: https://arxiv.org/abs/2509.21363
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Runmin Wu
@@ -11501,7 +11501,7 @@ papers:
     Omnidirectional Images
   date: 2025-06
   url: https://arxiv.org/abs/2506.21925
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Liu Yang
@@ -11538,7 +11538,7 @@ papers:
 - title: Do Segmentation Models Understand Vascular Structure? A Blob-Based XAI Framework
   date: 2025-04
   url: https://arxiv.org/abs/2504.11469
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Guillaume Garret
@@ -11568,7 +11568,7 @@ papers:
     Training
   date: 2024-04
   url: https://arxiv.org/abs/2404.04647
-  category: ml_ai
+  category: ml-ai
   subcategory: saliency-prediction
   authors:
   - Shizhan Gong
@@ -11596,7 +11596,7 @@ papers:
 - title: 'SUM: Saliency Unification through Mamba for Visual Attention Modeling'
   date: 2024-06
   url: https://arxiv.org/abs/2406.17815
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Alireza Hosseini
@@ -11628,7 +11628,7 @@ papers:
     Street-crossing Environments'
   date: 2026-01
   url: https://arxiv.org/abs/2601.13218
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Igor Vozniak
@@ -11663,7 +11663,7 @@ papers:
     lowers surgeon cognitive workload during laparoscopic surgery
   date: 2026-08
   url: https://arxiv.org/abs/2608.02471
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Jiayu Gu
@@ -11696,7 +11696,7 @@ papers:
     Attention Model for Vision
   date: 2025-05
   url: https://arxiv.org/abs/2505.13191
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Pengcheng Pan
@@ -11721,7 +11721,7 @@ papers:
 - title: Learning Self-Supervised Audio-Visual Representations for Sound Recommendations
   date: 2024-12
   url: https://arxiv.org/abs/2412.07406
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Sudha Krishnamurthy
@@ -11746,7 +11746,7 @@ papers:
     Detection
   date: 2024-05
   url: https://arxiv.org/abs/2405.08204
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Matthew Korban
@@ -11774,7 +11774,7 @@ papers:
     Linear-Attention Transformers'
   date: 2026-03
   url: https://arxiv.org/abs/2603.27666
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yuhe Liu
@@ -11806,7 +11806,7 @@ papers:
     Bayesian Attention
   date: 2025-07
   url: https://arxiv.org/abs/2507.18503
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - João Luzio
@@ -11836,7 +11836,7 @@ papers:
 - title: Trends, Applications, and Challenges in Human Attention Modelling
   date: 2024-02
   url: https://arxiv.org/abs/2402.18673
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Giuseppe Cartella
@@ -11860,7 +11860,7 @@ papers:
     Gesture Recognition
   date: 2025-01
   url: https://arxiv.org/abs/2501.00935
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Mallika Garg
@@ -11883,7 +11883,7 @@ papers:
 - title: Learning Positional Attention for Sequential Recommendation
   date: 2024-07
   url: https://arxiv.org/abs/2407.02793
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Fan Luo
@@ -11904,7 +11904,7 @@ papers:
     Object-Centric Learning'
   date: 2025-09
   url: https://arxiv.org/abs/2509.02032
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Pinzhuo Tian
@@ -11940,7 +11940,7 @@ papers:
     through Intra- and Inter-Frame Attention'
   date: 2024-05
   url: https://arxiv.org/abs/2405.19349
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Shuai Shao
@@ -11965,7 +11965,7 @@ papers:
     Human-Inspired Foveated Vision'
   date: 2024-08
   url: https://arxiv.org/abs/2408.09948
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Dario Zanca
@@ -11990,7 +11990,7 @@ papers:
     Caption Generation
   date: 2023-10
   url: https://arxiv.org/abs/2310.07252
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Rashid Khan
@@ -12016,7 +12016,7 @@ papers:
 - title: Learning Cross-Joint Attention for Generalizable Video-Based Seizure Detection
   date: 2026-03
   url: https://arxiv.org/abs/2603.23757
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Omar Zamzam
@@ -12041,7 +12041,7 @@ papers:
 - title: 'GLASS: Guided Latent Slot Diffusion for Object-Centric Learning'
   date: 2024-07
   url: https://arxiv.org/abs/2407.17929
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Krishnakant Singh
@@ -12066,7 +12066,7 @@ papers:
     Prostate Cancer Detection
   date: 2024-07
   url: https://arxiv.org/abs/2407.01146
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Alex Ling Yu Hung
@@ -12093,7 +12093,7 @@ papers:
     Shared Representations
   date: 2025-06
   url: https://arxiv.org/abs/2506.02764
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Fatma Youssef Mohammed
@@ -12115,7 +12115,7 @@ papers:
 - title: A Survey on Super Resolution for video Enhancement Using GAN
   date: 2023-12
   url: https://arxiv.org/abs/2312.16471
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Ankush Maity
@@ -12143,7 +12143,7 @@ papers:
 - title: 'VideoSEMA: a scalable and efficient Mamba-like attention for video understanding'
   date: 2026-07
   url: https://arxiv.org/abs/2607.14711
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Nhat Thanh Tran
@@ -12169,7 +12169,7 @@ papers:
 - title: Hierarchical Attention Networks for Lossless Point Cloud Attribute Compression
   date: 2025-04
   url: https://arxiv.org/abs/2504.00481
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yueru Chen
@@ -12197,7 +12197,7 @@ papers:
 - title: Exploring Diverse Methods in Visual Question Answering
   date: 2024-04
   url: https://arxiv.org/abs/2404.13565
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Panfeng Li
@@ -12224,7 +12224,7 @@ papers:
     in Civil Infrastructure'
   date: 2024-09
   url: https://arxiv.org/abs/2409.02866
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - June Moh Goo
@@ -12253,7 +12253,7 @@ papers:
     unsupervised spectral zoomed attention filters'
   date: 2025-07
   url: https://arxiv.org/abs/2507.14885
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Joaquim Comas
@@ -12279,7 +12279,7 @@ papers:
 - title: 'A^2: Smaller Self-Supervised ViTs Localize Better than Larger Ones'
   date: 2026-06
   url: https://arxiv.org/abs/2606.03148
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Sreehari Rammohan
@@ -12305,7 +12305,7 @@ papers:
     Attention
   date: 2025-04
   url: https://arxiv.org/abs/2504.09738
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Vasilii Korolkov
@@ -12331,7 +12331,7 @@ papers:
 - title: Precipitation Nowcasting Using Diffusion Transformer with Causal Attention
   date: 2024-10
   url: https://arxiv.org/abs/2410.13314
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - ChaoRong Li
@@ -12363,7 +12363,7 @@ papers:
     Chest CT Volumes Multi-Label Anomaly Classification'
   date: 2025-03
   url: https://arxiv.org/abs/2503.20652
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Theo Di Piazza
@@ -12392,7 +12392,7 @@ papers:
     Representation and Classification
   date: 2024-03
   url: https://arxiv.org/abs/2403.18134
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Zhan Shi
@@ -12422,7 +12422,7 @@ papers:
     Attribute Compression'
   date: 2026-01
   url: https://arxiv.org/abs/2601.12261
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Chunyang Fu
@@ -12453,7 +12453,7 @@ papers:
     Interaction Recognition
   date: 2024-05
   url: https://arxiv.org/abs/2405.09931
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yuchen Zhou
@@ -12484,7 +12484,7 @@ papers:
     for Enhanced Image Deblurring'
   date: 2025-11
   url: https://arxiv.org/abs/2511.10806
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Syed Mumtahin Mahmud
@@ -12512,7 +12512,7 @@ papers:
 - title: 'Efficient Video Diffusion Models: Advancements and Challenges'
   date: 2026-04
   url: https://arxiv.org/abs/2604.15911
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Shitong Shao
@@ -12545,7 +12545,7 @@ papers:
     Learning
   date: 2024-06
   url: https://arxiv.org/abs/2406.07543
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Chenyu Yang
@@ -12576,7 +12576,7 @@ papers:
     Knowledge for Hand-Object Interaction Scenario
   date: 2024-03
   url: https://arxiv.org/abs/2403.01733
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Feng Shuang
@@ -12606,7 +12606,7 @@ papers:
     Beams
   date: 2025-12
   url: https://arxiv.org/abs/2512.12410
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Khalfalla Awedat
@@ -12635,7 +12635,7 @@ papers:
 - title: 'BA-Net: Bridge Attention in Deep Neural Networks'
   date: 2024-10
   url: https://arxiv.org/abs/2410.07860
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Ronghui Zhang
@@ -12667,7 +12667,7 @@ papers:
 - title: Real-Time Human Frontal View Synthesis from a Single Image
   date: 2026-03
   url: https://arxiv.org/abs/2603.15433
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Fangyu Lin
@@ -12699,7 +12699,7 @@ papers:
 - title: Pushing the Boundaries of State Space Models for Image and Video Generation
   date: 2025-02
   url: https://arxiv.org/abs/2502.00972
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yicong Hong
@@ -12726,7 +12726,7 @@ papers:
     for Complex Land Cover Classification Using Hyperspectral Images'
   date: 2024-04
   url: https://arxiv.org/abs/2404.00964
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Renxiang Guan
@@ -12760,7 +12760,7 @@ papers:
     Visual Speech Recognition
   date: 2024-02
   url: https://arxiv.org/abs/2402.13004
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - David Gimeno-Gómez
@@ -12788,7 +12788,7 @@ papers:
 - title: 'CarFormer: Self-Driving with Learned Object-Centric Representations'
   date: 2024-07
   url: https://arxiv.org/abs/2407.15843
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Shadi Hamdan
@@ -12817,7 +12817,7 @@ papers:
     Model
   date: 2024-06
   url: https://arxiv.org/abs/2406.07841
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Elaheh Baharlouei
@@ -12849,7 +12849,7 @@ papers:
     Serial Visual Presentation Task
   date: 2025-02
   url: https://arxiv.org/abs/2502.00730
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yang Li
@@ -12881,7 +12881,7 @@ papers:
 - title: 'GCAM: Gaussian and causal-attention model of food fine-grained recognition'
   date: 2024-03
   url: https://arxiv.org/abs/2403.12109
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Guohang Zhuang
@@ -12914,7 +12914,7 @@ papers:
     Performance in Single Image Super-Resolution
   date: 2024-04
   url: https://arxiv.org/abs/2404.11273
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Cansu Korkmaz
@@ -12939,7 +12939,7 @@ papers:
 - title: Exploring Object-Aware Attention Guided Frame Association for RGB-D SLAM
   date: 2025-10
   url: https://arxiv.org/abs/2510.26131
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Ali Caglayan
@@ -12969,7 +12969,7 @@ papers:
 - title: 'DVPE: Divided View Position Embedding for Multi-View 3D Object Detection'
   date: 2024-07
   url: https://arxiv.org/abs/2407.16955
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Jiasen Wang
@@ -12998,7 +12998,7 @@ papers:
 - title: Interpretable Vision Transformers in Image Classification via SVDA
   date: 2026-02
   url: https://arxiv.org/abs/2602.10994
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Vasileios Arampatzakis
@@ -13026,7 +13026,7 @@ papers:
 - title: Parallel Sequence Modeling via Generalized Spatial Propagation Network
   date: 2025-01
   url: https://arxiv.org/abs/2501.12381
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Hongjun Wang
@@ -13055,7 +13055,7 @@ papers:
     Autonomous Navigation
   date: 2026-06
   url: https://arxiv.org/abs/2606.20491
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Fatma Youssef Mohammed
@@ -13084,7 +13084,7 @@ papers:
     2D Images and 1D Signal Features'
   date: 2024-10
   url: https://arxiv.org/abs/2410.10547
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Changqing Gong
@@ -13115,7 +13115,7 @@ papers:
 - title: Cross-modulated Attention Transformer for RGBT Tracking
   date: 2024-08
   url: https://arxiv.org/abs/2408.02222
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yun Xiao
@@ -13150,7 +13150,7 @@ papers:
 - title: 'RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer'
   date: 2025-06
   url: https://arxiv.org/abs/2506.11465
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Haotian Ni
@@ -13180,7 +13180,7 @@ papers:
 - title: 'InstanceBEV: Unifying Instance and BEV Representation for 3D Panoptic Segmentation'
   date: 2025-05
   url: https://arxiv.org/abs/2505.13817
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Feng Li
@@ -13210,7 +13210,7 @@ papers:
 - title: Modality Agnostic Efficient Long Range Encoder
   date: 2025-07
   url: https://arxiv.org/abs/2507.19409
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Toufiq Parag
@@ -13242,7 +13242,7 @@ papers:
     and GRU-Attention
   date: 2025-09
   url: https://arxiv.org/abs/2509.13361
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Tong Yulin
@@ -13274,7 +13274,7 @@ papers:
 - title: 'GraphTARIF: Linear Graph Transformer with Augmented Rank and Improved Focus'
   date: 2025-10
   url: https://arxiv.org/abs/2510.10631
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Zhaolin Hu
@@ -13303,7 +13303,7 @@ papers:
 - title: 'SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping'
   date: 2026-08
   url: https://arxiv.org/abs/2608.09497
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Thomas Lauber
@@ -13338,7 +13338,7 @@ papers:
     Echocardiography Interpretation'
   date: 2024-10
   url: https://arxiv.org/abs/2410.09704
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Milos Vukadinovic
@@ -13373,7 +13373,7 @@ papers:
 - title: A Semantic Segmentation Algorithm for Pleural Effusion Based on DBIF-AUNet
   date: 2025-08
   url: https://arxiv.org/abs/2508.06191
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Ruixiang Tang
@@ -13409,7 +13409,7 @@ papers:
 - title: Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention
   date: 2026-03
   url: https://arxiv.org/abs/2603.06228
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Haiqing Hao
@@ -13444,7 +13444,7 @@ papers:
     Receptive Fields via Fourier Filtering Operations'
   date: 2025-02
   url: https://arxiv.org/abs/2502.18094
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Shengtian Mian
@@ -13476,7 +13476,7 @@ papers:
 - title: 'SoLA-Vision: Fine-grained Layer-wise Linear Softmax Hybrid Attention'
   date: 2026-01
   url: https://arxiv.org/abs/2601.11164
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Ruibang Li
@@ -13506,7 +13506,7 @@ papers:
 - title: 'Beyond Average: Individualized Visual Scanpath Prediction'
   date: 2024-04
   url: https://arxiv.org/abs/2404.12235
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Xianyu Chen
@@ -13535,7 +13535,7 @@ papers:
 - title: Linear Attention Modeling for Learned Image Compression
   date: 2025-02
   url: https://arxiv.org/abs/2502.05741
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Donghui Feng
@@ -13565,7 +13565,7 @@ papers:
     Insulator Defect Detection'
   date: 2024-10
   url: https://arxiv.org/abs/2410.11727
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Olalekan Akindele
@@ -13593,7 +13593,7 @@ papers:
 - title: Cross-Layer Feature Self-Attention Module for Multi-Scale Object Detection
   date: 2025-10
   url: https://arxiv.org/abs/2510.14726
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Dingzhou Xie
@@ -13624,7 +13624,7 @@ papers:
 - title: 'Attend to Anything: Foundation Model for Unified Human Attention Modeling'
   date: 2026-06
   url: https://arxiv.org/abs/2606.03540
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Wenzhuo Zhao
@@ -13654,7 +13654,7 @@ papers:
 - title: Organ-Aware Attention Improves CT Triage and Classification
   date: 2026-01
   url: https://arxiv.org/abs/2601.13385
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Lavsen Dahal
@@ -13687,7 +13687,7 @@ papers:
     for Generalized Medical Image Segmentation'
   date: 2025-02
   url: https://arxiv.org/abs/2502.05229
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Vandan Gorade
@@ -13720,7 +13720,7 @@ papers:
     Collaborative Adversarial Patches
   date: 2023-11
   url: https://arxiv.org/abs/2311.12914
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Quazi Mishkatul Alam
@@ -13751,7 +13751,7 @@ papers:
 - title: 'MoH: Multi-Head Attention as Mixture-of-Head Attention'
   date: 2024-10
   url: https://arxiv.org/abs/2410.11842
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Peng Jin
@@ -13784,7 +13784,7 @@ papers:
     Plant Disease Classification'
   date: 2025-09
   url: https://arxiv.org/abs/2509.03754
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Zongsen Qiu
@@ -13815,7 +13815,7 @@ papers:
     Test of Image Classifiers'
   date: 2026-06
   url: https://arxiv.org/abs/2606.17037
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Alper Yıldırım
@@ -13842,7 +13842,7 @@ papers:
     for Satellite Image Cloud Segmentation'
   date: 2023-11
   url: https://arxiv.org/abs/2311.17475
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Subhajit Paul
@@ -13875,7 +13875,7 @@ papers:
 - title: 'MambaFlow: A Novel and Flow-guided State Space Model for Scene Flow Estimation'
   date: 2025-02
   url: https://arxiv.org/abs/2502.16907
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Jiehao Luo
@@ -13906,7 +13906,7 @@ papers:
 - title: Audio-Visual Person Verification based on Recursive Fusion of Joint Cross-Attention
   date: 2024-03
   url: https://arxiv.org/abs/2403.04654
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - R. Gnana Praveen
@@ -13936,7 +13936,7 @@ papers:
     Module
   date: 2025-01
   url: https://arxiv.org/abs/2501.14929
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Md. Kamrul Hasan
@@ -13968,7 +13968,7 @@ papers:
 - title: Cross-modal Diffusion Modelling for Super-resolved Spatial Transcriptomics
   date: 2024-04
   url: https://arxiv.org/abs/2404.12973
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Xiaofei Wang
@@ -14000,7 +14000,7 @@ papers:
     A Survey'
   date: 2024-04
   url: https://arxiv.org/abs/2404.09516
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Xiao Wang
@@ -14033,7 +14033,7 @@ papers:
 - title: 'CAMS: Convolution and Attention-Free Mamba-based Cardiac Image Segmentation'
   date: 2024-06
   url: https://arxiv.org/abs/2406.05786
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Abbas Khan
@@ -14064,7 +14064,7 @@ papers:
 - title: 'Gated Recursive Fusion: A Stateful Approach to Scalable Multimodal Transformers'
   date: 2025-07
   url: https://arxiv.org/abs/2507.02985
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yusuf Shihata
@@ -14093,7 +14093,7 @@ papers:
 - title: 'GLANCE: Gaze-Led Attention Network for Compressed Edge-inference'
   date: 2026-03
   url: https://arxiv.org/abs/2603.15717
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Neeraj Solanki
@@ -14125,7 +14125,7 @@ papers:
     Model'
   date: 2024-06
   url: https://arxiv.org/abs/2406.19369
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Haobo Yuan
@@ -14158,7 +14158,7 @@ papers:
     Modeling'
   date: 2025-10
   url: https://arxiv.org/abs/2510.09299
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Tejaswi V. Panchagnula
@@ -14185,7 +14185,7 @@ papers:
 - title: 'X-Lens: Real-Time Metric Depth Estimation with Heterogeneous Cameras'
   date: 2026-07
   url: https://arxiv.org/abs/2607.12993
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Heng Zhou
@@ -14218,7 +14218,7 @@ papers:
     Human-like Scanpaths in Hard-Attention Vision
   date: 2026-02
   url: https://arxiv.org/abs/2602.14834
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Pengcheng Pan
@@ -14249,7 +14249,7 @@ papers:
 - title: 'Plug n'' Play: Channel Shuffle Module for Enhancing Tiny Vision Transformers'
   date: 2023-10
   url: https://arxiv.org/abs/2310.05642
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Xuwei Xu
@@ -14284,7 +14284,7 @@ papers:
     Dual Interaction'
   date: 2024-11
   url: https://arxiv.org/abs/2411.16170
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Yuan Zhou
@@ -14317,7 +14317,7 @@ papers:
     Image Segmentation'
   date: 2024-10
   url: https://arxiv.org/abs/2410.01003
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Muhammad Hamza Sharif
@@ -14350,7 +14350,7 @@ papers:
 - title: 'Segmentation of Mental Foramen in Orthopantomographs: A Deep Learning Approach'
   date: 2024-08
   url: https://arxiv.org/abs/2408.04763
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Haider Raza
@@ -14387,7 +14387,7 @@ papers:
     Image Classification
   date: 2026-05
   url: https://arxiv.org/abs/2605.27144
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Pedro Henrique da Costa Avelar
@@ -14421,7 +14421,7 @@ papers:
     in Video Object-Centric Learning'
   date: 2026-03
   url: https://arxiv.org/abs/2603.22758
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - WonJun Moon
@@ -14452,7 +14452,7 @@ papers:
 - title: Reproducibility Study on Adversarial Attacks Against Robust Transformer Trackers
   date: 2024-06
   url: https://arxiv.org/abs/2406.01765
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Fatemeh Nourilenjan Nokabadi
@@ -14485,7 +14485,7 @@ papers:
 - title: 'TCP-SSM: Efficient Vision State Space Models with Token-Conditioned Poles'
   date: 2026-05
   url: https://arxiv.org/abs/2605.11563
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Sara Shoouri
@@ -14517,7 +14517,7 @@ papers:
     for Texture Recognition'
   date: 2026-02
   url: https://arxiv.org/abs/2602.07262
-  category: ml_ai
+  category: ml-ai
   subcategory: attention-models
   authors:
   - Junbo Jacob Lian
@@ -14551,7 +14551,7 @@ papers:
 - title: Linear Log-Normal Attention with Unbiased Concentration
   date: 2023-11
   url: https://arxiv.org/abs/2311.13541
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Yury Nahshan
@@ -14576,7 +14576,7 @@ papers:
     Reduction'
   date: 2024-12
   url: https://arxiv.org/abs/2412.17810
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Ziyang Wu
@@ -14612,7 +14612,7 @@ papers:
 - title: Towards understanding how attention mechanism works in deep learning
   date: 2024-12
   url: https://arxiv.org/abs/2412.18288
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Tianyu Ruan
@@ -14645,7 +14645,7 @@ papers:
     Time Series Forecasting
   date: 2025-03
   url: https://arxiv.org/abs/2504.00068
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Sanjay Chakraborty
@@ -14674,7 +14674,7 @@ papers:
 - title: Graph Convolutions Enrich the Self-Attention in Transformers!
   date: 2023-12
   url: https://arxiv.org/abs/2312.04234
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Jeongwhan Choi
@@ -14701,7 +14701,7 @@ papers:
     Efficiency and Parallel Computing Strategy'
   date: 2025-11
   url: https://arxiv.org/abs/2511.06044
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Hanwen Liu
@@ -14732,7 +14732,7 @@ papers:
     for Operator Learning'
   date: 2024-05
   url: https://arxiv.org/abs/2405.09285
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Junfeng Chen
@@ -14761,7 +14761,7 @@ papers:
     Networks'
   date: 2024-03
   url: https://arxiv.org/abs/2403.14302
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Xinyu Shi
@@ -14789,7 +14789,7 @@ papers:
     Graphs
   date: 2025-02
   url: https://arxiv.org/abs/2502.12352
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Batu El
@@ -14815,7 +14815,7 @@ papers:
     A Mixture-of-Experts Perspective'
   date: 2025-02
   url: https://arxiv.org/abs/2502.00281
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Fanqi Yan
@@ -14846,7 +14846,7 @@ papers:
     Learning'
   date: 2023-10
   url: https://arxiv.org/abs/2310.15719
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Subhojeet Pramanik
@@ -14876,7 +14876,7 @@ papers:
 - title: Quantum Mixed-State Self-Attention Network
   date: 2024-03
   url: https://arxiv.org/abs/2403.02871
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Fu Chen
@@ -14905,7 +14905,7 @@ papers:
     a Few'
   date: 2025-09
   url: https://arxiv.org/abs/2509.16875
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Qishuai Wen
@@ -14933,7 +14933,7 @@ papers:
 - title: 'SAMSA: Efficient Transformer for Many Data Modalities'
   date: 2024-08
   url: https://arxiv.org/abs/2408.05391
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Minh Lenhat
@@ -14965,7 +14965,7 @@ papers:
 - title: 'Quadratic Gating Mixture of Experts: Statistical Insights into Self-Attention'
   date: 2024-10
   url: https://arxiv.org/abs/2410.11222
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Pedram Akbarian
@@ -14997,7 +14997,7 @@ papers:
     via Structured Matrix
   date: 2024-05
   url: https://arxiv.org/abs/2405.12462
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Zhicheng Zhang
@@ -15028,7 +15028,7 @@ papers:
     Embeddings
   date: 2024-09
   url: https://arxiv.org/abs/2409.05022
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Linsey Pang
@@ -15053,7 +15053,7 @@ papers:
     Patterns'
   date: 2026-01
   url: https://arxiv.org/abs/2601.14112
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - George Mihaila
@@ -15079,7 +15079,7 @@ papers:
 - title: 'GIAT: A Geologically-Informed Attention Transformer for Lithology Identification'
   date: 2026-03
   url: https://arxiv.org/abs/2603.09165
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Jie Li
@@ -15106,7 +15106,7 @@ papers:
 - title: Exponential Family Attention
   date: 2025-01
   url: https://arxiv.org/abs/2501.16790
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Kevin Christian Wibisono
@@ -15133,7 +15133,7 @@ papers:
 - title: Unified Local and Global Attention Interaction Modeling for Vision Transformers
   date: 2024-12
   url: https://arxiv.org/abs/2412.18778
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Tan Nguyen
@@ -15165,7 +15165,7 @@ papers:
     Learning'
   date: 2023-10
   url: https://arxiv.org/abs/2310.11025
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Jinsong Chen
@@ -15198,7 +15198,7 @@ papers:
 - title: 'CAST: Clustering Self-Attention using Surrogate Tokens for Efficient Transformers'
   date: 2024-02
   url: https://arxiv.org/abs/2402.04239
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Adjorn van Engelenhoven
@@ -15227,7 +15227,7 @@ papers:
     Transformers'
   date: 2024-02
   url: https://arxiv.org/abs/2402.13512
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - M. Emrullah Ildiz
@@ -15258,7 +15258,7 @@ papers:
 - title: Trading-off Mutual Information on Feature Aggregation for Face Recognition
   date: 2023-09
   url: https://arxiv.org/abs/2309.13137
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Mohammad Akyash
@@ -15294,7 +15294,7 @@ papers:
 - title: Position-Aware Sequential Attention for Accurate Next Item Recommendations
   date: 2026-02
   url: https://arxiv.org/abs/2602.21052
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Timur Nabiev
@@ -15320,7 +15320,7 @@ papers:
     Amplifiers
   date: 2025-04
   url: https://arxiv.org/abs/2505.06245
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Dominic Schneider
@@ -15341,7 +15341,7 @@ papers:
     Learning
   date: 2024-07
   url: https://arxiv.org/abs/2407.13715
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Ans Munir
@@ -15370,7 +15370,7 @@ papers:
     GPUs'
   date: 2025-07
   url: https://arxiv.org/abs/2507.17245
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Haolin Jin
@@ -15402,7 +15402,7 @@ papers:
 - title: 'Transformer Meets Twicing: Harnessing Unattended Residual Information'
   date: 2025-03
   url: https://arxiv.org/abs/2503.00687
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Laziz Abdullaev
@@ -15431,7 +15431,7 @@ papers:
 - title: 'FAST: Factorizable Attention for Speeding up Transformers'
   date: 2024-02
   url: https://arxiv.org/abs/2402.07901
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Armin Gerami
@@ -15455,7 +15455,7 @@ papers:
 - title: Multi-Dimensional Hyena for Spatial Inductive Bias
   date: 2023-09
   url: https://arxiv.org/abs/2309.13600
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Itamar Zimerman
@@ -15485,7 +15485,7 @@ papers:
     Monitoring'
   date: 2025-01
   url: https://arxiv.org/abs/2501.01342
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Hao Wang
@@ -15509,7 +15509,7 @@ papers:
     Long-term Time Series Forecasting'
   date: 2025-08
   url: https://arxiv.org/abs/2508.13773
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Tian Sun
@@ -15533,7 +15533,7 @@ papers:
     Embeddings to Kernel Modulation'
   date: 2025-11
   url: https://arxiv.org/abs/2511.08243
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Xianshuai Shi
@@ -15554,7 +15554,7 @@ papers:
 - title: What are you sinking? A geometric approach on attention sink
   date: 2025-08
   url: https://arxiv.org/abs/2508.02546
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Valeria Ruscio
@@ -15580,7 +15580,7 @@ papers:
 - title: 'InAttention: Linear Context Scaling for Transformers'
   date: 2024-10
   url: https://arxiv.org/abs/2410.07063
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Joseph Eisner
@@ -15600,7 +15600,7 @@ papers:
     UniformerV2 and Modified Efficient Additive Attention'
   date: 2024-04
   url: https://arxiv.org/abs/2404.18952
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Damith Chamalke Senadeera
@@ -15627,7 +15627,7 @@ papers:
     or in the fully connected part?
   date: 2025-01
   url: https://arxiv.org/abs/2501.11765
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Evgeniy Shin
@@ -15653,7 +15653,7 @@ papers:
 - title: An extension of linear self-attention for in-context learning
   date: 2025-03
   url: https://arxiv.org/abs/2503.23814
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Katsuyuki Hagiwara
@@ -15681,7 +15681,7 @@ papers:
 - title: 'Transformers for scientific data: a pedagogical review for astronomers'
   date: 2023-10
   url: https://arxiv.org/abs/2310.12069
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors: []
   venue: ''
@@ -15700,7 +15700,7 @@ papers:
 - title: Polynomial Mixing for Efficient Self-supervised Speech Encoders
   date: 2026-02
   url: https://arxiv.org/abs/2603.00683
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Eva Feillet
@@ -15725,7 +15725,7 @@ papers:
 - title: Multistability of Self-Attention Dynamics in Transformers
   date: 2025-11
   url: https://arxiv.org/abs/2511.11553
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Claudio Altafini
@@ -15745,7 +15745,7 @@ papers:
 - title: 'BERT-LSH: Reducing Absolute Compute For Attention'
   date: 2024-04
   url: https://arxiv.org/abs/2404.08836
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Zezheng Li
@@ -15765,7 +15765,7 @@ papers:
 - title: Two-Stream temporal transformer for video action classification
   date: 2026-01
   url: https://arxiv.org/abs/2601.14086
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Nattapong Kurpukdee
@@ -15788,7 +15788,7 @@ papers:
     Analysis
   date: 2024-06
   url: https://arxiv.org/abs/2406.13762
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Rachel S. Y. Teo
@@ -15815,7 +15815,7 @@ papers:
     for Spatio-Temporal Prediction
   date: 2024-11
   url: https://arxiv.org/abs/2411.06836
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Ashutosh Sao
@@ -15845,7 +15845,7 @@ papers:
     Correlations'
   date: 2025-07
   url: https://arxiv.org/abs/2507.20453
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Camilo Tamayo-Rousseau
@@ -15869,7 +15869,7 @@ papers:
     RNN sparse and global attention models
   date: 2025-08
   url: https://arxiv.org/abs/2508.19006
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Shanyan Lai
@@ -15901,7 +15901,7 @@ papers:
 - title: 'Self-attention as an attractor network: transient memories without backpropagation'
   date: 2024-09
   url: https://arxiv.org/abs/2409.16112
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Francesco D'Amico
@@ -15926,7 +15926,7 @@ papers:
     Classification of Cow Teat Images
   date: 2024-09
   url: https://arxiv.org/abs/2409.19963
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Minghao Wang
@@ -15954,7 +15954,7 @@ papers:
     Brain-Computer Interfaces'
   date: 2025-02
   url: https://arxiv.org/abs/2502.19281
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Jiyuan Wang
@@ -15986,7 +15986,7 @@ papers:
     Transformer Architectures'
   date: 2025-01
   url: https://arxiv.org/abs/2501.02931
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Charles O'Neill
@@ -16018,7 +16018,7 @@ papers:
     for Multivariate Time Series Classification'
   date: 2024-12
   url: https://arxiv.org/abs/2412.16515
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Wenjie Xi
@@ -16050,7 +16050,7 @@ papers:
 - title: 'GQWformer: A Quantum-based Transformer for Graph Representation Learning'
   date: 2024-12
   url: https://arxiv.org/abs/2412.02285
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Lei Yu
@@ -16083,7 +16083,7 @@ papers:
     Framework
   date: 2025-03
   url: https://arxiv.org/abs/2503.20136
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Zhenkai Qin
@@ -16114,7 +16114,7 @@ papers:
     for Protein Sequences'
   date: 2026-03
   url: https://arxiv.org/abs/2603.11133
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Shirin Amiraslani
@@ -16137,7 +16137,7 @@ papers:
 - title: Hierarchical Attention Models for Multi-Relational Graphs
   date: 2024-04
   url: https://arxiv.org/abs/2404.09365
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Roshni G. Iyer
@@ -16170,7 +16170,7 @@ papers:
     Value Domain
   date: 2025-05
   url: https://arxiv.org/abs/2505.08516
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Hyowon Wi
@@ -16198,7 +16198,7 @@ papers:
 - title: Self-Gating Attention for Efficient Time Series Forecasting
   date: 2026-07
   url: https://arxiv.org/abs/2607.02344
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Dezheng Wang
@@ -16234,7 +16234,7 @@ papers:
 - title: 'Poly-attention: a general scheme for higher-order self-attention'
   date: 2026-02
   url: https://arxiv.org/abs/2602.02422
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Sayak Chakrabarti
@@ -16270,7 +16270,7 @@ papers:
 - title: Causal Discovery with Inverted Self-attention for Multivariate Time Series
   date: 2026-07
   url: https://arxiv.org/abs/2607.28212
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Yusen Liu
@@ -16299,7 +16299,7 @@ papers:
 - title: Delving Deeper Into Astromorphic Transformers
   date: 2023-12
   url: https://arxiv.org/abs/2312.10925
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Md Zesun Ahmed Mia
@@ -16326,7 +16326,7 @@ papers:
 - title: 'Loki: Low-rank Keys for Efficient Sparse Attention'
   date: 2024-06
   url: https://arxiv.org/abs/2406.02542
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Prajwal Singhania
@@ -16353,7 +16353,7 @@ papers:
 - title: Mechanics of Next Token Prediction with Self-Attention
   date: 2024-03
   url: https://arxiv.org/abs/2403.08081
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Yingcong Li
@@ -16386,7 +16386,7 @@ papers:
 - title: American Option Pricing using Self-Attention GRU and Shapley Value Interpretation
   date: 2023-10
   url: https://arxiv.org/abs/2310.12500
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Yanhui Shen
@@ -16416,7 +16416,7 @@ papers:
 - title: p-Laplacian Transformer
   date: 2023-11
   url: https://arxiv.org/abs/2311.03235
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Tuan Nguyen
@@ -16443,7 +16443,7 @@ papers:
 - title: 'Random Quadratic Form on a Sphere: Synchronization by Common Noise'
   date: 2026-03
   url: https://arxiv.org/abs/2603.06187
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Maximilian Engel
@@ -16466,7 +16466,7 @@ papers:
 - title: Selective Synchronization Attention
   date: 2026-02
   url: https://arxiv.org/abs/2602.14445
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Hasi Hays
@@ -16498,7 +16498,7 @@ papers:
     and the Emergence of Self-Attention'
   date: 2025-07
   url: https://arxiv.org/abs/2507.14560
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Giorgio Roffo
@@ -16526,7 +16526,7 @@ papers:
 - title: Ensemble-Based Survival Models with the Self-Attended Beran Estimator Predictions
   date: 2025-06
   url: https://arxiv.org/abs/2506.07933
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Lev V. Utkin
@@ -16553,7 +16553,7 @@ papers:
 - title: 'Hymba: A Hybrid-head Architecture for Small Language Models'
   date: 2024-11
   url: https://arxiv.org/abs/2411.13676
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Xin Dong
@@ -16581,7 +16581,7 @@ papers:
 - title: Perceiver-based CDF Modeling for Time Series Forecasting
   date: 2023-10
   url: https://arxiv.org/abs/2310.01720
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Cat P. Le
@@ -16613,7 +16613,7 @@ papers:
 - title: On the Role of Hidden States of Modern Hopfield Network in Transformer
   date: 2025-11
   url: https://arxiv.org/abs/2511.20698
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Tsubasa Masumura
@@ -16641,7 +16641,7 @@ papers:
 - title: Revisiting Transformers with Insights from Image Filtering and Boosting
   date: 2025-06
   url: https://arxiv.org/abs/2506.10371
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Laziz U. Abdullaev
@@ -16673,7 +16673,7 @@ papers:
     analysis
   date: 2024-06
   url: https://arxiv.org/abs/2407.01602
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Albert Alcalde
@@ -16699,7 +16699,7 @@ papers:
     Transformers for Long Context Window Extending'
   date: 2023-09
   url: https://arxiv.org/abs/2309.08646
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Shiyi Zhu
@@ -16730,7 +16730,7 @@ papers:
     using Multi-View Echocardiography'
   date: 2023-09
   url: https://arxiv.org/abs/2309.15520
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Ilke Adalioglu
@@ -16761,7 +16761,7 @@ papers:
 - title: Large Language Models Inference Engines based on Spiking Neural Networks
   date: 2025-09
   url: https://arxiv.org/abs/2510.00133
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Adarsha Balaji
@@ -16798,7 +16798,7 @@ papers:
     Charge-based In-memory Computing
   date: 2024-09
   url: https://arxiv.org/abs/2409.04940
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Ashkan Moradifirouzabadi
@@ -16822,7 +16822,7 @@ papers:
 - title: 'ATTENTION2D: Communication Efficient Distributed Self-Attention Mechanism'
   date: 2025-03
   url: https://arxiv.org/abs/2503.15758
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Venmugil Elango
@@ -16850,7 +16850,7 @@ papers:
 - title: Always Skip Attention
   date: 2025-05
   url: https://arxiv.org/abs/2505.01996
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Yiping Ji
@@ -16875,7 +16875,7 @@ papers:
 - title: 'Softpick: No Attention Sink, No Massive Activations with Rectified Softmax'
   date: 2025-04
   url: https://arxiv.org/abs/2504.20966
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Zayd M. K. Zuhri
@@ -16897,7 +16897,7 @@ papers:
 - title: Converting Transformers into DGNNs Form
   date: 2025-02
   url: https://arxiv.org/abs/2502.00585
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Jie Zhang
@@ -16924,7 +16924,7 @@ papers:
 - title: 'Powerformer: A Section-adaptive Transformer for Power Flow Adjustment'
   date: 2024-01
   url: https://arxiv.org/abs/2401.02771
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Kaixuan Chen
@@ -16952,7 +16952,7 @@ papers:
 - title: Function Fitting Based on Kolmogorov-Arnold Theorem and Kernel Functions
   date: 2025-03
   url: https://arxiv.org/abs/2503.23038
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Jianpeng Liu
@@ -16976,7 +16976,7 @@ papers:
 - title: 'Tucker Attention: A generalization of approximate attention mechanisms'
   date: 2026-03
   url: https://arxiv.org/abs/2603.30033
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Timon Klein
@@ -17007,7 +17007,7 @@ papers:
     Method via Spatial-Temporal Dynamic Graph Modeling'
   date: 2025-04
   url: https://arxiv.org/abs/2504.06325
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Ronghui Zhang
@@ -17038,7 +17038,7 @@ papers:
     Feature Extraction and Weather Factor Fusion
   date: 2025-05
   url: https://arxiv.org/abs/2505.18747
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Xiaolu Chen
@@ -17064,7 +17064,7 @@ papers:
     Sentence Processing
   date: 2023-10
   url: https://arxiv.org/abs/2310.16142
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - William Timkey
@@ -17089,7 +17089,7 @@ papers:
 - title: Orthogonal Self-Attention
   date: 2026-02
   url: https://arxiv.org/abs/2602.05996
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Leo Zhang
@@ -17114,7 +17114,7 @@ papers:
     Transformers'
   date: 2026-01
   url: https://arxiv.org/abs/2601.00426
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Md Zesun Ahmed Mia
@@ -17144,7 +17144,7 @@ papers:
     Multi-view Augmented Learning Framework
   date: 2024-06
   url: https://arxiv.org/abs/2406.11921
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Jiaqi Lin
@@ -17174,7 +17174,7 @@ papers:
     Networks'
   date: 2025-03
   url: https://arxiv.org/abs/2503.11726
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Hyunwoo Park
@@ -17204,7 +17204,7 @@ papers:
 - title: 'XicorAttention: Time Series Transformer Using Attention with Nonlinear Correlation'
   date: 2025-06
   url: https://arxiv.org/abs/2506.02694
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Daichi Kimura
@@ -17233,7 +17233,7 @@ papers:
 - title: 'Ister: Linear Transformer for Efficient Multivariate Time Series Forecasting'
   date: 2024-12
   url: https://arxiv.org/abs/2412.18798
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Fanpu Cao
@@ -17262,7 +17262,7 @@ papers:
     Learning'
   date: 2024-06
   url: https://arxiv.org/abs/2406.15025
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Matthias Weissenbacher
@@ -17284,7 +17284,7 @@ papers:
     Remaining Useful Life Prediction
   date: 2024-05
   url: https://arxiv.org/abs/2405.12377
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Feilong Jiang
@@ -17312,7 +17312,7 @@ papers:
     Segmentation'
   date: 2025-08
   url: https://arxiv.org/abs/2508.01941
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Andrea Dosi
@@ -17344,7 +17344,7 @@ papers:
     Perspective'
   date: 2024-02
   url: https://arxiv.org/abs/2402.08228
-  category: ml_ai
+  category: ml-ai
   subcategory: transformers
   authors:
   - Kai Guo
@@ -17380,7 +17380,7 @@ papers:
     Rendering in Virtual Reality'
   date: 2025-07
   url: https://arxiv.org/abs/2507.04147
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Shuo Xin
@@ -17414,7 +17414,7 @@ papers:
 - title: Foveation in the Era of Deep Learning
   date: 2023-12
   url: https://arxiv.org/abs/2312.01450
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - George Killick
@@ -17438,7 +17438,7 @@ papers:
 - title: Towards Understanding Depth Perception in Foveated Rendering
   date: 2025-01
   url: https://arxiv.org/abs/2501.18635
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Sophie Kergaßner
@@ -17471,7 +17471,7 @@ papers:
 - title: Visual Acuity Consistent Foveated Rendering towards Retinal Resolution
   date: 2025-03
   url: https://arxiv.org/abs/2503.23410
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Zhi Zhang
@@ -17504,7 +17504,7 @@ papers:
 - title: '3D4D: An Interactive, Editable, 4D World Model via 3D Video Generation'
   date: 2025-11
   url: https://arxiv.org/abs/2511.08536
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Yunhong He
@@ -17525,7 +17525,7 @@ papers:
     Rendering System Performance in Virtual Reality'
   date: 2024-12
   url: https://arxiv.org/abs/2412.10456
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Wenxuan Liu
@@ -17558,7 +17558,7 @@ papers:
 - title: 'GazeProphet: Software-Only Gaze Prediction for VR Foveated Rendering'
   date: 2025-08
   url: https://arxiv.org/abs/2508.13546
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Farhaan Ebadulla
@@ -17589,7 +17589,7 @@ papers:
 - title: Foveation Improves Payload Capacity in Steganography
   date: 2025-10
   url: https://arxiv.org/abs/2510.13151
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Lifeng Qiu Lin
@@ -17610,7 +17610,7 @@ papers:
     Language Model Maximizing Scene Understanding'
   date: 2026-05
   url: https://arxiv.org/abs/2605.17823
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Shravan Murlidaran
@@ -17635,7 +17635,7 @@ papers:
     Foveated Vision Transformers'
   date: 2025-07
   url: https://arxiv.org/abs/2507.15833
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Ian Chuang
@@ -17670,7 +17670,7 @@ papers:
 - title: 'FOVI: A biologically-inspired foveated interface for deep vision models'
   date: 2026-02
   url: https://arxiv.org/abs/2602.03766
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Nicholas M. Blauch
@@ -17698,7 +17698,7 @@ papers:
 - title: Simulated Cortical Magnification Supports Self-Supervised Object Learning
   date: 2025-09
   url: https://arxiv.org/abs/2509.15751
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Zhengyang Yu
@@ -17728,7 +17728,7 @@ papers:
     Maps
   date: 2025-05
   url: https://arxiv.org/abs/2505.12660
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Ziqi Wen
@@ -17764,7 +17764,7 @@ papers:
     Head Motion Cues
   date: 2026-01
   url: https://arxiv.org/abs/2601.18372
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Christos Petrou
@@ -17792,7 +17792,7 @@ papers:
 - title: Frequency-Aware Gaussian Splatting Decomposition
   date: 2025-03
   url: https://arxiv.org/abs/2503.21226
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Yishai Lavi
@@ -17818,7 +17818,7 @@ papers:
 - title: Learned Single-Pass Multitasking Perceptual Graphics for Immersive Displays
   date: 2024-07
   url: https://arxiv.org/abs/2408.07836
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Doğa Yılmaz
@@ -17848,7 +17848,7 @@ papers:
     Neural Networks'
   date: 2024-08
   url: https://arxiv.org/abs/2408.02123
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Mahadev Prasad Panda
@@ -17882,7 +17882,7 @@ papers:
 - title: 'Artificial Microsaccade Compensation: Stable Vision for an Ornithopter'
   date: 2025-12
   url: https://arxiv.org/abs/2512.03995
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Levi Burner
@@ -17908,7 +17908,7 @@ papers:
     3DGS Scenes in VR'
   date: 2025-06
   url: https://arxiv.org/abs/2506.02380
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Zihao Ding
@@ -17940,7 +17940,7 @@ papers:
 - title: Egocentric Event-Based Vision for Ping Pong Ball Trajectory Prediction
   date: 2025-06
   url: https://arxiv.org/abs/2506.07860
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Ivan Alberico
@@ -17973,7 +17973,7 @@ papers:
     and Neural Points'
   date: 2024-10
   url: https://arxiv.org/abs/2410.17932
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Linus Franke
@@ -18008,7 +18008,7 @@ papers:
     Models'
   date: 2026-04
   url: https://arxiv.org/abs/2604.21079
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Juhong Min
@@ -18037,7 +18037,7 @@ papers:
     in Hybrid Visual Foraging'
   date: 2024-11
   url: https://arxiv.org/abs/2411.09176
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Bo Wang
@@ -18072,7 +18072,7 @@ papers:
 - title: 'BOXR: Body and head motion Optimization framework for eXtended Reality'
   date: 2024-10
   url: https://arxiv.org/abs/2410.13084
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Ziliang Zhang
@@ -18109,7 +18109,7 @@ papers:
     Transformers
   date: 2026-07
   url: https://arxiv.org/abs/2607.09480
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Ibrahim Batuhan Akkaya
@@ -18137,7 +18137,7 @@ papers:
 - title: 'Fovea Stacking: Imaging with Dynamic Localized Aberration Correction'
   date: 2025-05
   url: https://arxiv.org/abs/2506.00716
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Shi Mao
@@ -18170,7 +18170,7 @@ papers:
     Neural Networks
   date: 2024-02
   url: https://arxiv.org/abs/2402.15480
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Jean-Nicolas Jérémie
@@ -18197,7 +18197,7 @@ papers:
 - title: Policy-based Foveated Imaging and Perception
   date: 2026-06
   url: https://arxiv.org/abs/2606.02565
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Howard Xiao
@@ -18228,7 +18228,7 @@ papers:
 - title: 'Foveated Diffusion: Efficient Spatially Adaptive Image and Video Generation'
   date: 2026-03
   url: https://arxiv.org/abs/2603.23491
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Brian Chao
@@ -18263,7 +18263,7 @@ papers:
     Models
   date: 2026-08
   url: https://arxiv.org/abs/2608.00726
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Mateusz Michalkiewicz
@@ -18296,7 +18296,7 @@ papers:
 - title: 'SIMON: Saliency-aware Integrative Multi-view Object-centric Neural Decoding'
   date: 2026-05
   url: https://arxiv.org/abs/2605.00401
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - YuSheng Lin
@@ -18321,7 +18321,7 @@ papers:
 - title: 'Segment This Thing: Foveated Tokenization for Efficient Point-Prompted Segmentation'
   date: 2025-06
   url: https://arxiv.org/abs/2506.11131
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Tanner Schmidt
@@ -18346,7 +18346,7 @@ papers:
 - title: Towards Two-Stream Foveation-based Active Vision Learning
   date: 2024-03
   url: https://arxiv.org/abs/2403.15977
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Timur Ibrayev
@@ -18380,7 +18380,7 @@ papers:
     3D Imaging'
   date: 2024-12
   url: https://arxiv.org/abs/2412.02052
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Justin Folden
@@ -18410,7 +18410,7 @@ papers:
 - title: Generating metamers of human scene understanding
   date: 2026-01
   url: https://arxiv.org/abs/2601.11675
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Ritik Raina
@@ -18447,7 +18447,7 @@ papers:
     Humans'
   date: 2026-08
   url: https://arxiv.org/abs/2608.16514
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Mohamed Amine Kerkouri
@@ -18482,7 +18482,7 @@ papers:
     Perception'
   date: 2026-06
   url: https://arxiv.org/abs/2606.14773
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Jinwen Wen
@@ -18506,7 +18506,7 @@ papers:
 - title: On Inherent Adversarial Robustness of Active Vision Systems
   date: 2024-03
   url: https://arxiv.org/abs/2404.00185
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Amitangshu Mukherjee
@@ -18535,7 +18535,7 @@ papers:
 - title: Cost-Efficient Multi-Scale Fovea for Semantic-Based Visual Search Attention
   date: 2026-04
   url: https://arxiv.org/abs/2604.03836
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - João Luzio
@@ -18567,7 +18567,7 @@ papers:
 - title: Reading in the Dark with Foveated Event Vision
   date: 2025-06
   url: https://arxiv.org/abs/2506.06918
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Carl Brander
@@ -18595,7 +18595,7 @@ papers:
     and Semantic Object Cues for Gaze Guidance in Dynamic Scenes
   date: 2024-08
   url: https://arxiv.org/abs/2408.01322
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Vito Mengers
@@ -18630,7 +18630,7 @@ papers:
     Learning'
   date: 2025-10
   url: https://arxiv.org/abs/2510.08442
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Andrew Lee
@@ -18663,7 +18663,7 @@ papers:
 - title: Foveated Instance Segmentation
   date: 2025-03
   url: https://arxiv.org/abs/2503.21854
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Hongyi Zeng
@@ -18692,7 +18692,7 @@ papers:
 - title: Visual Text Compression as Measure Transport
   date: 2026-05
   url: https://arxiv.org/abs/2605.06708
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Lv Tang
@@ -18725,7 +18725,7 @@ papers:
 - title: Hybrid Foveated Path Tracing with Peripheral Gaussians for Immersive Anatomy
   date: 2026-01
   url: https://arxiv.org/abs/2601.22026
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Constantin Kleinbeck
@@ -18755,7 +18755,7 @@ papers:
 - title: On Locality and Length Generalization in Visual Reasoning
   date: 2026-07
   url: https://arxiv.org/abs/2607.09061
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Pulkit Madan
@@ -18785,7 +18785,7 @@ papers:
 - title: 'Object recognition in primates: What can early visual areas contribute?'
   date: 2024-07
   url: https://arxiv.org/abs/2407.04816
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Christian Quaia
@@ -18818,7 +18818,7 @@ papers:
 - title: Shear-Free Viewport Magnification for 360-Degree via Spherical Mobius Boosts
   date: 2026-06
   url: https://arxiv.org/abs/2606.20684
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Boyang Li
@@ -18846,7 +18846,7 @@ papers:
 - title: 'HiResNets: Native Full-HD Video Recognition with Foveal Residual Streams'
   date: 2026-08
   url: https://arxiv.org/abs/2608.02140
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Shivani Mall
@@ -18875,7 +18875,7 @@ papers:
 - title: 'VRSplat: Fast and Robust Gaussian Splatting for Virtual Reality'
   date: 2025-05
   url: https://arxiv.org/abs/2505.10144
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Xuechang Tu
@@ -18912,7 +18912,7 @@ papers:
     Models'
   date: 2026-03
   url: https://arxiv.org/abs/2603.14882
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Soumyaratna Debnath
@@ -18946,7 +18946,7 @@ papers:
 - title: Learning to Adaptively Allocate Gaussians for Arbitrary-Scale Image Super-Resolution
   date: 2026-06
   url: https://arxiv.org/abs/2606.29400
-  category: ml_ai
+  category: ml-ai
   subcategory: foveated-vision
   authors:
   - Giulio Federico
@@ -24141,7 +24141,7 @@ papers:
     Rendering on Mobile VR'
   date: 2025-11
   url: https://arxiv.org/abs/2511.19988
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Farhaan Ebadulla
@@ -24172,7 +24172,7 @@ papers:
     Correction Solutions in Virtual Reality'
   date: 2023-12
   url: https://arxiv.org/abs/2312.00692
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Benedikt W. Hosp
@@ -24198,7 +24198,7 @@ papers:
     A Breadth-First Investigation on a Very Large Dataset'
   date: 2024-04
   url: https://arxiv.org/abs/2404.11798
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Dillon Lohr
@@ -24224,7 +24224,7 @@ papers:
 - title: Neuromorphic Eye Tracking for Low-Latency Pupil Detection
   date: 2025-12
   url: https://arxiv.org/abs/2512.09969
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Paul Hueber
@@ -24257,7 +24257,7 @@ papers:
     Reality Eye Tracking Devices
   date: 2025-03
   url: https://arxiv.org/abs/2503.08926
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Teran Bukenberger
@@ -24292,7 +24292,7 @@ papers:
     Framework'
   date: 2026-05
   url: https://arxiv.org/abs/2605.09181
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Bo Wen
@@ -24316,7 +24316,7 @@ papers:
     Gaze Offset Score Fusion
   date: 2026-05
   url: https://arxiv.org/abs/2605.06810
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Hashim Aziz
@@ -24342,7 +24342,7 @@ papers:
 - title: 'Negative Shanshui: Real-time Interactive Ink Painting Synthesis'
   date: 2025-08
   url: https://arxiv.org/abs/2508.16612
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Aven-Le Zhou
@@ -24364,7 +24364,7 @@ papers:
     assistive AI agent
   date: 2025-05
   url: https://arxiv.org/abs/2505.07214
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Pascal Spiegler
@@ -24394,7 +24394,7 @@ papers:
     3D Synthetic Data'
   date: 2025-03
   url: https://arxiv.org/abs/2503.16742
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Esther Y. H. Lin
@@ -24427,7 +24427,7 @@ papers:
     Real-Time Vision-Only Inference'
   date: 2025-01
   url: https://arxiv.org/abs/2501.01212
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Yitong Zhu
@@ -24459,7 +24459,7 @@ papers:
 - title: Ocular Verification for Virtual Reality
   date: 2026-07
   url: https://arxiv.org/abs/2607.20790
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Husanpreet Singh
@@ -24486,7 +24486,7 @@ papers:
 - title: 'Panonut360: A Head and Eye Tracking Dataset for Panoramic Video'
   date: 2024-03
   url: https://arxiv.org/abs/2403.17708
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Yutong Xu
@@ -24524,7 +24524,7 @@ papers:
     Reality and Smartphones'
   date: 2025-07
   url: https://arxiv.org/abs/2507.05447
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Aiur Nanzatov
@@ -24554,7 +24554,7 @@ papers:
     and Manifold Diffusion
   date: 2026-01
   url: https://arxiv.org/abs/2601.02721
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Guoquan Zheng
@@ -24589,7 +24589,7 @@ papers:
 - title: 'GazePrior: Zero-Shot AR/VR Eye Tracking via Learned 3D Gaze Reconstruction'
   date: 2026-05
   url: https://arxiv.org/abs/2605.22359
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Corentin Dumery
@@ -24616,7 +24616,7 @@ papers:
 - title: Exploring Temporal Dynamics in Event-based Eye Tracker
   date: 2025-03
   url: https://arxiv.org/abs/2503.23725
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Hongwei Ren
@@ -24648,7 +24648,7 @@ papers:
 - title: Smartphone-based Eye Tracking System using Edge Intelligence and Model Optimisation
   date: 2024-08
   url: https://arxiv.org/abs/2408.12463
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Nishan Gunawardena
@@ -24677,7 +24677,7 @@ papers:
 - title: 'Gaze-guided Hand-Object Interaction Synthesis: Dataset and Method'
   date: 2024-03
   url: https://arxiv.org/abs/2403.16169
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Jie Tian
@@ -24709,7 +24709,7 @@ papers:
 - title: 'GazeMoDiff: Gaze-guided Diffusion Model for Stochastic Human Motion Prediction'
   date: 2023-12
   url: https://arxiv.org/abs/2312.12090
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Haodong Yan
@@ -24741,7 +24741,7 @@ papers:
     Submanifold Sparse CNN
   date: 2024-04
   url: https://arxiv.org/abs/2404.14279
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Baoheng Zhang
@@ -24774,7 +24774,7 @@ papers:
     and Adaptive Temporal Modeling'
   date: 2025-04
   url: https://arxiv.org/abs/2504.09960
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Hoang M. Truong
@@ -24804,7 +24804,7 @@ papers:
     from Full-body Poses'
   date: 2023-12
   url: https://arxiv.org/abs/2312.12042
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Zhiming Hu
@@ -24839,7 +24839,7 @@ papers:
 - title: 'SARAH: Spatially Aware Real-time Agentic Humans'
   date: 2026-02
   url: https://arxiv.org/abs/2602.18432
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Evonne Ng
@@ -24872,7 +24872,7 @@ papers:
     via Reconfigurable CMOS Image Sensors
   date: 2024-09
   url: https://arxiv.org/abs/2409.17341
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Md Abdullah-Al Kaiser
@@ -24905,7 +24905,7 @@ papers:
 - title: 'Voila-A: Aligning Vision-Language Models with User''s Gaze Attention'
   date: 2023-12
   url: https://arxiv.org/abs/2401.09454
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Kun Yan
@@ -24939,7 +24939,7 @@ papers:
     Eye Reconstruction
   date: 2026-07
   url: https://arxiv.org/abs/2607.14876
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Seong-Jin An
@@ -24973,7 +24973,7 @@ papers:
 - title: 'VRBiom: A New Periocular Dataset for Biometric Applications of HMD'
   date: 2024-07
   url: https://arxiv.org/abs/2407.02150
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Ketan Kotwal
@@ -25010,7 +25010,7 @@ papers:
 - title: 'Seeing My Future: Predicting Situated Interaction Behavior in Virtual Reality'
   date: 2025-10
   url: https://arxiv.org/abs/2510.10742
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Yuan Xu
@@ -25041,7 +25041,7 @@ papers:
     Human-Computer'
   date: 2024-12
   url: https://arxiv.org/abs/2412.18321
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Fenghua Shao
@@ -25075,7 +25075,7 @@ papers:
 - title: A deep learning approach to track eye movements based on events
   date: 2025-08
   url: https://arxiv.org/abs/2508.04827
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Chirag Seth
@@ -25100,7 +25100,7 @@ papers:
 - title: Towards Unsupervised Eye-Region Segmentation for Eye Tracking
   date: 2024-10
   url: https://arxiv.org/abs/2410.06131
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Jiangfan Deng
@@ -25128,7 +25128,7 @@ papers:
     Augmented Reality Powered by Point-Voxel Cross-Attention Network'
   date: 2026-07
   url: https://arxiv.org/abs/2607.01435
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Neda Abdolrahimi
@@ -25160,7 +25160,7 @@ papers:
 - title: Intention Action Anticipation Model with Guide-Feedback Loop Mechanism
   date: 2024-03
   url: https://arxiv.org/abs/2403.12450
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Zongnan Ma
@@ -25188,7 +25188,7 @@ papers:
 - title: 'MM-Conv: A Multi-modal Conversational Dataset for Virtual Humans'
   date: 2024-09
   url: https://arxiv.org/abs/2410.00253
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Anna Deichler
@@ -25209,7 +25209,7 @@ papers:
 - title: 'ChildPlay-Hand: A Dataset of Hand Manipulations in the Wild'
   date: 2024-09
   url: https://arxiv.org/abs/2409.09319
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Arya Farkhondeh
@@ -25240,7 +25240,7 @@ papers:
 - title: 'Eye Gaze Tells You Where to Compute: Gaze-Driven Efficient VLMs'
   date: 2025-09
   url: https://arxiv.org/abs/2509.16476
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Qinyu Chen
@@ -25275,7 +25275,7 @@ papers:
 - title: 'Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span'
   date: 2025-11
   url: https://arxiv.org/abs/2511.18470
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Heeseung Yun
@@ -25307,7 +25307,7 @@ papers:
 - title: 'HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos'
   date: 2024-11
   url: https://arxiv.org/abs/2411.19167
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Prithviraj Banerjee
@@ -25338,7 +25338,7 @@ papers:
 - title: 'Talking Together: Synthesizing Co-Located 3D Conversations from Audio'
   date: 2026-03
   url: https://arxiv.org/abs/2603.08674
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Mengyi Shan
@@ -25371,7 +25371,7 @@ papers:
     in 3D Dialogue'
   date: 2026-05
   url: https://arxiv.org/abs/2605.21796
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Anna Deichler
@@ -25399,7 +25399,7 @@ papers:
 - title: Relightable Gaussian Codec Avatars
   date: 2023-12
   url: https://arxiv.org/abs/2312.03704
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Shunsuke Saito
@@ -25432,7 +25432,7 @@ papers:
 - title: 'Introducing HOT3D: An Egocentric Dataset for 3D Hand and Object Tracking'
   date: 2024-06
   url: https://arxiv.org/abs/2406.09598
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-vr
   authors:
   - Prithviraj Banerjee
@@ -25464,7 +25464,7 @@ papers:
     Computing'
   date: 2025-11
   url: https://arxiv.org/abs/2511.22607
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Xiaoyin Yang
@@ -25487,7 +25487,7 @@ papers:
     Streaming Videos'
   date: 2025-12
   url: https://arxiv.org/abs/2512.01707
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Daeun Lee
@@ -25524,7 +25524,7 @@ papers:
     Egocentric Learning'
   date: 2026-03
   url: https://arxiv.org/abs/2603.04098
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Ajan Subramanian
@@ -25554,7 +25554,7 @@ papers:
     Investigating Workload and Efficiency'
   date: 2026-06
   url: https://arxiv.org/abs/2606.04992
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Shiyu Li
@@ -25590,7 +25590,7 @@ papers:
     Human-Robot Interaction
   date: 2023-12
   url: https://arxiv.org/abs/2312.07638
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Daniel Weber
@@ -25624,7 +25624,7 @@ papers:
 - title: 'Pathformer3D: A 3D Scanpath Transformer for 360° Images'
   date: 2024-07
   url: https://arxiv.org/abs/2407.10563
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Rong Quan
@@ -25653,7 +25653,7 @@ papers:
 - title: 'EgoM2P: Egocentric Multimodal Multitask Pretraining'
   date: 2025-06
   url: https://arxiv.org/abs/2506.07886
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Gen Li
@@ -25688,7 +25688,7 @@ papers:
 - title: Social EgoMesh Estimation
   date: 2024-11
   url: https://arxiv.org/abs/2411.04598
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Luca Scofano
@@ -25715,7 +25715,7 @@ papers:
 - title: 'EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction'
   date: 2026-05
   url: https://arxiv.org/abs/2605.19004
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Ahmad Yehia
@@ -25747,7 +25747,7 @@ papers:
     Conditions using Aria Glasses Egocentric Vision Cameras
   date: 2025-07
   url: https://arxiv.org/abs/2507.16330
-  category: vr_ar
+  category: vr-ar
   subcategory: et-in-ar
   authors:
   - Joseph De Mathia
@@ -25775,7 +25775,7 @@ papers:
 - title: 'ViewCraft3D: High-Fidelity and View-Consistent 3D Vector Graphics Synthesis'
   date: 2025-05
   url: https://arxiv.org/abs/2505.19492
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Chuang Wang
@@ -25802,7 +25802,7 @@ papers:
 - title: 1st Place Solution of Multiview Egocentric Hand Tracking Challenge ECCV2024
   date: 2024-09
   url: https://arxiv.org/abs/2409.19362
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Minqiang Zou
@@ -25825,7 +25825,7 @@ papers:
     Vision-Language Models'
   date: 2026-04
   url: https://arxiv.org/abs/2604.10772
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Haiyan Jiang
@@ -25852,7 +25852,7 @@ papers:
     Modeling
   date: 2025-04
   url: https://arxiv.org/abs/2504.05537
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Tasmiah Haque
@@ -25891,7 +25891,7 @@ papers:
     Resolution'
   date: 2026-05
   url: https://arxiv.org/abs/2605.24622
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Anna Deichler
@@ -25916,7 +25916,7 @@ papers:
     Sketching'
   date: 2025-12
   url: https://arxiv.org/abs/2512.22016
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Xiangwen Zhang
@@ -25947,7 +25947,7 @@ papers:
     Head-mounted Millimeter-wave Radar and IMU'
   date: 2025-01
   url: https://arxiv.org/abs/2501.13805
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Yizhe Lv
@@ -25981,7 +25981,7 @@ papers:
 - title: Coral Model Generation from Single Images for Virtual Reality Applications
   date: 2024-09
   url: https://arxiv.org/abs/2409.02376
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors: []
   venue: ''
@@ -26007,7 +26007,7 @@ papers:
 - title: Predicting User Grasp Intentions in Virtual Reality
   date: 2025-08
   url: https://arxiv.org/abs/2508.16582
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-interaction
   authors:
   - Linghao Zeng
@@ -26034,7 +26034,7 @@ papers:
 - title: 'DeepMetricEye: Metric Depth Estimation in Periocular VR Imagery'
   date: 2023-11
   url: https://arxiv.org/abs/2311.07235
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Yitong Sun
@@ -26064,7 +26064,7 @@ papers:
 - title: Expression-aware video inpainting for HMD removal in XR applications
   date: 2024-01
   url: https://arxiv.org/abs/2401.14136
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Fatemeh Ghorbani Lohesara
@@ -26095,7 +26095,7 @@ papers:
 - title: 'Eye-See-You: Reverse Pass-Through VR and Head Avatars'
   date: 2025-05
   url: https://arxiv.org/abs/2505.18869
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Ankan Dash
@@ -26126,7 +26126,7 @@ papers:
     Reconstruction in Social XR
   date: 2025-08
   url: https://arxiv.org/abs/2508.12336
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Fatemeh Ghorbani Lohesara
@@ -26157,7 +26157,7 @@ papers:
 - title: Audio Driven Real-Time Facial Animation for Social Telepresence
   date: 2025-10
   url: https://arxiv.org/abs/2510.01176
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Jiye Lee
@@ -26189,7 +26189,7 @@ papers:
 - title: Facial Emotion Recognition in VR Games
   date: 2023-12
   url: https://arxiv.org/abs/2312.06925
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Fatemeh Dehghani
@@ -26218,7 +26218,7 @@ papers:
     Age Estimation'
   date: 2025-05
   url: https://arxiv.org/abs/2505.05374
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Naveenkumar G Venkataswamy
@@ -26254,7 +26254,7 @@ papers:
 - title: 'VRGaussianAvatar: Integrating 3D Gaussian Avatars into VR'
   date: 2026-02
   url: https://arxiv.org/abs/2602.01674
-  category: vr_ar
+  category: vr-ar
   subcategory: vr-hardware
   authors:
   - Hail Song
