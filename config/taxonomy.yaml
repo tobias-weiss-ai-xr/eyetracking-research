@@ -1,488 +1,603 @@
-# ⚙️ Eyetracking Research Taxonomy & Discovery Config
-#
-# Edit categories/subcategories + discovery queries, then re-run the pipeline.
-# Pipeline:  config/taxonomy.yaml → papers.yaml → validate → README → reports
-
-# ── Topic ────────────────────────────────────────────────────────────────────
 topic:
-  name: "Eyetracking & Gaze Analysis Research"          # shown in README header
-  short: "eyetracking-research"                   # used in URLs, badges, docs paths
-  description: "Comprehensive corpus of research on eyetracking technology, gaze analysis, visual attention, and human-computer interaction using eye gaze."
-  openalex_mailto: "research@graphwiz.ai"
-
-# ── Taxonomy ─────────────────────────────────────────────────────────────────
-# Categories = the main axis of your review (e.g. methods, applications, …).
-# Subcategories = the secondary axis (e.g. architectures, benchmarks, …).
-# Every paper in papers.yaml must carry one category + one subcategory.
+  name: Eyetracking & Gaze Analysis Research
+  short: eyetracking-research
+  description: Comprehensive corpus of research on eyetracking technology, gaze analysis,
+    visual attention, and human-computer interaction using eye gaze.
+  openalex_mailto: research@graphwiz.ai
 taxonomy:
-  categories:                           # ordered list
-    - id: hardware
-      display: "Hardware & Technology"
-    - id: algorithms
-      display: "Gaze Analysis Algorithms"
-    - id: applications
-      display: "Applications & Use Cases"
-    - id: psychology
-      display: "Cognitive & Psychological Studies"
-    - id: hci
-      display: "Human-Computer Interaction"
-    - id: vr_ar
-      display: "VR, AR & XR"
-    - id: ml_ai
-      display: "Machine Learning & AI"
-    - id: evaluation
-      display: "Evaluation & Benchmarks"
-    - id: survey
-      display: "Surveys & Reviews"
-  
+  categories:
+  - id: hardware
+    display: Hardware & Technology
+  - id: algorithms
+    display: Gaze Analysis Algorithms
+  - id: applications
+    display: Applications & Use Cases
+  - id: psychology
+    display: Cognitive & Psychological Studies
+  - id: hci
+    display: Human-Computer Interaction
+  - id: vr-ar
+    display: VR, AR & XR
+  - id: ml-ai
+    display: Machine Learning & AI
+  - id: evaluation
+    display: Evaluation & Benchmarks
+  - id: survey
+    display: Surveys & Reviews
   subcategories:
-    # Hardware
-    - id: eye_trackers
-      display: "Eye Tracking Devices"
-      category: hardware
-    - id: calibration
-      display: "Calibration Methods"
-      category: hardware
-    - id: infrared
-      display: "Infrared-Based Tracking"
-      category: hardware
-    - id: pupillometry
-      display: "Pupillometry"
-      category: hardware
-    
-    # Algorithms
-    - id: gaze_estimation
-      display: "Gaze Estimation"
-      category: algorithms
-    - id: fixation_detection
-      display: "Fixation Detection"
-      category: algorithms
-    - id: saccade_detection
-      display: "Saccade Detection"
-      category: algorithms
-    - id: scanpath_analysis
-      display: "Scanpath Analysis"
-      category: algorithms
-    - id: heatmap_generation
-      display: "Heatmap Generation"
-      category: algorithms
-    
-    # Applications
-    - id: assistive_tech
-      display: "Assistive Technology"
-      category: applications
-    - id: medical
-      display: "Medical & Diagnostic"
-      category: applications
-    - id: marketing
-      display: "Marketing & Advertising"
-      category: applications
-    - id: education
-      display: "Education & Training"
-      category: applications
-    - id: automotive
-      display: "Automotive"
-      category: applications
-    - id: gaming
-      display: "Gaming & VR"
-      category: applications
-    
-    # Psychology
-    - id: visual_perception
-      display: "Visual Perception"
-      category: psychology
-    - id: attention
-      display: "Attention Mechanisms"
-      category: psychology
-    - id: reading
-      display: "Reading Research"
-      category: psychology
-    - id: developmental
-      display: "Developmental Studies"
-      category: psychology
-    - id: clinical
-      display: "Clinical Psychology"
-      category: psychology
-    
-    # HCI
-    - id: gaze_interfaces
-      display: "Gaze-Based Interfaces"
-      category: hci
-    - id: fitts_law
-      display: "Fitts' Law Applications"
-      category: hci
-    - id: usability
-      display: "Usability Testing"
-      category: hci
-    - id: input_methods
-      display: "Gaze Input Methods"
-      category: hci
-    
-    # VR, AR & XR
-    - id: et_in_vr
-      display: "Eyetracking in VR"
-      category: vr_ar
-    - id: et_in_ar
-      display: "Eyetracking in AR"
-      category: vr_ar
-    - id: foveated_rendering
-      display: "Foveated Rendering"
-      category: vr_ar
-    - id: vr_interaction
-      display: "VR Interaction Techniques"
-      category: vr_ar
-    - id: vr_hardware
-      display: "VR Eye Tracking Hardware"
-      category: vr_ar
-    
-    # ML/AI
-    - id: saliency_prediction
-      display: "Saliency Prediction"
-      category: ml_ai
-    - id: attention_models
-      display: "Attention Models"
-      category: ml_ai
-    - id: gaze_synthesis
-      display: "Gaze Synthesis"
-      category: ml_ai
-    - id: transformers
-      display: "Transformer-Based Models"
-      category: ml_ai
-    - id: foveated_vision
-      display: "Foveated Vision"
-      category: ml_ai
-    
-    # Evaluation
-    - id: benchmarks
-      display: "Benchmark Datasets"
-      category: evaluation
-    - id: metrics
-      display: "Evaluation Metrics"
-      category: evaluation
-    - id: comparisons
-      display: "Comparative Studies"
-      category: evaluation
-    
-    # Survey
-    - id: literature_review
-      display: "Literature Review"
-      category: survey
-    - id: state_of_the_art
-      display: "State of the Art"
-      category: survey
-    - id: taxonomy_paper
-      display: "Taxonomy Papers"
-      category: survey
-
-# ── Discovery: arXiv queries (fetch_new_papers.py) ───────────────────────────
-# Eyetracking-specific arXiv queries
-arxiv_queries:
-  # Hardware & Technology
-  - query: 'cat:cs.CV AND (abs:"eye tracking device" OR abs:"gaze tracker" OR abs:"oculomotor")'
+  - id: eye-trackers
+    display: Eye Tracking Devices
     category: hardware
-    subcategory_hint: eye_trackers
-  
-  - query: 'cat:cs.CV AND (abs:"eye tracking calibration" OR abs:"gaze calibration" OR abs:"calibration method")'
-    category: hardware
-    subcategory_hint: calibration
-  
-  - query: 'cat:cs.CV AND (abs:"infrared eye tracking" OR abs:"IR eye tracker" OR abs:"purkinje")'
-    category: hardware
-    subcategory_hint: infrared
-  
-  - query: 'cat:q-bio.QM AND (abs:"pupillometry" OR abs:"pupil dilation" OR abs:"pupil response")'
-    category: hardware
-    subcategory_hint: pupillometry
-  
-  # Gaze Analysis Algorithms
-  - query: 'cat:cs.CV AND (abs:"gaze estimation" OR ti:"gaze estimation" OR abs:"eye gaze estimation")'
-    category: algorithms
-    subcategory_hint: gaze_estimation
-  
-  - query: 'cat:cs.CV AND (abs:"fixation detection" OR abs:"fixation identification" OR abs:"saccade detection")'
-    category: algorithms
-    subcategory_hint: fixation_detection
-  
-  - query: 'cat:cs.CV AND (abs:"scanpath analysis" OR abs:"gaze scanpath" OR abs:"eye movement pattern")'
-    category: algorithms
-    subcategory_hint: scanpath_analysis
-  
-  - query: 'cat:cs.CV AND (abs:"gaze heatmap" OR abs:"heat map" OR abs:"visual attention map")'
-    category: algorithms
-    subcategory_hint: heatmap_generation
-  
-  # Saliency Prediction
-  - query: 'cat:cs.CV AND (abs:"saliency prediction" OR abs:"visual saliency" OR abs:"saliency map")'
-    category: ml_ai
-    subcategory_hint: saliency_prediction
-  
-  - query: 'cat:cs.CV AND (abs:"attention model" OR abs:"visual attention model")'
-    category: ml_ai
-    subcategory_hint: attention_models
-  
-  - query: 'cat:cs.LG AND (abs:"attention mechanism" OR abs:"self-attention" OR abs:"transformer attention")'
-    category: ml_ai
-    subcategory_hint: transformers
-  
-  - query: 'cat:cs.CV AND (abs:"foveated vision" OR abs:"foveated rendering" OR abs:"foveation")'
-    category: ml_ai
-    subcategory_hint: foveated_vision
-  
-  # Applications
-  - query: 'cat:cs.HC AND (abs:"gaze-based interface" OR abs:"eye-controlled" OR abs:"gaze interaction")'
-    category: hci
-    subcategory_hint: gaze_interfaces
-  
-  - query: 'cat:cs.HC AND (abs:"gaze input" OR abs:"eye tracking HCI" OR abs:"eye-computer interaction")'
-    category: hci
-    subcategory_hint: input_methods
-  
-  - query: 'cat:cs.HC AND (abs:"usability testing" OR abs:"eye tracking usability")'
-    category: hci
-    subcategory_hint: usability
-  
-  - query: 'cat:q-bio.QM AND (abs:"visual attention" OR abs:"attention mechanism" OR abs:"eyes movements")'
-    category: psychology
-    subcategory_hint: attention
-  
-  - query: 'cat:q-bio.QM AND (abs:"reading" OR abs:"eye movements reading" OR abs:"saccadic reading")'
-    category: psychology
-    subcategory_hint: reading
-  
-  # VR & AR
-  - query: 'cat:cs.CV AND (abs:"virtual reality" OR abs:"VR") AND (abs:"eye tracking" OR abs:"gaze")'
-    category: vr_ar
-    subcategory_hint: et_in_vr
-  
-  - query: 'cat:cs.CV AND (abs:"augmented reality" OR abs:"AR") AND (abs:"eye tracking" OR abs:"gaze")'
-    category: vr_ar
-    subcategory_hint: et_in_ar
-  
-  - query: 'cat:cs.CV AND (abs:"foveated rendering" OR abs:"foveated graphics" OR abs:"peripheral vision rendering")'
-    category: vr_ar
-    subcategory_hint: foveated_rendering
-  
-  - query: 'cat:cs.CV AND (abs:"VR interaction" OR abs:"virtual reality interaction" OR abs:"gaze-based VR")'
-    category: vr_ar
-    subcategory_hint: vr_interaction
-  
-  - query: 'cat:cs.CV AND (abs:"VR headset" OR abs:"HMD" OR abs:"eye tracking HMD") AND (abs:"eye" OR abs:"gaze")'
-    category: vr_ar
-    subcategory_hint: vr_hardware
-  
-  # Medical & Assistive
-  - query: 'cat:cs.HC AND (abs:"assistive technology" OR abs:"gaze-controlled wheelchair" OR abs:"eye-controlled communication")'
-    category: applications
-    subcategory_hint: assistive_tech
-  
-  - query: 'cat:q-bio.QM AND (abs:"ADHD" OR abs:"autism" OR abs:"neurological" OR abs:"clinical")'
-    category: psychology
-    subcategory_hint: clinical
-  
-  - query: 'cat:cs.CV AND (abs:"medical imaging" OR abs:"diagnostic" OR abs:"biomedical") AND (abs:"eye" OR abs:"gaze")'
-    category: applications
-    subcategory_hint: medical
-  
-  # Surveys
-  - query: 'cat:cs.CV AND (abs:"survey" OR ti:"survey" OR abs:"review") AND (abs:"eye tracking" OR abs:"gaze analysis")'
-    category: survey
-    subcategory_hint: literature_review
-  
-  - query: 'cat:q-bio.QM AND (ti:"state of the art" OR abs:"state-of-the-art") AND (abs:"eye movement" OR abs:"gaze")'
-    category: survey
-    subcategory_hint: state_of_the_art
-
-# ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
-other_sources_queries:
-  - source: dblp
-    query: eyetracking gaze analysis visual attention
-    category: algorithms
-    subcategory_hint: gaze_estimation
-  - source: crossref
-    query: eye tracking human-computer interaction gaze
-    category: hci
-    subcategory_hint: gaze_interfaces
-  - source: europepmc
-    query: pupillometry cognitive load visual perception
-    category: psychology
-    subcategory_hint: visual_perception
-
-# ── OpenAlex bulk fetch (fetch_openalex_bulk.py) ─────────────────────────────
-openalex_queries:
-  - category: hardware
-    query: "eye tracking gaze tracker hardware technology"
-  - category: algorithms
-    query: "gaze estimation fixation detection scanpath analysis"
-  - category: applications
-    query: "gaze interface assistive technology eye-controlled"
-  - category: psychology
-    query: "visual attention reading eye movements perception"
-  - category: vr_ar
-    query: "virtual reality eye tracking VR gaze AR augmented reality foveated rendering"
-  - category: ml_ai
-    query: "saliency prediction attention model gaze synthesis"
-  - category: hci
-    query: "human-computer interaction gaze input usability"
-  - category: survey
-    query: "eye tracking survey review state of the art"
-
-# ── GitHub repository discovery (fetch_github_repos.py) ─────────────────────
-github_queries:
-  - query: "topic:eyetracking+stars:>100"
-    category: hardware
-    subcategory_hint: eye_trackers
-  - query: "topic:gaze-tracking+stars:>50"
-    category: algorithms
-    subcategory_hint: gaze_estimation
-  - query: "topic:eye-tracking+topic:hci+stars:>20"
-    category: hci
-    subcategory_hint: gaze_interfaces
-  - query: "topic:pupillometry+stars:>10"
-    category: hardware
-    subcategory_hint: pupillometry
-  - query: "OpenFace eye tracking stars:>50"
-    category: applications
-    subcategory_hint: assistive_tech
-
-# ── Subclassification keywords ─────────────────────────────────────────────
-subcategory_keywords:
-  # Hardware
-  - id: eye_trackers
-    keywords: ["eye tracker", "gaze tracker", "oculomotor", "device", "tobii", "eyelink", "pupil labs"]
   - id: calibration
-    keywords: ["calibration", "calibrate", "accuracy", "precision"]
+    display: Calibration Methods
+    category: hardware
   - id: infrared
-    keywords: ["infrared", "IR", "near-infrared", "NIR", "corneal reflection", "purkinje"]
+    display: Infrared-Based Tracking
+    category: hardware
   - id: pupillometry
-    keywords: ["pupillometry", "pupil dilation", "pupil response", "pupil size"]
-  
-  # Algorithms
-  - id: gaze_estimation
-    keywords: ["gaze estimation", "gaze detection", "eye gaze", "gaze point"]
-  - id: fixation_detection
-    keywords: ["fixation", "fixation detection", "gaze fixation", "fixation identification"]
-  - id: saccade_detection
-    keywords: ["saccade", "saccadic", "fast eye movement", "rapid eye movement"]
-  - id: scanpath_analysis
-    keywords: ["scanpath", "eye movement pattern", "gaze pattern", "visual scanpath"]
-  - id: heatmap_generation
-    keywords: ["heatmap", "attention heatmap", "gaze heatmap", "density map"]
-  
-  # Applications
-  - id: assistive_tech
-    keywords: ["assistive", "accessibility", "disability", "wheelchair", "AAC", "communication aid"]
+    display: Pupillometry
+    category: hardware
+  - id: gaze-estimation
+    display: Gaze Estimation
+    category: algorithms
+  - id: fixation-detection
+    display: Fixation Detection
+    category: algorithms
+  - id: saccade-detection
+    display: Saccade Detection
+    category: algorithms
+  - id: scanpath-analysis
+    display: Scanpath Analysis
+    category: algorithms
+  - id: heatmap-generation
+    display: Heatmap Generation
+    category: algorithms
+  - id: assistive-tech
+    display: Assistive Technology
+    category: applications
   - id: medical
-    keywords: ["medical", "diagnostic", "clinical", "biomedical", "healthcare"]
+    display: Medical & Diagnostic
+    category: applications
   - id: marketing
-    keywords: ["marketing", "advertising", "consumer", "user behavior", "attention marketing"]
+    display: Marketing & Advertising
+    category: applications
   - id: education
-    keywords: ["education", "training", "learning", "student", "reading education"]
+    display: Education & Training
+    category: applications
   - id: automotive
-    keywords: ["automotive", "driving", "driver", "vehicle", "in-vehicle"]
+    display: Automotive
+    category: applications
   - id: gaming
-    keywords: ["gaming", "game", "VR", "virtual reality", "AR", "augmented reality"]
-  
-  # Psychology
-  - id: visual_perception
-    keywords: ["visual perception", "perception", "sensory", "psychophysics"]
+    display: Gaming & VR
+    category: applications
+  - id: visual-perception
+    display: Visual Perception
+    category: psychology
   - id: attention
-    keywords: ["attention", "visual attention", "selective attention", "attentional"]
+    display: Attention Mechanisms
+    category: psychology
   - id: reading
-    keywords: ["reading", "eye movements reading", "saccadic reading", "text reading"]
+    display: Reading Research
+    category: psychology
   - id: developmental
-    keywords: ["developmental", "children", "infant", "age-related", "maturation"]
+    display: Developmental Studies
+    category: psychology
   - id: clinical
-    keywords: ["clinical", "ADHD", "autism", "ASD", "neurological", "disorder"]
-  
-  # HCI
-  - id: gaze_interfaces
-    keywords: ["gaze interface", "eye-controlled", "gaze-based", "gaze interaction"]
-  - id: fitts_law
-    keywords: ["fitts law", "fitts", "pointing", "selection time"]
+    display: Clinical Psychology
+    category: psychology
+  - id: gaze-interfaces
+    display: Gaze-Based Interfaces
+    category: hci
+  - id: fitts-law
+    display: Fitts' Law Applications
+    category: hci
   - id: usability
-    keywords: ["usability", "UX", "user experience", "usability testing"]
-  - id: input_methods
-    keywords: ["input method", "input device", "pointing device", "gaze input"]
-  
-  # VR, AR & XR
-  - id: et_in_vr
-    keywords: ["virtual reality", "VR", "HMD", "head-mounted display", "immersive", "360", "stereoscopic"]
-  - id: et_in_ar
-    keywords: ["augmented reality", "AR", "mixed reality", "MR", "XR", "extended reality", "see-through"]
-  - id: foveated_rendering
-    keywords: ["foveated rendering", "foveated graphics", "peripheral rendering", "gaze-contingent", "adaptive rendering"]
-  - id: vr_interaction
-    keywords: ["VR interaction", "virtual reality interaction", "gaze-based VR", "3D interaction", "spatial interaction"]
-  - id: vr_hardware
-    keywords: ["VR headset", "HMD eye tracking", "VR tracker", "Oculus", "HTC Vive", "Valve Index", "Varjo"]
-  
-  # ML/AI
-  - id: saliency_prediction
-    keywords: ["saliency", "saliency prediction", "saliency map", "attention prediction"]
-  - id: attention_models
-    keywords: ["attention model", "attention mechanism", "visual attention model"]
-  - id: gaze_synthesis
-    keywords: ["gaze synthesis", "gaze generation", "synthetic gaze"]
+    display: Usability Testing
+    category: hci
+  - id: input-methods
+    display: Gaze Input Methods
+    category: hci
+  - id: et-in-vr
+    display: Eyetracking in VR
+    category: vr-ar
+  - id: et-in-ar
+    display: Eyetracking in AR
+    category: vr-ar
+  - id: foveated-rendering
+    display: Foveated Rendering
+    category: vr-ar
+  - id: vr-interaction
+    display: VR Interaction Techniques
+    category: vr-ar
+  - id: vr-hardware
+    display: VR Eye Tracking Hardware
+    category: vr-ar
+  - id: saliency-prediction
+    display: Saliency Prediction
+    category: ml-ai
+  - id: attention-models
+    display: Attention Models
+    category: ml-ai
+  - id: gaze-synthesis
+    display: Gaze Synthesis
+    category: ml-ai
   - id: transformers
-    keywords: ["transformer", "attention transformer", "self-attention", "multi-head attention"]
-  - id: foveated_vision
-    keywords: ["foveated", "foveation", "foveated vision", "peripheral vision"]
-  
-  # Evaluation
+    display: Transformer-Based Models
+    category: ml-ai
+  - id: foveated-vision
+    display: Foveated Vision
+    category: ml-ai
   - id: benchmarks
-    keywords: ["benchmark", "dataset", "corpus", "leading", "state-of-the-art"]
+    display: Benchmark Datasets
+    category: evaluation
   - id: metrics
-    keywords: ["metric", "evaluation metric", "accuracy", "error rate"]
+    display: Evaluation Metrics
+    category: evaluation
   - id: comparisons
-    keywords: ["comparison", "comparative", "vs", "versus", "benchmarking"]
-  
-  # Survey
-  - id: literature_review
-    keywords: ["survey", "review", "overview", "literature review"]
-  - id: state_of_the_art
-    keywords: ["state of the art", "SOTA", "current state", "landmark"]
-  - id: taxonomy_paper
-    keywords: ["taxonomy", "classification", "framework", "systematic review"]
-
-# ── Trend keywords ───────────────────────────────────────────────────────────
+    display: Comparative Studies
+    category: evaluation
+  - id: literature-review
+    display: Literature Review
+    category: survey
+  - id: state-of-the-art
+    display: State of the Art
+    category: survey
+  - id: taxonomy-paper
+    display: Taxonomy Papers
+    category: survey
+arxiv_queries:
+- query: cat:cs.CV AND (abs:"eye tracking device" OR abs:"gaze tracker" OR abs:"oculomotor")
+  category: hardware
+  subcategory_hint: eye-trackers
+- query: cat:cs.CV AND (abs:"eye tracking calibration" OR abs:"gaze calibration" OR
+    abs:"calibration method")
+  category: hardware
+  subcategory_hint: calibration
+- query: cat:cs.CV AND (abs:"infrared eye tracking" OR abs:"IR eye tracker" OR abs:"purkinje")
+  category: hardware
+  subcategory_hint: infrared
+- query: cat:q-bio.QM AND (abs:"pupillometry" OR abs:"pupil dilation" OR abs:"pupil
+    response")
+  category: hardware
+  subcategory_hint: pupillometry
+- query: cat:cs.CV AND (abs:"gaze estimation" OR ti:"gaze estimation" OR abs:"eye
+    gaze estimation")
+  category: algorithms
+  subcategory_hint: gaze-estimation
+- query: cat:cs.CV AND (abs:"fixation detection" OR abs:"fixation identification"
+    OR abs:"saccade detection")
+  category: algorithms
+  subcategory_hint: fixation-detection
+- query: cat:cs.CV AND (abs:"scanpath analysis" OR abs:"gaze scanpath" OR abs:"eye
+    movement pattern")
+  category: algorithms
+  subcategory_hint: scanpath-analysis
+- query: cat:cs.CV AND (abs:"gaze heatmap" OR abs:"heat map" OR abs:"visual attention
+    map")
+  category: algorithms
+  subcategory_hint: heatmap-generation
+- query: cat:cs.CV AND (abs:"saliency prediction" OR abs:"visual saliency" OR abs:"saliency
+    map")
+  category: ml-ai
+  subcategory_hint: saliency-prediction
+- query: cat:cs.CV AND (abs:"attention model" OR abs:"visual attention model")
+  category: ml-ai
+  subcategory_hint: attention-models
+- query: cat:cs.LG AND (abs:"attention mechanism" OR abs:"self-attention" OR abs:"transformer
+    attention")
+  category: ml-ai
+  subcategory_hint: transformers
+- query: cat:cs.CV AND (abs:"foveated vision" OR abs:"foveated rendering" OR abs:"foveation")
+  category: ml-ai
+  subcategory_hint: foveated-vision
+- query: cat:cs.HC AND (abs:"gaze-based interface" OR abs:"eye-controlled" OR abs:"gaze
+    interaction")
+  category: hci
+  subcategory_hint: gaze-interfaces
+- query: cat:cs.HC AND (abs:"gaze input" OR abs:"eye tracking HCI" OR abs:"eye-computer
+    interaction")
+  category: hci
+  subcategory_hint: input-methods
+- query: cat:cs.HC AND (abs:"usability testing" OR abs:"eye tracking usability")
+  category: hci
+  subcategory_hint: usability
+- query: cat:q-bio.QM AND (abs:"visual attention" OR abs:"attention mechanism" OR
+    abs:"eyes movements")
+  category: psychology
+  subcategory_hint: attention
+- query: cat:q-bio.QM AND (abs:"reading" OR abs:"eye movements reading" OR abs:"saccadic
+    reading")
+  category: psychology
+  subcategory_hint: reading
+- query: cat:cs.CV AND (abs:"virtual reality" OR abs:"VR") AND (abs:"eye tracking"
+    OR abs:"gaze")
+  category: vr-ar
+  subcategory_hint: et-in-vr
+- query: cat:cs.CV AND (abs:"augmented reality" OR abs:"AR") AND (abs:"eye tracking"
+    OR abs:"gaze")
+  category: vr-ar
+  subcategory_hint: et-in-ar
+- query: cat:cs.CV AND (abs:"foveated rendering" OR abs:"foveated graphics" OR abs:"peripheral
+    vision rendering")
+  category: vr-ar
+  subcategory_hint: foveated-rendering
+- query: cat:cs.CV AND (abs:"VR interaction" OR abs:"virtual reality interaction"
+    OR abs:"gaze-based VR")
+  category: vr-ar
+  subcategory_hint: vr-interaction
+- query: cat:cs.CV AND (abs:"VR headset" OR abs:"HMD" OR abs:"eye tracking HMD") AND
+    (abs:"eye" OR abs:"gaze")
+  category: vr-ar
+  subcategory_hint: vr-hardware
+- query: cat:cs.HC AND (abs:"assistive technology" OR abs:"gaze-controlled wheelchair"
+    OR abs:"eye-controlled communication")
+  category: applications
+  subcategory_hint: assistive-tech
+- query: cat:q-bio.QM AND (abs:"ADHD" OR abs:"autism" OR abs:"neurological" OR abs:"clinical")
+  category: psychology
+  subcategory_hint: clinical
+- query: cat:cs.CV AND (abs:"medical imaging" OR abs:"diagnostic" OR abs:"biomedical")
+    AND (abs:"eye" OR abs:"gaze")
+  category: applications
+  subcategory_hint: medical
+- query: cat:cs.CV AND (abs:"survey" OR ti:"survey" OR abs:"review") AND (abs:"eye
+    tracking" OR abs:"gaze analysis")
+  category: survey
+  subcategory_hint: literature-review
+- query: cat:q-bio.QM AND (ti:"state of the art" OR abs:"state-of-the-art") AND (abs:"eye
+    movement" OR abs:"gaze")
+  category: survey
+  subcategory_hint: state-of-the-art
+other_sources_queries:
+- source: dblp
+  query: eyetracking gaze analysis visual attention
+  category: algorithms
+  subcategory_hint: gaze-estimation
+- source: crossref
+  query: eye tracking human-computer interaction gaze
+  category: hci
+  subcategory_hint: gaze-interfaces
+- source: europepmc
+  query: pupillometry cognitive load visual perception
+  category: psychology
+  subcategory_hint: visual-perception
+openalex_queries:
+- category: hardware
+  query: eye tracking gaze tracker hardware technology
+- category: algorithms
+  query: gaze estimation fixation detection scanpath analysis
+- category: applications
+  query: gaze interface assistive technology eye-controlled
+- category: psychology
+  query: visual attention reading eye movements perception
+- category: vr-ar
+  query: virtual reality eye tracking VR gaze AR augmented reality foveated rendering
+- category: ml-ai
+  query: saliency prediction attention model gaze synthesis
+- category: hci
+  query: human-computer interaction gaze input usability
+- category: survey
+  query: eye tracking survey review state of the art
+github_queries:
+- query: topic:eyetracking+stars:>100
+  category: hardware
+  subcategory_hint: eye-trackers
+- query: topic:gaze-tracking+stars:>50
+  category: algorithms
+  subcategory_hint: gaze-estimation
+- query: topic:eye-tracking+topic:hci+stars:>20
+  category: hci
+  subcategory_hint: gaze-interfaces
+- query: topic:pupillometry+stars:>10
+  category: hardware
+  subcategory_hint: pupillometry
+- query: OpenFace eye tracking stars:>50
+  category: applications
+  subcategory_hint: assistive-tech
+subcategory_keywords:
+- id: eye-trackers
+  keywords:
+  - eye tracker
+  - gaze tracker
+  - oculomotor
+  - device
+  - tobii
+  - eyelink
+  - pupil labs
+- id: calibration
+  keywords:
+  - calibration
+  - calibrate
+  - accuracy
+  - precision
+- id: infrared
+  keywords:
+  - infrared
+  - IR
+  - near-infrared
+  - NIR
+  - corneal reflection
+  - purkinje
+- id: pupillometry
+  keywords:
+  - pupillometry
+  - pupil dilation
+  - pupil response
+  - pupil size
+- id: gaze-estimation
+  keywords:
+  - gaze estimation
+  - gaze detection
+  - eye gaze
+  - gaze point
+- id: fixation-detection
+  keywords:
+  - fixation
+  - fixation detection
+  - gaze fixation
+  - fixation identification
+- id: saccade-detection
+  keywords:
+  - saccade
+  - saccadic
+  - fast eye movement
+  - rapid eye movement
+- id: scanpath-analysis
+  keywords:
+  - scanpath
+  - eye movement pattern
+  - gaze pattern
+  - visual scanpath
+- id: heatmap-generation
+  keywords:
+  - heatmap
+  - attention heatmap
+  - gaze heatmap
+  - density map
+- id: assistive-tech
+  keywords:
+  - assistive
+  - accessibility
+  - disability
+  - wheelchair
+  - AAC
+  - communication aid
+- id: medical
+  keywords:
+  - medical
+  - diagnostic
+  - clinical
+  - biomedical
+  - healthcare
+- id: marketing
+  keywords:
+  - marketing
+  - advertising
+  - consumer
+  - user behavior
+  - attention marketing
+- id: education
+  keywords:
+  - education
+  - training
+  - learning
+  - student
+  - reading education
+- id: automotive
+  keywords:
+  - automotive
+  - driving
+  - driver
+  - vehicle
+  - in-vehicle
+- id: gaming
+  keywords:
+  - gaming
+  - game
+  - VR
+  - virtual reality
+  - AR
+  - augmented reality
+- id: visual-perception
+  keywords:
+  - visual perception
+  - perception
+  - sensory
+  - psychophysics
+- id: attention
+  keywords:
+  - attention
+  - visual attention
+  - selective attention
+  - attentional
+- id: reading
+  keywords:
+  - reading
+  - eye movements reading
+  - saccadic reading
+  - text reading
+- id: developmental
+  keywords:
+  - developmental
+  - children
+  - infant
+  - age-related
+  - maturation
+- id: clinical
+  keywords:
+  - clinical
+  - ADHD
+  - autism
+  - ASD
+  - neurological
+  - disorder
+- id: gaze-interfaces
+  keywords:
+  - gaze interface
+  - eye-controlled
+  - gaze-based
+  - gaze interaction
+- id: fitts-law
+  keywords:
+  - fitts law
+  - fitts
+  - pointing
+  - selection time
+- id: usability
+  keywords:
+  - usability
+  - UX
+  - user experience
+  - usability testing
+- id: input-methods
+  keywords:
+  - input method
+  - input device
+  - pointing device
+  - gaze input
+- id: et-in-vr
+  keywords:
+  - virtual reality
+  - VR
+  - HMD
+  - head-mounted display
+  - immersive
+  - '360'
+  - stereoscopic
+- id: et-in-ar
+  keywords:
+  - augmented reality
+  - AR
+  - mixed reality
+  - MR
+  - XR
+  - extended reality
+  - see-through
+- id: foveated-rendering
+  keywords:
+  - foveated rendering
+  - foveated graphics
+  - peripheral rendering
+  - gaze-contingent
+  - adaptive rendering
+- id: vr-interaction
+  keywords:
+  - VR interaction
+  - virtual reality interaction
+  - gaze-based VR
+  - 3D interaction
+  - spatial interaction
+- id: vr-hardware
+  keywords:
+  - VR headset
+  - HMD eye tracking
+  - VR tracker
+  - Oculus
+  - HTC Vive
+  - Valve Index
+  - Varjo
+- id: saliency-prediction
+  keywords:
+  - saliency
+  - saliency prediction
+  - saliency map
+  - attention prediction
+- id: attention-models
+  keywords:
+  - attention model
+  - attention mechanism
+  - visual attention model
+- id: gaze-synthesis
+  keywords:
+  - gaze synthesis
+  - gaze generation
+  - synthetic gaze
+- id: transformers
+  keywords:
+  - transformer
+  - attention transformer
+  - self-attention
+  - multi-head attention
+- id: foveated-vision
+  keywords:
+  - foveated
+  - foveation
+  - foveated vision
+  - peripheral vision
+- id: benchmarks
+  keywords:
+  - benchmark
+  - dataset
+  - corpus
+  - leading
+  - state-of-the-art
+- id: metrics
+  keywords:
+  - metric
+  - evaluation metric
+  - accuracy
+  - error rate
+- id: comparisons
+  keywords:
+  - comparison
+  - comparative
+  - vs
+  - versus
+  - benchmarking
+- id: literature-review
+  keywords:
+  - survey
+  - review
+  - overview
+  - literature review
+- id: state-of-the-art
+  keywords:
+  - state of the art
+  - SOTA
+  - current state
+  - landmark
+- id: taxonomy-paper
+  keywords:
+  - taxonomy
+  - classification
+  - framework
+  - systematic review
 trend_keywords:
-  - "eye tracking"
-  - "gaze tracking"
-  - "gaze estimation"
-  - "virtual reality"
-  - "VR"
-  - "augmented reality"
-  - "AR"
-  - "foveated rendering"
-  - "visual attention"
-  - "pupillometry"
-  - "saccade"
-  - "fixation"
-  - "scanpath"
-  - "oculomotor"
-  - "gaze-based interface"
-  - "saliency prediction"
-  - "attention mechanism"
-  - "foveated vision"
-  - "gaze synthesis"
-  - "transformer attention"
-  - "ET in VR"
-  - "eye tracking in VR"
-
-# ── Relevance signals for repo fetchers ─────────────────────────────────────
+- eye tracking
+- gaze tracking
+- gaze estimation
+- virtual reality
+- VR
+- augmented reality
+- AR
+- foveated rendering
+- visual attention
+- pupillometry
+- saccade
+- fixation
+- scanpath
+- oculomotor
+- gaze-based interface
+- saliency prediction
+- attention mechanism
+- foveated vision
+- gaze synthesis
+- transformer attention
+- ET in VR
+- eye tracking in VR
 repo_signals:
-  - "eye tracking"
-  - "gaze tracking"
-  - "gaze"
-  - "eyetracking"
-  - "oculomotor"
-  - "pupillometry"
-  - "visual attention"
-  - "gaze estimation"
-  - "virtual reality"
-  - "VR"
-  - "augmented reality"
-  - "AR"
-  - "foveated rendering"
-  - "HMD"
-  - "head-mounted display"
+- eye tracking
+- gaze tracking
+- gaze
+- eyetracking
+- oculomotor
+- pupillometry
+- visual attention
+- gaze estimation
+- virtual reality
+- VR
+- augmented reality
+- AR
+- foveated rendering
+- HMD
+- head-mounted display
