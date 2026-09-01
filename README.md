@@ -244,20 +244,20 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**1184 papers** across **9 categories**.  
-Sources: **arXiv** 1161 (98%).  
+**1188 papers** across **9 categories**.  
+Sources: **arXiv** 1165 (98%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| ml-ai | **353** | 111 | ████████████ |
-| psychology | **210** | 80 | ███████░░░░░ |
-| applications | **194** | 74 | ███████░░░░░ |
-| algorithms | **163** | 54 | ██████░░░░░░ |
-| hardware | **119** | 42 | ████░░░░░░░░ |
-| vr-ar | **75** | 29 | ███░░░░░░░░░ |
-| hci | **62** | 27 | ██░░░░░░░░░░ |
+| ml-ai | **355** | 104 | ████████████ |
+| psychology | **211** | 74 | ███████░░░░░ |
+| applications | **194** | 68 | ███████░░░░░ |
+| algorithms | **163** | 50 | ██████░░░░░░ |
+| hardware | **120** | 38 | ████░░░░░░░░ |
+| vr-ar | **75** | 25 | ███░░░░░░░░░ |
+| hci | **62** | 25 | ██░░░░░░░░░░ |
 | survey | **6** | 1 | █░░░░░░░░░░░ |
 | evaluation | **2** | 0 | █░░░░░░░░░░░ |
 
@@ -282,35 +282,35 @@ Sources: **arXiv** 1161 (98%).
 | 2022 | 3 | █░░░░░░░░░░░ |
 | 2023 | 86 | ██░░░░░░░░░░ |
 | 2024 | 377 | ██████████░░ |
-| 2025 | 437 | ████████████ |
-| 2026 | 254 | ███████░░░░░ |
+| 2025 | 439 | ████████████ |
+| 2026 | 256 | ███████░░░░░ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Hci | 62 | 2.2/mo | 44% | 78 |
-| Vr Ar | 75 | 2.4/mo | 39% | 60 |
-| Psychology | 210 | 6.7/mo | 38% | 43 |
-| Hardware | 119 | 3.5/mo | 35% | 31 |
-| Applications | 194 | 6.2/mo | 38% | 28 |
-| Algorithms | 163 | 4.5/mo | 33% | 23 |
-| Ml Ai | 353 | 9.2/mo | 31% | 19 |
+| Hci | 62 | 2.1/mo | 40% | 65 |
+| Psychology | 211 | 6.2/mo | 35% | 28 |
+| Vr Ar | 75 | 2.1/mo | 33% | 26 |
+| Applications | 194 | 5.7/mo | 35% | 18 |
+| Algorithms | 163 | 4.2/mo | 31% | 17 |
 | Survey | 6 | 0.1/mo | 17% | 17 |
+| Hardware | 120 | 3.2/mo | 32% | 14 |
+| Ml Ai | 355 | 8.7/mo | 29% | 11 |
 | Evaluation | 2 | 0.0/mo | 0% | 0 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| oculomotor | 8 | 2.27 |
-| gaze-based interface | 1 | 1.42 |
-| saccade | 10 | 1.35 |
-| scanpath | 12 | 1.31 |
-| fixation | 31 | 1.22 |
-| visual attention | 23 | 1.18 |
-| foveated vision | 4 | 1.13 |
-| transformer attention | 3 | 1.06 |
+| oculomotor | 7 | 2.16 |
+| gaze-based interface | 1 | 1.54 |
+| scanpath | 12 | 1.42 |
+| saccade | 9 | 1.32 |
+| visual attention | 23 | 1.29 |
+| fixation | 29 | 1.24 |
+| foveated vision | 4 | 1.23 |
+| gaze tracking | 7 | 1.03 |
 
 ### Top venues
 
@@ -337,7 +337,7 @@ Sources: **arXiv** 1161 (98%).
 | `applications/marketing` | 1 |
 | `survey/state-of-the-art` | 1 |
 
-*Generated 2026-08 by `scripts/standard_stats.py`.*
+*Generated 2026-09 by `scripts/standard_stats.py`.*
 
 <!-- END CORPUS STATISTICS -->
 
