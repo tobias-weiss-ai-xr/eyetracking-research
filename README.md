@@ -244,21 +244,22 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**1188 papers** across **9 categories**.  
-Sources: **arXiv** 1165 (98%).  
+**1593 papers** across **10 categories**.  
+Sources: **arXiv** 1547 (97%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| ml-ai | **355** | 104 | ████████████ |
-| psychology | **211** | 74 | ███████░░░░░ |
-| applications | **194** | 68 | ███████░░░░░ |
-| algorithms | **163** | 50 | ██████░░░░░░ |
-| hardware | **120** | 38 | ████░░░░░░░░ |
-| vr-ar | **75** | 25 | ███░░░░░░░░░ |
-| hci | **62** | 25 | ██░░░░░░░░░░ |
-| survey | **6** | 1 | █░░░░░░░░░░░ |
+| ml-ai | **561** | 293 | ████████████ |
+| psychology | **327** | 173 | ███████░░░░░ |
+| applications | **214** | 67 | █████░░░░░░░ |
+| algorithms | **176** | 58 | ████░░░░░░░░ |
+| hardware | **143** | 57 | ███░░░░░░░░░ |
+| vr-ar | **77** | 24 | ██░░░░░░░░░░ |
+| hci | **64** | 22 | █░░░░░░░░░░░ |
+| survey | **15** | 0 | █░░░░░░░░░░░ |
+| application | **14** | 13 | █░░░░░░░░░░░ |
 | evaluation | **2** | 0 | █░░░░░░░░░░░ |
 
 ### By year
@@ -270,74 +271,75 @@ Sources: **arXiv** 1165 (98%).
 | 2005 | 1 | █░░░░░░░░░░░ |
 | 2006 | 1 | █░░░░░░░░░░░ |
 | 2009 | 1 | █░░░░░░░░░░░ |
-| 2012 | 3 | █░░░░░░░░░░░ |
-| 2014 | 2 | █░░░░░░░░░░░ |
+| 2012 | 6 | █░░░░░░░░░░░ |
+| 2014 | 3 | █░░░░░░░░░░░ |
 | 2015 | 3 | █░░░░░░░░░░░ |
 | 2016 | 1 | █░░░░░░░░░░░ |
 | 2017 | 3 | █░░░░░░░░░░░ |
-| 2018 | 4 | █░░░░░░░░░░░ |
-| 2019 | 3 | █░░░░░░░░░░░ |
-| 2020 | 1 | █░░░░░░░░░░░ |
+| 2018 | 5 | █░░░░░░░░░░░ |
+| 2019 | 4 | █░░░░░░░░░░░ |
+| 2020 | 2 | █░░░░░░░░░░░ |
 | 2021 | 2 | █░░░░░░░░░░░ |
 | 2022 | 3 | █░░░░░░░░░░░ |
 | 2023 | 86 | ██░░░░░░░░░░ |
-| 2024 | 377 | ██████████░░ |
-| 2025 | 439 | ████████████ |
-| 2026 | 256 | ███████░░░░░ |
+| 2024 | 377 | ███████░░░░░ |
+| 2025 | 440 | ████████░░░░ |
+| 2026 | 651 | ████████████ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Hci | 62 | 2.1/mo | 40% | 65 |
-| Psychology | 211 | 6.2/mo | 35% | 28 |
-| Vr Ar | 75 | 2.1/mo | 33% | 26 |
-| Applications | 194 | 5.7/mo | 35% | 18 |
-| Algorithms | 163 | 4.2/mo | 31% | 17 |
-| Survey | 6 | 0.1/mo | 17% | 17 |
-| Hardware | 120 | 3.2/mo | 32% | 14 |
-| Ml Ai | 355 | 8.7/mo | 29% | 11 |
+| Ml Ai | 561 | 24.4/mo | 52% | 188 |
+| Psychology | 327 | 14.4/mo | 53% | 159 |
+| Application | 14 | 1.1/mo | 93% | 93 |
+| Hardware | 143 | 4.8/mo | 40% | 82 |
+| Algorithms | 176 | 4.8/mo | 33% | 37 |
+| Vr Ar | 77 | 2.0/mo | 31% | 31 |
+| Hci | 64 | 1.8/mo | 34% | 30 |
+| Applications | 214 | 5.6/mo | 31% | 7 |
 | Evaluation | 2 | 0.0/mo | 0% | 0 |
+| Survey | 15 | 0.0/mo | 0% | -100 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| oculomotor | 7 | 2.16 |
-| gaze-based interface | 1 | 1.54 |
-| scanpath | 12 | 1.42 |
-| saccade | 9 | 1.32 |
-| visual attention | 23 | 1.29 |
-| fixation | 29 | 1.24 |
-| foveated vision | 4 | 1.23 |
-| gaze tracking | 7 | 1.03 |
+| transformer attention | 17 | 1.67 |
+| oculomotor | 6 | 1.23 |
+| gaze synthesis | 1 | 1.13 |
+| scanpath | 13 | 1.05 |
+| visual attention | 31 | 1.03 |
+| attention mechanism | 119 | 0.93 |
+| fixation | 30 | 0.86 |
+| saccade | 9 | 0.81 |
 
 ### Top venues
 
 | Venue | Papers |
 |-------|--------|
-| CVPR 2026 | 3 |
+| MED | 12 |
 | ECCV 2024 | 3 |
-| CVPR 2024 | 2 |
+| CVPR 2026 | 3 |
+| NeurIPS 2026 | 3 |
 | ICLR 2025 | 2 |
-| TMLR | 1 |
+| ECCV 2026 | 2 |
+| PMC | 2 |
+| CVPR 2024 | 2 |
+| ECCV2024 workshop | 1 |
 | IROS 2024 | 1 |
-| ICML 2026 | 1 |
-| ICLR 2024 | 1 |
-| CVPR 2024 Gaze workshop | 1 |
-| CVPR 2025 | 1 |
 
 ### Research gaps (thinnest cells)
 
 | Cell | Papers |
 |------|--------|
-| `ml-ai/gaze-estimation` | 1 |
-| `vr-ar/foveated-rendering` | 1 |
-| `psychology/visual-perception` | 1 |
-| `applications/marketing` | 1 |
 | `survey/state-of-the-art` | 1 |
+| `applications/marketing` | 1 |
+| `vr-ar/foveated-rendering` | 1 |
+| `ml-ai/gaze-estimation` | 1 |
+| `psychology/visual-perception` | 1 |
 
-*Generated 2026-09 by `scripts/standard_stats.py`.*
+*Generated 2026-11 by `scripts/standard_stats.py`.*
 
 <!-- END CORPUS STATISTICS -->
 

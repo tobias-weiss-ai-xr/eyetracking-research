@@ -3,7 +3,7 @@
   {
    "id": "algorithms",
    "name": "Gaze Analysis Algorithms",
-   "count": 163,
+   "count": 176,
    "trajectory": {
     "2006": 1,
     "2009": 1,
@@ -12,24 +12,43 @@
     "2023": 11,
     "2024": 57,
     "2025": 52,
-    "2026": 39
+    "2026": 52
    },
    "momentum": {
     "id": "algorithms",
     "name": "Algorithms",
-    "total": 163,
-    "recent": 50,
-    "prior": 58,
-    "growth_pct": -13.8,
-    "recent_share": 0.307,
-    "papers_per_month": 4.2,
-    "score": 16.9
+    "total": 176,
+    "recent": 58,
+    "prior": 56,
+    "growth_pct": 3.6,
+    "recent_share": 0.33,
+    "papers_per_month": 4.8,
+    "score": 36.6
+   }
+  },
+  {
+   "id": "application",
+   "name": "application",
+   "count": 14,
+   "trajectory": {
+    "2026": 13
+   },
+   "momentum": {
+    "id": "application",
+    "name": "Application",
+    "total": 14,
+    "recent": 13,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.929,
+    "papers_per_month": 1.1,
+    "score": 92.9
    }
   },
   {
    "id": "applications",
    "name": "Applications & Use Cases",
-   "count": 194,
+   "count": 214,
    "trajectory": {
     "2014": 1,
     "2015": 1,
@@ -38,18 +57,18 @@
     "2023": 8,
     "2024": 52,
     "2025": 86,
-    "2026": 44
+    "2026": 64
    },
    "momentum": {
     "id": "applications",
     "name": "Applications",
-    "total": 194,
-    "recent": 68,
-    "prior": 82,
-    "growth_pct": -17.1,
-    "recent_share": 0.351,
-    "papers_per_month": 5.7,
-    "score": 18.0
+    "total": 214,
+    "recent": 67,
+    "prior": 89,
+    "growth_pct": -24.7,
+    "recent_share": 0.313,
+    "papers_per_month": 5.6,
+    "score": 6.6
    }
   },
   {
@@ -75,30 +94,30 @@
   {
    "id": "hardware",
    "name": "Hardware & Technology",
-   "count": 120,
+   "count": 143,
    "trajectory": {
     "2022": 1,
     "2023": 13,
     "2024": 36,
     "2025": 42,
-    "2026": 28
+    "2026": 51
    },
    "momentum": {
     "id": "hardware",
     "name": "Hardware",
-    "total": 120,
-    "recent": 38,
-    "prior": 46,
-    "growth_pct": -17.4,
-    "recent_share": 0.317,
-    "papers_per_month": 3.2,
-    "score": 14.3
+    "total": 143,
+    "recent": 57,
+    "prior": 40,
+    "growth_pct": 42.5,
+    "recent_share": 0.399,
+    "papers_per_month": 4.8,
+    "score": 82.4
    }
   },
   {
    "id": "hci",
    "name": "Human-Computer Interaction",
-   "count": 62,
+   "count": 64,
    "trajectory": {
     "2005": 1,
     "2012": 1,
@@ -106,24 +125,24 @@
     "2023": 2,
     "2024": 17,
     "2025": 27,
-    "2026": 13
+    "2026": 15
    },
    "momentum": {
     "id": "hci",
     "name": "Hci",
-    "total": 62,
-    "recent": 25,
-    "prior": 20,
-    "growth_pct": 25.0,
-    "recent_share": 0.403,
-    "papers_per_month": 2.1,
-    "score": 65.3
+    "total": 64,
+    "recent": 22,
+    "prior": 23,
+    "growth_pct": -4.3,
+    "recent_share": 0.344,
+    "papers_per_month": 1.8,
+    "score": 30.1
    }
   },
   {
    "id": "ml-ai",
    "name": "Machine Learning & AI",
-   "count": 355,
+   "count": 561,
    "trajectory": {
     "2015": 1,
     "2017": 2,
@@ -131,24 +150,24 @@
     "2023": 28,
     "2024": 131,
     "2025": 113,
-    "2026": 79
+    "2026": 285
    },
    "momentum": {
     "id": "ml-ai",
     "name": "Ml Ai",
-    "total": 355,
-    "recent": 104,
-    "prior": 127,
-    "growth_pct": -18.1,
-    "recent_share": 0.293,
-    "papers_per_month": 8.7,
-    "score": 11.2
+    "total": 561,
+    "recent": 293,
+    "prior": 124,
+    "growth_pct": 136.3,
+    "recent_share": 0.522,
+    "papers_per_month": 24.4,
+    "score": 188.5
    }
   },
   {
    "id": "psychology",
    "name": "Cognitive & Psychological Studies",
-   "count": 211,
+   "count": 327,
    "trajectory": {
     "2002": 1,
     "2004": 1,
@@ -157,47 +176,50 @@
     "2023": 16,
     "2024": 64,
     "2025": 90,
-    "2026": 37
+    "2026": 153
    },
    "momentum": {
     "id": "psychology",
     "name": "Psychology",
-    "total": 211,
-    "recent": 74,
-    "prior": 80,
-    "growth_pct": -7.5,
-    "recent_share": 0.351,
-    "papers_per_month": 6.2,
-    "score": 27.6
+    "total": 327,
+    "recent": 173,
+    "prior": 84,
+    "growth_pct": 106.0,
+    "recent_share": 0.529,
+    "papers_per_month": 14.4,
+    "score": 158.9
    }
   },
   {
    "id": "survey",
    "name": "Surveys & Reviews",
-   "count": 6,
+   "count": 15,
    "trajectory": {
-    "2012": 1,
+    "2012": 4,
+    "2014": 1,
     "2017": 1,
-    "2019": 1,
+    "2018": 1,
+    "2019": 2,
+    "2020": 1,
     "2024": 1,
-    "2025": 2
+    "2025": 3
    },
    "momentum": {
     "id": "survey",
     "name": "Survey",
-    "total": 6,
-    "recent": 1,
-    "prior": 1,
-    "growth_pct": 0.0,
-    "recent_share": 0.167,
-    "papers_per_month": 0.1,
-    "score": 16.7
+    "total": 15,
+    "recent": 0,
+    "prior": 3,
+    "growth_pct": -100.0,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": -100.0
    }
   },
   {
    "id": "vr-ar",
    "name": "VR, AR & XR",
-   "count": 75,
+   "count": 77,
    "trajectory": {
     "2018": 1,
     "2019": 1,
@@ -207,18 +229,18 @@
     "2023": 8,
     "2024": 19,
     "2025": 27,
-    "2026": 16
+    "2026": 18
    },
    "momentum": {
     "id": "vr-ar",
     "name": "Vr Ar",
-    "total": 75,
-    "recent": 25,
-    "prior": 27,
-    "growth_pct": -7.4,
-    "recent_share": 0.333,
-    "papers_per_month": 2.1,
-    "score": 25.9
+    "total": 77,
+    "recent": 24,
+    "prior": 24,
+    "growth_pct": 0.0,
+    "recent_share": 0.312,
+    "papers_per_month": 2.0,
+    "score": 31.2
    }
   }
  ],
@@ -226,7 +248,7 @@
   {
    "id": "assistive-tech",
    "name": "Assistive Technology",
-   "count": 101
+   "count": 109
   },
   {
    "id": "attention",
@@ -236,7 +258,7 @@
   {
    "id": "attention-models",
    "name": "Attention Models",
-   "count": 98
+   "count": 108
   },
   {
    "id": "benchmarks",
@@ -246,17 +268,17 @@
   {
    "id": "calibration",
    "name": "Calibration Methods",
-   "count": 101
+   "count": 123
   },
   {
    "id": "clinical",
    "name": "Clinical Psychology",
-   "count": 100
+   "count": 210
   },
   {
    "id": "et-in-ar",
    "name": "Eyetracking in AR",
-   "count": 11
+   "count": 12
   },
   {
    "id": "et-in-vr",
@@ -266,7 +288,7 @@
   {
    "id": "eye-trackers",
    "name": "Eye Tracking Devices",
-   "count": 19
+   "count": 20
   },
   {
    "id": "fixation-detection",
@@ -281,22 +303,27 @@
   {
    "id": "foveated-vision",
    "name": "Foveated Vision",
-   "count": 52
+   "count": 62
   },
   {
    "id": "gaze-estimation",
    "name": "Gaze Estimation",
-   "count": 101
+   "count": 110
   },
   {
    "id": "gaze-interfaces",
    "name": "Gaze-Based Interfaces",
-   "count": 10
+   "count": 11
   },
   {
    "id": "heatmap-generation",
    "name": "Heatmap Generation",
-   "count": 50
+   "count": 54
+  },
+  {
+   "id": "hybrid",
+   "name": "hybrid",
+   "count": 9
   },
   {
    "id": "input-methods",
@@ -316,17 +343,22 @@
   {
    "id": "medical",
    "name": "Medical & Diagnostic",
-   "count": 92
+   "count": 104
+  },
+  {
+   "id": "non-agentic",
+   "name": "non-agentic",
+   "count": 14
   },
   {
    "id": "reading",
    "name": "Reading Research",
-   "count": 41
+   "count": 47
   },
   {
    "id": "saliency-prediction",
    "name": "Saliency Prediction",
-   "count": 102
+   "count": 173
   },
   {
    "id": "scanpath-analysis",
@@ -341,12 +373,12 @@
   {
    "id": "transformers",
    "name": "Transformer-Based Models",
-   "count": 102
+   "count": 217
   },
   {
    "id": "usability",
    "name": "Usability Testing",
-   "count": 45
+   "count": 46
   },
   {
    "id": "visual-perception",
@@ -361,7 +393,7 @@
   {
    "id": "vr-interaction",
    "name": "VR Interaction Techniques",
-   "count": 10
+   "count": 11
   }
  ],
  "timeline": [
@@ -393,6 +425,16 @@
   [
    "2012-01",
    "survey",
+   "hybrid"
+  ],
+  [
+   "2012-01",
+   "survey",
+   "hybrid"
+  ],
+  [
+   "2012-01",
+   "survey",
    "literature-review"
   ],
   [
@@ -404,6 +446,16 @@
    "2012-05",
    "hci",
    "gaze-interfaces"
+  ],
+  [
+   "2012-10",
+   "survey",
+   "hybrid"
+  ],
+  [
+   "2014-01",
+   "survey",
+   "hybrid"
   ],
   [
    "2014-08",
@@ -451,6 +503,11 @@
    "state-of-the-art"
   ],
   [
+   "2018-01",
+   "survey",
+   "hybrid"
+  ],
+  [
    "2018-04",
    "ml-ai",
    "gaze-estimation"
@@ -471,6 +528,11 @@
    "benchmarks"
   ],
   [
+   "2019-02",
+   "survey",
+   "hybrid"
+  ],
+  [
    "2019-03",
    "psychology",
    "clinical"
@@ -484,6 +546,11 @@
    "2019-08",
    "survey",
    "literature-review"
+  ],
+  [
+   "2020-01",
+   "survey",
+   "hybrid"
   ],
   [
    "2020-10",
@@ -2952,6 +3019,11 @@
   ],
   [
    "2025-01",
+   "survey",
+   "hybrid"
+  ],
+  [
+   "2025-01",
    "vr-ar",
    "et-in-vr"
   ],
@@ -5042,6 +5114,71 @@
   ],
   [
    "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
+   "application",
+   "non-agentic"
+  ],
+  [
+   "2026-01",
    "applications",
    "assistive-tech"
   ],
@@ -5613,7 +5750,7 @@
   [
    "2026-04",
    "applications",
-   "medical"
+   "assistive-tech"
   ],
   [
    "2026-04",
@@ -5629,6 +5766,21 @@
    "2026-04",
    "applications",
    "medical"
+  ],
+  [
+   "2026-04",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-04",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-04",
+   "hardware",
+   "calibration"
   ],
   [
    "2026-04",
@@ -5672,6 +5824,91 @@
   ],
   [
    "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-04",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-04",
+   "psychology",
+   "attention"
+  ],
+  [
+   "2026-04",
    "psychology",
    "attention"
   ],
@@ -5683,7 +5920,32 @@
   [
    "2026-04",
    "psychology",
-   "attention"
+   "clinical"
+  ],
+  [
+   "2026-04",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-04",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-04",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-04",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-04",
+   "psychology",
+   "clinical"
   ],
   [
    "2026-04",
@@ -5742,6 +6004,16 @@
   ],
   [
    "2026-05",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-05",
+   "applications",
+   "assistive-tech"
+  ],
+  [
+   "2026-05",
    "applications",
    "assistive-tech"
   ],
@@ -5764,6 +6036,16 @@
    "2026-05",
    "applications",
    "medical"
+  ],
+  [
+   "2026-05",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-05",
+   "hardware",
+   "calibration"
   ],
   [
    "2026-05",
@@ -5862,6 +6144,201 @@
   ],
   [
    "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-05",
    "psychology",
    "attention"
   ],
@@ -5874,6 +6351,106 @@
    "2026-05",
    "psychology",
    "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-05",
+   "psychology",
+   "reading"
   ],
   [
    "2026-05",
@@ -5948,7 +6525,27 @@
   [
    "2026-06",
    "applications",
+   "assistive-tech"
+  ],
+  [
+   "2026-06",
+   "applications",
    "medical"
+  ],
+  [
+   "2026-06",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-06",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-06",
+   "hardware",
+   "calibration"
   ],
   [
    "2026-06",
@@ -6008,6 +6605,11 @@
   [
    "2026-06",
    "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
    "foveated-vision"
   ],
   [
@@ -6032,6 +6634,176 @@
   ],
   [
    "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-06",
    "psychology",
    "attention"
   ],
@@ -6039,6 +6811,76 @@
    "2026-06",
    "psychology",
    "attention"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-06",
+   "psychology",
+   "clinical"
   ],
   [
    "2026-06",
@@ -6078,6 +6920,16 @@
   [
    "2026-07",
    "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-07",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-07",
+   "algorithms",
    "heatmap-generation"
   ],
   [
@@ -6089,6 +6941,21 @@
    "2026-07",
    "algorithms",
    "scanpath-analysis"
+  ],
+  [
+   "2026-07",
+   "applications",
+   "assistive-tech"
+  ],
+  [
+   "2026-07",
+   "applications",
+   "assistive-tech"
+  ],
+  [
+   "2026-07",
+   "applications",
+   "assistive-tech"
   ],
   [
    "2026-07",
@@ -6112,6 +6979,16 @@
   ],
   [
    "2026-07",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-07",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-07",
    "hardware",
    "eye-trackers"
   ],
@@ -6168,12 +7045,177 @@
   [
    "2026-07",
    "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
    "transformers"
   ],
   [
    "2026-07",
    "ml-ai",
    "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-07",
+   "psychology",
+   "clinical"
   ],
   [
    "2026-07",
@@ -6253,6 +7295,21 @@
   [
    "2026-08",
    "hardware",
+   "calibration"
+  ],
+  [
+   "2026-08",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-08",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-08",
+   "hardware",
    "eye-trackers"
   ],
   [
@@ -6287,6 +7344,121 @@
   ],
   [
    "2026-08",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-08",
    "psychology",
    "clinical"
   ],
@@ -6304,27 +7476,918 @@
    "2026-08",
    "psychology",
    "reading"
+  ],
+  [
+   "2026-09",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-09",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-09",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-09",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-09",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-09",
+   "algorithms",
+   "heatmap-generation"
+  ],
+  [
+   "2026-09",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-09",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-09",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-09",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-09",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-09",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-09",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-09",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-09",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-09",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-09",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-09",
+   "hardware",
+   "eye-trackers"
+  ],
+  [
+   "2026-09",
+   "hci",
+   "gaze-interfaces"
+  ],
+  [
+   "2026-09",
+   "hci",
+   "usability"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "reading"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "reading"
+  ],
+  [
+   "2026-09",
+   "psychology",
+   "reading"
+  ],
+  [
+   "2026-09",
+   "vr-ar",
+   "et-in-ar"
+  ],
+  [
+   "2026-10",
+   "algorithms",
+   "gaze-estimation"
+  ],
+  [
+   "2026-10",
+   "algorithms",
+   "heatmap-generation"
+  ],
+  [
+   "2026-10",
+   "algorithms",
+   "heatmap-generation"
+  ],
+  [
+   "2026-10",
+   "algorithms",
+   "heatmap-generation"
+  ],
+  [
+   "2026-10",
+   "applications",
+   "assistive-tech"
+  ],
+  [
+   "2026-10",
+   "applications",
+   "assistive-tech"
+  ],
+  [
+   "2026-10",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-10",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-10",
+   "applications",
+   "medical"
+  ],
+  [
+   "2026-10",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-10",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-10",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-10",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-10",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-10",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-10",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "attention-models"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "reading"
+  ],
+  [
+   "2026-10",
+   "psychology",
+   "reading"
+  ],
+  [
+   "2026-10",
+   "vr-ar",
+   "vr-interaction"
+  ],
+  [
+   "2026-11",
+   "hardware",
+   "calibration"
+  ],
+  [
+   "2026-11",
+   "ml-ai",
+   "foveated-vision"
+  ],
+  [
+   "2026-11",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-11",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-11",
+   "ml-ai",
+   "saliency-prediction"
+  ],
+  [
+   "2026-11",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-11",
+   "ml-ai",
+   "transformers"
+  ],
+  [
+   "2026-11",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-11",
+   "psychology",
+   "clinical"
+  ],
+  [
+   "2026-11",
+   "psychology",
+   "clinical"
   ]
  ],
  "venues": [
   {
-   "name": "CVPR 2026",
-   "papers": 3
+   "name": "MED",
+   "papers": 12
   },
   {
    "name": "ECCV 2024",
    "papers": 3
   },
   {
-   "name": "CVPR 2024",
-   "papers": 2
+   "name": "CVPR 2026",
+   "papers": 3
+  },
+  {
+   "name": "NeurIPS 2026",
+   "papers": 3
   },
   {
    "name": "ICLR 2025",
    "papers": 2
   },
   {
-   "name": "TMLR",
+   "name": "ECCV 2026",
+   "papers": 2
+  },
+  {
+   "name": "PMC",
+   "papers": 2
+  },
+  {
+   "name": "CVPR 2024",
+   "papers": 2
+  },
+  {
+   "name": "ECCV2024 workshop",
    "papers": 1
   },
   {
@@ -6332,19 +8395,15 @@
    "papers": 1
   },
   {
-   "name": "ICML 2026",
+   "name": "CVPR2024",
    "papers": 1
   },
   {
-   "name": "ICLR 2024",
+   "name": "CIKM 2026",
    "papers": 1
   },
   {
-   "name": "CVPR 2024 Gaze workshop",
-   "papers": 1
-  },
-  {
-   "name": "CVPR 2025",
+   "name": "Achieving Success with Your Leadership Project",
    "papers": 1
   },
   {
@@ -6352,127 +8411,115 @@
    "papers": 1
   },
   {
-   "name": "COLING 2025",
-   "papers": 1
-  },
-  {
-   "name": "AAAI 2025",
-   "papers": 1
-  },
-  {
    "name": "ICML 2025",
-   "papers": 1
-  },
-  {
-   "name": "IJCAI 2024 Survey Track",
    "papers": 1
   }
  ],
  "keyword_bursts": [
   {
-   "keyword": "oculomotor",
-   "recent": 7,
-   "total": 10,
-   "burst_score": 2.16,
-   "recent_share": 0.0182
+   "keyword": "transformer attention",
+   "recent": 17,
+   "total": 23,
+   "burst_score": 1.67,
+   "recent_share": 0.024
   },
   {
-   "keyword": "gaze-based interface",
+   "keyword": "oculomotor",
+   "recent": 6,
+   "total": 11,
+   "burst_score": 1.23,
+   "recent_share": 0.0085
+  },
+  {
+   "keyword": "gaze synthesis",
    "recent": 1,
    "total": 2,
-   "burst_score": 1.54,
-   "recent_share": 0.0026
+   "burst_score": 1.13,
+   "recent_share": 0.0014
   },
   {
    "keyword": "scanpath",
-   "recent": 12,
-   "total": 26,
-   "burst_score": 1.42,
-   "recent_share": 0.0312
+   "recent": 13,
+   "total": 28,
+   "burst_score": 1.05,
+   "recent_share": 0.0184
+  },
+  {
+   "keyword": "visual attention",
+   "recent": 31,
+   "total": 68,
+   "burst_score": 1.03,
+   "recent_share": 0.0438
+  },
+  {
+   "keyword": "attention mechanism",
+   "recent": 119,
+   "total": 287,
+   "burst_score": 0.93,
+   "recent_share": 0.1683
+  },
+  {
+   "keyword": "fixation",
+   "recent": 30,
+   "total": 79,
+   "burst_score": 0.86,
+   "recent_share": 0.0424
   },
   {
    "keyword": "saccade",
    "recent": 9,
-   "total": 21,
-   "burst_score": 1.32,
-   "recent_share": 0.0234
+   "total": 25,
+   "burst_score": 0.81,
+   "recent_share": 0.0127
   },
   {
-   "keyword": "visual attention",
-   "recent": 23,
-   "total": 55,
-   "burst_score": 1.29,
-   "recent_share": 0.0597
-  },
-  {
-   "keyword": "fixation",
-   "recent": 29,
-   "total": 72,
-   "burst_score": 1.24,
-   "recent_share": 0.0753
-  },
-  {
-   "keyword": "foveated vision",
-   "recent": 4,
-   "total": 10,
-   "burst_score": 1.23,
-   "recent_share": 0.0104
+   "keyword": "gaze estimation",
+   "recent": 38,
+   "total": 113,
+   "burst_score": 0.76,
+   "recent_share": 0.0537
   },
   {
    "keyword": "gaze tracking",
    "recent": 7,
    "total": 21,
-   "burst_score": 1.03,
-   "recent_share": 0.0182
+   "burst_score": 0.75,
+   "recent_share": 0.0099
   },
   {
-   "keyword": "gaze estimation",
-   "recent": 35,
-   "total": 106,
-   "burst_score": 1.02,
-   "recent_share": 0.0909
+   "keyword": "foveated vision",
+   "recent": 3,
+   "total": 10,
+   "burst_score": 0.68,
+   "recent_share": 0.0042
   },
   {
-   "keyword": "augmented reality",
-   "recent": 12,
-   "total": 37,
-   "burst_score": 1.0,
-   "recent_share": 0.0312
-  },
-  {
-   "keyword": "foveated rendering",
-   "recent": 5,
-   "total": 18,
-   "burst_score": 0.86,
-   "recent_share": 0.013
+   "keyword": "saliency prediction",
+   "recent": 14,
+   "total": 49,
+   "burst_score": 0.64,
+   "recent_share": 0.0198
   },
   {
    "keyword": "eye tracking",
    "recent": 17,
-   "total": 63,
-   "burst_score": 0.83,
-   "recent_share": 0.0442
+   "total": 64,
+   "burst_score": 0.6,
+   "recent_share": 0.024
   },
   {
-   "keyword": "transformer attention",
-   "recent": 2,
-   "total": 8,
-   "burst_score": 0.77,
-   "recent_share": 0.0052
+   "keyword": "foveated rendering",
+   "recent": 5,
+   "total": 19,
+   "burst_score": 0.59,
+   "recent_share": 0.0071
   },
   {
-   "keyword": "attention mechanism",
-   "recent": 49,
-   "total": 205,
-   "burst_score": 0.74,
-   "recent_share": 0.1273
-  },
-  {
-   "keyword": "virtual reality",
-   "recent": 14,
-   "total": 66,
-   "burst_score": 0.65,
-   "recent_share": 0.0364
+   "keyword": "augmented reality",
+   "recent": 10,
+   "total": 39,
+   "burst_score": 0.58,
+   "recent_share": 0.0141
   }
  ]
 }
