@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-11-10  
-**Corpus:** 1,593 papers across 10 categories
+**Corpus:** 1,711 papers across 10 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Machine Learning & AI | 561 |
-| 2 | Cognitive & Psychological Studies | 327 |
-| 3 | Applications & Use Cases | 214 |
-| 4 | Gaze Analysis Algorithms | 176 |
-| 5 | Hardware & Technology | 143 |
+| 1 | Machine Learning & AI | 628 |
+| 2 | Cognitive & Psychological Studies | 355 |
+| 3 | Applications & Use Cases | 222 |
+| 4 | Gaze Analysis Algorithms | 180 |
+| 5 | Hardware & Technology | 154 |
 | 6 | VR, AR & XR | 77 |
 | 7 | Human-Computer Interaction | 64 |
 | 8 | Surveys & Reviews | 15 |
 
 **Time span:** 2002–2026 (median year 2017)
-**Dominant aspects:** Transformer-Based Models (217), Clinical Psychology (210), Saliency Prediction (173)
+**Dominant aspects:** Transformer-Based Models (254), Clinical Psychology (238), Saliency Prediction (201)
 
 ---
 
@@ -29,14 +29,14 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Ml Ai | 561 | 293 | 124 | +136% | 52% | 24.4 |
-| Psychology | 327 | 173 | 84 | +106% | 53% | 14.4 |
+| Ml Ai | 628 | 360 | 124 | +190% | 57% | 30.0 |
+| Psychology | 355 | 201 | 84 | +139% | 57% | 16.8 |
+| Hardware | 154 | 68 | 40 | +70% | 44% | 5.7 |
 | Application | 14 | 13 | 0 | — | 93% | 1.1 |
-| Hardware | 143 | 57 | 40 | +42% | 40% | 4.8 |
-| Algorithms | 176 | 58 | 56 | +4% | 33% | 4.8 |
+| Algorithms | 180 | 62 | 56 | +11% | 34% | 5.2 |
 | Vr Ar | 77 | 24 | 24 | +0% | 31% | 2.0 |
 | Hci | 64 | 22 | 23 | -4% | 34% | 1.8 |
-| Applications | 214 | 67 | 89 | -25% | 31% | 5.6 |
+| Applications | 222 | 75 | 89 | -16% | 34% | 6.2 |
 | Evaluation | 2 | 0 | 0 | — | 0% | 0.0 |
 | Survey | 15 | 0 | 3 | -100% | 0% | 0.0 |
 
@@ -62,7 +62,7 @@
 
 ### Machine Learning & AI (`ml-ai`)
 
-**Corpus size:** 561 papers
+**Corpus size:** 628 papers
 
 **Recent papers:**
 
@@ -74,7 +74,7 @@
 
 ### Cognitive & Psychological Studies (`psychology`)
 
-**Corpus size:** 327 papers
+**Corpus size:** 355 papers
 
 **Recent papers:**
 
@@ -86,7 +86,7 @@
 
 ### Applications & Use Cases (`applications`)
 
-**Corpus size:** 214 papers
+**Corpus size:** 222 papers
 
 **Recent papers:**
 
@@ -98,7 +98,7 @@
 
 ### Gaze Analysis Algorithms (`algorithms`)
 
-**Corpus size:** 176 papers
+**Corpus size:** 180 papers
 
 **Recent papers:**
 
@@ -110,7 +110,7 @@
 
 ### Hardware & Technology (`hardware`)
 
-**Corpus size:** 143 papers
+**Corpus size:** 154 papers
 
 **Recent papers:**
 

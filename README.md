@@ -244,19 +244,19 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**1593 papers** across **10 categories**.  
-Sources: **arXiv** 1547 (97%).  
+**1711 papers** across **10 categories**.  
+Sources: **arXiv** 1665 (97%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| ml-ai | **561** | 293 | ████████████ |
-| psychology | **327** | 173 | ███████░░░░░ |
-| applications | **214** | 67 | █████░░░░░░░ |
-| algorithms | **176** | 58 | ████░░░░░░░░ |
-| hardware | **143** | 57 | ███░░░░░░░░░ |
-| vr-ar | **77** | 24 | ██░░░░░░░░░░ |
+| ml-ai | **628** | 360 | ████████████ |
+| psychology | **355** | 201 | ███████░░░░░ |
+| applications | **222** | 75 | ████░░░░░░░░ |
+| algorithms | **180** | 62 | ███░░░░░░░░░ |
+| hardware | **154** | 68 | ███░░░░░░░░░ |
+| vr-ar | **77** | 24 | █░░░░░░░░░░░ |
 | hci | **64** | 22 | █░░░░░░░░░░░ |
 | survey | **15** | 0 | █░░░░░░░░░░░ |
 | application | **14** | 13 | █░░░░░░░░░░░ |
@@ -281,23 +281,23 @@ Sources: **arXiv** 1547 (97%).
 | 2020 | 2 | █░░░░░░░░░░░ |
 | 2021 | 2 | █░░░░░░░░░░░ |
 | 2022 | 3 | █░░░░░░░░░░░ |
-| 2023 | 86 | ██░░░░░░░░░░ |
-| 2024 | 377 | ███████░░░░░ |
-| 2025 | 440 | ████████░░░░ |
-| 2026 | 651 | ████████████ |
+| 2023 | 86 | █░░░░░░░░░░░ |
+| 2024 | 377 | ██████░░░░░░ |
+| 2025 | 480 | ████████░░░░ |
+| 2026 | 729 | ████████████ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Ml Ai | 561 | 24.4/mo | 52% | 188 |
-| Psychology | 327 | 14.4/mo | 53% | 159 |
+| Ml Ai | 628 | 30.0/mo | 57% | 248 |
+| Psychology | 355 | 16.8/mo | 57% | 196 |
+| Hardware | 154 | 5.7/mo | 44% | 114 |
 | Application | 14 | 1.1/mo | 93% | 93 |
-| Hardware | 143 | 4.8/mo | 40% | 82 |
-| Algorithms | 176 | 4.8/mo | 33% | 37 |
+| Algorithms | 180 | 5.2/mo | 34% | 45 |
 | Vr Ar | 77 | 2.0/mo | 31% | 31 |
 | Hci | 64 | 1.8/mo | 34% | 30 |
-| Applications | 214 | 5.6/mo | 31% | 7 |
+| Applications | 222 | 6.2/mo | 34% | 18 |
 | Evaluation | 2 | 0.0/mo | 0% | 0 |
 | Survey | 15 | 0.0/mo | 0% | -100 |
 
@@ -305,14 +305,14 @@ Sources: **arXiv** 1547 (97%).
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| transformer attention | 17 | 1.67 |
-| oculomotor | 6 | 1.23 |
-| gaze synthesis | 1 | 1.13 |
-| scanpath | 13 | 1.05 |
-| visual attention | 31 | 1.03 |
-| attention mechanism | 119 | 0.93 |
-| fixation | 30 | 0.86 |
-| saccade | 9 | 0.81 |
+| transformer attention | 19 | 1.58 |
+| oculomotor | 6 | 1.13 |
+| gaze synthesis | 1 | 1.04 |
+| attention mechanism | 156 | 1.0 |
+| scanpath | 14 | 1.0 |
+| visual attention | 32 | 0.96 |
+| fixation | 31 | 0.8 |
+| saccade | 9 | 0.75 |
 
 ### Top venues
 
