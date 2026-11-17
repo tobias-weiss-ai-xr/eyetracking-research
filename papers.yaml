@@ -51324,3 +51324,2567 @@ papers:
     reductions in model size and inference time. Despite the compression, the student
     model exceeds most existing frameworks, facilitating edge deployment for AMD screening.
     Code is available at https://github.com/erfan-nourbakhsh/KD-OCT.
+- title: 'RAPA: Ray-Aware Physics Augmentation for Robust Camera-LiDAR Calibration'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.12129v1
+  category: hardware
+  subcategory: calibration
+  authors:
+  - Kyung-Rin Oh
+  - Ji-Hoon Kim
+  - TaeJoon Ha
+  - Jae-Sang Hyun
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Camera-LiDAR calibration is essential for reliable perception in robotic
+    and autonomous systems. Most target-based calibration methods rely on checkerboard
+    observations, but accurate checkerboard feature extraction from LiDAR point clouds
+    remains challenging due to measurement sparsity. Existing approaches either require
+    manual annotation of 3D corners or depend on geometric feature extraction methods,
+    both of which can become unreliable when checkerboard features are insufficiently
+    observed. In this paper, we formulate checkerboard localization as a 2D detection
+    problem using cylindrical LiDAR reflectivity images. To overcome the limited availability
+    of labeled training data, we propose ray-aware physics augmentation (RAPA), which
+    generates diverse synthetic samples from a single checkerboard observation. The
+    generated data are used to improve detector robustness and generalization under
+    varying sensing conditions. Across four independently captured indoor and outdoor
+    locations, the proposed synthetic augmentation exceeds the strongest evaluated
+    image-space augmentation baseline by 16.1-43.1 percentage points in mAP@0.5. Compared
+    with training-free target-based methods on 242 observations, RAPA yields the largest
+    number of valid target localizations, with 96.4% of its returned detections yielding
+    valid target poses. These reliable localizations support downstream camera-LiDAR
+    calibration across all four evaluated locations. Overall, RAPA addresses a key
+    bottleneck in target-based calibration by enabling automated LiDAR-side target
+    localization with only a single annotated target observation.
+- title: 'Beyond Real or Fake: A Dual-Channel Authenticity and Reasoning Protocol
+    for Photographic Assessment'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.10908v1
+  category: ml-ai
+  subcategory: saliency-prediction
+  authors:
+  - Xiaoxiao Li
+  - Ruinan Jin
+  - Lili Meng
+  - Miaosen Wang
+  - Athula Balachandran
+  venue: NeurIPS 2026
+  code_url: ''
+  project_url: ''
+  abstract: 'Forensic verification has converged on a binary "real vs. fake" label
+    that confates fully synthetic, tampered, and AI-retouched images despite their
+    very different consequences. We argue that GenAI manipulations decompose along
+    two complementary channels: a camera channel of sensor fingerprints (destroyed
+    by neural processing), and a semantic channel of scene-level coherence (disrupted
+    by content edits). Each manipulation type leaves a distinctive two-channel signature.
+    We instantiate this taxonomy in 2CAP (2-Channel Authenticity Protocol), pairing
+    a contrastively-trained camera encoder with a frozen semantic encoder to serve
+    two applications on a shared backbone: (i) four-class authenticity classification
+    via cross-attention fusion with learnable reliability weights; and (ii) evidence
+    generation, where an authentic image serves as a reference for a query and the
+    two encoders produce per-channel alignment scores together with a patch-level
+    saliency map. These signals are supplied as privileged context to a frozen Vision-Language
+    Model (VLM) through an Observe-Generate-Refine loop, yielding explanations with
+    localization without forensic fine-tuning. On a multi-source benchmark, 2CAP attains
+    the best classification performance, including strong retouching detection where
+    existing methods fail, and improves explanation quality.'
+- title: Efficient 3D plant segmentation through multiscale graph learning and optimized
+    geometric processing
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.11007v1
+  category: ml-ai
+  subcategory: attention-models
+  authors:
+  - Jesus Ivan Ruiz-Martinez
+  - Andres Mendez-Vazquez
+  - Eduardo Rodriguez-Tello
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Plant organ segmentation on compact computing platforms requires accurate
+    predictions and affordable geometric preparation. We develop and evaluate a multiscale
+    edge based graph attention model that combines local shape descriptors, two neighborhood
+    scales and a residual stem and leaf correction in approximately 78 thousand parameters.
+    The engineering application is plant point cloud segmentation for precision agriculture,
+    assessed through grouped accuracy experiments and physical Raspberry Pi 5 inference.
+    Broad comparisons with hierarchical, graph and transformer baselines establish
+    PointNeXt as the strongest external accuracy reference among the tested local
+    recipes. A nested four variant ablation on a local maize collection separates
+    geometric information from the combined multiscale configuration across seven
+    outer groups and three seeds. The complete model achieves the highest mean intersection
+    over union, 86.36%, although uncertainty and boundary errors qualify the contribution
+    of each component. We then optimize full cloud principal component analysis, sampling
+    and neighbor queries without changing learned weights or descriptor definitions.
+    All 1,180 paired desktop comparisons on PlantNet and TomatoWUR preserve exact
+    logits and predictions. Multiscale pipeline latency falls from 330.33 to 96.82
+    milliseconds on PlantNet and from 1,054.52 to 463.10 milliseconds on TomatoWUR.
+    PointNeXt also benefits from optimized sampling and remains faster over the complete
+    pipeline. These results support compact graph learning with reduced geometric
+    overhead, while physical board measurements establish inference feasibility rather
+    than energy efficiency or readiness for autonomous flight.
+- title: 'Unlocking with the Heart: Investigating User Perceptions of ECG-Based Biometric
+    Authentication'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.39152v1
+  category: hci
+  subcategory: usability
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Password-based authentication remains challenging for many users, especially
+    for those who face usability and accessibility issues. The burden of maintaining
+    security can cause user fatigue, frustration and non-engagement. To address these
+    issues, we conducted a pilot study to assess ECG-based biometric authentication
+    as a passwordless alternative and to gather adult participants' perspectives on
+    this approach. The research consisted of a survey study, an authentication prototype
+    and a follow-up usability experience questionnaire. Our approach combined an online
+    survey of 337 adults examining authentication practices and perceptions, with
+    a separate usability evaluation in which 49 participants interacted with a simulated
+    ECG-authentication and password interface in a health-care application prototype,
+    then completed a post-test usability test questionnaire. The survey examined how
+    adults across age groups use and perceive various authentication techniques, their
+    experiences with biometrics, their views on security and convenience, and their
+    willingness to adopt ECG authentication. In parallel, the usability prototype
+    and questionnaire captured participants' responses after hands-on interaction
+    with an ECG authentication prototype.
+- title: Automated screening of Parkinson's Disease using Smooth Pursuit Eye Movements
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.33359v1
+  category: psychology
+  subcategory: attention
+  authors:
+  - J. Camilo Puerta-Acevedo
+  - Maria F. Alcala-Durand
+  - Julián D. Arias-Londoño
+  - Elisa Luque-Buzo
+  - Francisco Grandas-Pérez
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Smooth pursuit eye movements are frequently altered in Parkinson's disease,
+    but previous studies have relied mainly on conventional parameters that describe
+    the relationship between gaze and target. This study investigates whether complexity
+    and nonlinear dynamics measures of the gaze position sequences can support the
+    automatic screening of Parkinson's disease. Gaze position sequences were recorded
+    with a video eye tracker in 41 participants with early Parkinson's disease and
+    47 healthy controls during 12 smooth pursuit tasks. Four experimental frameworks
+    and four embedding delay strategies were compared. The selected experimental setting
+    combined baseline wander removal with a fixed embedding delay. After feature selection,
+    a support vector machine was trained for each task and axis and their outputs
+    were combined in a mixture of experts. The pipeline was developed in 70 participants
+    and evaluated on an external test set of 18 participants. On the external test
+    set, the pipeline obtained an area under the receiver operating characteristic
+    curve of 0.86. The most informative features described less persistent and more
+    irregular gaze position sequences in Parkinson's disease, mainly along the horizontal
+    axis. These results support complexity and nonlinear dynamics measures of smooth
+    pursuit as candidate markers for Parkinson's disease screening, pending validation
+    in larger independent cohorts.
+- title: 'pyTransRate: reference-free quality assessment of de novo transcriptome
+    assemblies with current aligners and quantifiers'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.37031v2
+  category: psychology
+  subcategory: reading
+  authors:
+  - Matthew MacManes
+  venue: ''
+  code_url: https://github.com/macmanes-lab/pytransrate
+  project_url: ''
+  abstract: 'Summary: The original software TransRate scores a de novo transcriptome
+    assembly by mapping the reads it was built from back to it, with no reference
+    required. Its last release (1.0.3) depends on Ruby 2.2 and on aligner and quantifier
+    versions that can no longer be installed on most systems. pyTransRate is a Python
+    reimplementation of the TransRate method built on snap-aligner 2.0.5 and salmon
+    2.7.0. In 5,031 paired comparisons (39 assembly-level metrics on each of 129 public
+    assemblies), it reproduces the original sequence metrics and read counts exactly
+    and ranks assemblies consistently with 1.0.3 (Spearman rho = 0.94 for assembly
+    score, 0.98 for good-mapping rate), although its read-based scores are not numerically
+    interchangeable with the original. It also reads gzip- and bgzip-compressed input
+    directly. Availability and Implementation: pyTransRate is implemented in Python
+    3 and is freely available under the MIT license at https://github.com/macmanes-lab/pytransrate.
+    It runs on Linux and macOS; snap-aligner and salmon are installed from Bioconda.
+    Supplementary information: Supplementary data are available online. Supplementary
+    Table S1 lists the assembly and read accessions for every assembly analyzed; Supplementary
+    Table S2 gives per-assembly values from both implementations.'
+- title: 'From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical
+    Research Agents'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.01527v1
+  category: psychology
+  subcategory: reading
+  authors:
+  - Xingyu Yi
+  - Xinya Zhang
+  - Yunshen Zhou
+  - Haoyu Bao
+  venue: NeurIPS 2026 AgenticLS Workshop
+  code_url: ''
+  project_url: ''
+  abstract: A scientific agent can give the same verdict while reading and citing
+    different evidence. BioAgent-DF tests this separation using paired reference and
+    candidate values saved at the same scientific computation site. It restores or
+    transplants those values at their original coordinates, then runs the agent on
+    healthy hardware. Across eight SciFact batches, Qwen3.5-4B shows repeatable citation
+    changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable
+    read and citation changes in four. These seven combinations cover two claims.
+    Full restoration recovers the reference evidence sets while verdicts remain unchanged.
+    Verdict changes observed under the baseline prompt did not recur under the explicit-example
+    prompt. Complementary tool and optimizer experiments distinguish recovery of numerical
+    state, recovery of ranked lists, and restoration of an agent's visible history.
+    These results show that an audit should track both the evidence an agent uses
+    and its final answer. In hERG cardiac-safety assay allocation, silent numerical
+    faults changed testing decisions while the fixed-budget shortlist kept the same
+    number of compounds labeled as blockers. After the agent had used faulty values,
+    restoring its earlier execution state and supplying certified scores recovered
+    all 39 changed decisions, whereas replacing the prediction file recovered none;
+    no incorrect action was committed. A streaming implementation of the arithmetic
+    checks reduced the total time for forward execution and verification by 42.4%
+    relative to the original FP64 implementation, with identical flags and recovery
+    outputs.
+- title: 'MedEvo: Medical Reasoning Evolution through Knowledge Navigation'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.17690v2
+  category: psychology
+  subcategory: reading
+  authors:
+  - Xiaoliang Wang
+  - Zhuo Chen
+  - Chuanyang Zheng
+  - Quanbin Wang
+  - Jiangwei Lao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Medical multimodal reasoning models are typically trained on teacher-generated
+    rationales, discarding the valid reasoning in students' own failed trajectories,
+    while general-domain correction methods offer little guidance for errors in image
+    reading, anatomical context, or differential diagnosis. We propose MedEvo, which
+    uses medical knowledge, namely a tag taxonomy and error-type diagnosis, to navigate
+    both trajectory repair and data selection. For each failed rollout, a gold-blind
+    auditor locates the first consequential error and provides a minimal, answer-free
+    hint; the same student retains the valid prefix and regenerates the erroneous
+    suffix. After each round, MedEvo identifies capability gaps across medical tags
+    on a held-out feedback set and prioritizes related questions for new rollouts
+    and repairs. With supervised fine-tuning (SFT) alone, MedEvo raises Qwen3.5-9B
+    mean accuracy across seven benchmarks from 65.57% to 69.12% (47.40% to 54.50%
+    on the multimodal track of MedXpertQA (MedXpertQA-MM)), surpassing teacher-distillation
+    SFT (66.93%). It also raises Qwen3.5-35B and Qwen3.5-397B mean accuracy from 67.91%
+    to 73.04% and from 71.83% to 74.95%, respectively. Our analyses show that failed
+    trajectories contain reasoning worth preserving, that repair success does not
+    imply learning value, and that independent feedback is key to sustained improvement.
+- title: 'One Mistake, Three Layers: Persistence Rules Under Depth Correlation'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.03968v1
+  category: psychology
+  subcategory: reading
+  authors:
+  - Maryam Rahimimovassagh
+  - Michael Brown
+  - Sanjeda Sara Jennifer
+  - Niloofar Yousefi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Probing frozen representations layer by layer is now standard practice,
+    but reporting when a signal first becomes decodable requires a rule for reading
+    a depth curve, and the obvious rule is wrong. On synthetic curves with known ground
+    truth, requiring a probe score to exceed a null-calibrated threshold for three
+    consecutive stages reports an onset nineteen stages early under transformer-like
+    depth correlation, with every resample returning an onset. The failure follows
+    from correlation between neighboring layers, a hazard known in neuroimaging but
+    not, to our knowledge, checked for depth curves. We give an estimator whose error
+    rate is calibrated rather than assumed. Null trajectories are built by permuting
+    labels within each evaluation unit and holding each permutation fixed across depth,
+    preserving the correlation structure the rule must survive; thresholds are per-layer
+    order statistics; and the persistence requirement is calibrated rather than chosen.
+    Applied to pocket information in a frozen co-folding trunk, stratifying 1,820
+    post-cutoff targets by protein-family and pocket familiarity, the five-stage rule
+    fires on 4 to 7 per cent of null trajectories against a nominal 5 per cent and
+    the three-stage rule on 12 to 17: the synthetic failure reproduces on real data.
+    Pocket membership is decodable above threshold at all 48 blocks in all four regimes,
+    so the onset cannot discriminate them; the pre-declared accumulation depth does,
+    and is latest for familiar families with structurally novel pockets in every feature
+    set. That regime is also the weakest, by a margin surviving controls for length,
+    pocket measure and alignment depth. Separately, a widely used public co-folding
+    checkpoint loads against its own code with 128 trunk parameters missing; those
+    would be randomly initialized, and every representation extracted would be partly
+    noise while appearing normal.'
+- title: How large an effect would we have seen? Positive controls, detection floors
+    and dataset pitfalls in scalp-EEG speech decoding
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.20942v1
+  category: psychology
+  subcategory: reading
+  authors:
+  - Blessing Isoyiza Adeika
+  - Onyema Osuagwu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Objective. Studies that decode imagined speech from scalp electroencephalography
+    (EEG) commonly validate their pipelines with a positive control, usually overt
+    speech, and report null results without stating what effect size the pipeline
+    could have detected. Approach. Using ds003626 ("Thinking out loud"), KaraOne and
+    Track 3 of the 2020 International Brain-Computer Interface Competition, we audited
+    decoding of overt speech, articulator preparation and imagined speech with artifact-channel
+    subsets, band-limited decoding and trial selection, under a protocol that enforces
+    split integrity by assertion. We injected class-dependent effects of known amplitude
+    into the real recordings to measure the detection floor of five decoder families,
+    and we checked the ds003626 labels against the dataset's acquisition protocol.
+    Main results. On ds003626, two lip electrodes decoded overt speech at 0.7430 and
+    the eight external channels at 0.7068, against 0.4231 for the 128-channel scalp
+    montage, and no decodable signal survived in the 8-30 Hz band. On the other two
+    corpora, within-subject accuracy rose monotonically with frequency into the range
+    dominated by muscle activity. Band-power logistic regression detected an injected
+    8-30 Hz desynchronization of 0.54 uV under a criterion fixed in advance, whereas
+    a compact convolutional network (EEGNet) detected nothing within subject up to
+    4.31 uV. In ds003626, the condition codes are the reverse of the intuitive reading,
+    the class encoding changed between public releases, and condition is a deterministic
+    function of time within each session. Significance. In these corpora the overt-speech
+    positive control is dominated by myogenic signal and cannot validate a decoding
+    pipeline. We recommend that speech-decoding studies report band-limited and artifact-channel
+    accuracy, the direction of accuracy across frequency, and a measured detection
+    floor.
+- title: 'CausalOdyssey: Multi-Agent Local LLM Reasoning with Per-Patient Causal Structure
+    for Rare Disease Retrieval'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.32995v1
+  category: psychology
+  subcategory: reading
+  authors:
+  - Xueer Chen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Patients with rare diseases often wait years for a diagnosis. Existing
+    HPO-based retrieval tools narrow the differential to a shortlist, but a clinician
+    reading that shortlist has no signal for which candidate to trust or what to test
+    next. We present CausalOdyssey, a local four-agent pipeline on Gemma 4 26B built
+    over a classical IC-weighted gene-rescue backbone: a Diagnostician reranks the
+    slate via chain-of-thought over per-patient FCI causal edges and Reactome mechanism
+    context; a Verifier computes deterministic evidence against the top-1 (missing
+    pathognomonic phenotypes, pathway chain closure) and has Gemma issue a confirm/flag/refute
+    verdict over it; an Interrogator selects one follow-up HPO by split-variance scoring;
+    a Narrator emits citation-validated clinical prose. Only the Diagnostician changes
+    the ranking; the other three agents annotate it. On RareBench n=1,122, reranking
+    a top-30 slate lifts R@1 by +12.57 pp over our structural baseline ([+10.07, +14.97];
+    p=8.3e-24). A no-LLM variant of that baseline, without its inverse disease-count
+    weight, reaches a similar pooled R@1 (36.3% vs 35.3%): the LLM rerank is far better
+    on metabolic cases (RAMEDIS, +16.0 pp) and far worse on case-report corpora (LIRICAL,
+    MME), so its value is corpus-dependent. We also propose a masked-phenotype protocol
+    for evaluating follow-up suggestions without an annotation-based oracle; under
+    it, the Interrogator asks for a patient''s hidden phenotypes no more often than
+    simple baselines (0.6% vs 1.2%), although a perfect follow-up would add 11 pp
+    at top-1. The Verifier''s verdict separates correct from incorrect top-1s (51.4%
+    vs 12.1% top-1 accuracy under confirm vs refute). For 30% of patients the gold
+    diagnosis is outside our top-30, though LIRICAL retrieves over half of these.
+    All inference is local; no patient data leaves the machine. Demo code and a live
+    demo are public.'
+- title: 'Reading Between the Reads: A Decade On, Revisiting Sequencing Protocol Annotation
+    in the Sequence Read Archive'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.27331v3
+  category: psychology
+  subcategory: reading
+  authors:
+  - Jamie J. Alnasir
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Background: Experimental metadata are essential for interpreting archived
+    sequencing data. In 2015, Alnasir and Shanahan examined the annotation of fragmentation,
+    adapter ligation and enrichment in the Sequence Read Archive (SRA). This study
+    revisits those measurements using the original SQL keyword definitions on a September
+    2026 NCBI metadata snapshot reconstructed in the historical SRAdb schema. Results:
+    The contemporary database contained 41,593,302 experiments, compared with 419,620
+    in 2013. In library_construction_protocol, the proportion matching all three historical
+    keyword groups declined from 4.06% to 1.42%. The protocol field was NULL in 67.65%
+    of contemporary experiments. Searching design_description alongside the protocol
+    field increased combined three-step keyword detection to 1,197,367 experiments
+    (2.88%), with most additional matches occurring where the protocol field was NULL.
+    Coverage varied across sequencing library strategies, ranging from 0.26% for AMPLICON
+    to 7.69% for RNA-Seq. Independent comparison of 150 sampled experiment records
+    against source XML confirmed agreement in all historical keyword classifications.
+    Conclusions: The original criteria identify a smaller proportion of experiments
+    in the designated protocol field than a decade earlier. Additional preparation-related
+    terminology is detectable in general experiment descriptions, exposing the limitations
+    of searches restricted to one metadata field. Differences among sequencing strategies
+    complicate historical comparisons as preparation methods evolve. The findings
+    support more consistent protocol annotation and the need to distinguish keyword
+    occurrence from the adequacy of experimental documentation.'
+- title: 'Toward Controlling Biology with Language: Offline Learning of Prompt-Conditioned
+    Interventions for Cells, Organoids, and Biobots'
+  date: 2026-09
+  url: https://arxiv.org/abs/2610.02247v2
+  category: psychology
+  subcategory: reading
+  authors:
+  - Nam H. Le
+  - Douglas Blackiston
+  - Michael Levin
+  - Josh Bongard
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Natural language has become an interface to code, images and molecules,
+    but not to living matter: a stimulus applied to cells has no fixed linguistic
+    meaning, and every paired example of an instruction and its outcome costs a wet-lab
+    experiment. We ask how far an existing archive of experiments can take this interface,
+    using xenobots, motile multicellular constructs made of frog cells, stimulated
+    by a single electrical pulse of varying duration. We re-track 155 archived recordings
+    with two independent methods, measure what the pulse does from each bot''s own
+    behaviour before and after it, and separate behaviours the pulse controls from
+    behaviours it does not. Longer pulses stop bots and short pulses leave them moving,
+    sometimes faster; turning direction and starting from rest do not depend on duration,
+    and restarting at most weakly. We then replace hand-made behaviour labels with
+    a blind language critic: fresh sessions of a multimodal language model read plots
+    of each bot and score how well its behaviour matches each of 176 instructions.
+    The critic agrees with the measured labels whenever its plots contain the information
+    the labels are defined on, and dose curves learned from its scores match those
+    learned from the measurements. A prompt-to-intervention model trained only on
+    critic scores maps unseen instructions, including negations, to the right end
+    of the dose range on unseen bots, as well as the same model trained on measured
+    labels. The archive therefore supports a calibrated, refusing language interface
+    for the three behaviours a pulse can set, and identifies, rather than hides, the
+    behaviours it cannot.'
+- title: 'Debate, Not Voting: Agentic Arbitration over Weak Optical Chemical Structure
+    Recognition Models'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.33002v1
+  category: psychology
+  subcategory: reading
+  authors:
+  - Paul Chauvin
+  - Sven Jager
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Optical chemical structure recognition (OCSR) turns a picture of a molecule
+    into a machine-readable string, and it stands between decades of printed chemistry
+    and any computational use. On real documents individual models remain unreliable.
+    Over a 1000-molecule sample of MolParser, three readers score $46.0\%$, $43.4\%$
+    and $42.4\%$ exact match, yet at least one of them is right on $60.8\%$ of molecules.
+    That gap is an ensembling problem, but not one voting can solve, because the readers
+    seldom agree and seldom err together. We place the readers inside a multi-agent
+    scaffold. Four language-model agents with cheminformatics tools argue about a
+    candidate structure, write findings to an append-only knowledge base, and are
+    held to render-and-compare gates that admit a correction only when it is demonstrably
+    better. The debate reaches $61.9\%$, beating the best single reader by $15.9$
+    points and plurality voting by $9.2$ points ($p&lt;10^{-9}$ for both, robust to
+    correction for all $27$ tests we report), and is indistinguishable from the any-reader-right
+    ceiling. That aggregate hides two opposing effects. On the $661$ molecules with
+    no stereochemistry the debate is $3.9$ points above the ceiling ($p=0.004$), constructing
+    structures no reader proposed, while on the $339$ stereochemical ones it falls
+    below. We then swap the arbitrating model. A stronger arbitrator adds $2.2$ points
+    (nominal $p=0.039$; neither this nor the $+3.9$ survives Bonferroni correction
+    over all $27$ tests, so both are suggestive), and its mechanism is visible: it
+    opens a correction on $423$ of $1000$ molecules against $120$, and an interaction
+    test indicates it depends less on the readers (nominal $p=0.018$, not correction-robust).
+    We conclude that the useful unit of progress is the arbitration policy rather
+    than the reader, and that OCSR accuracy is better read against the union oracle
+    than against the best single model.'
+- title: Open-Source Framework for the Visualization, Quantification, and Analysis
+    of 4D Flow and High-Dimensional Magnetic Resonance Images
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.38948v2
+  category: psychology
+  subcategory: reading
+  authors:
+  - Andras Lasso
+  - Julia Iacovella
+  - Csaba Pinter
+  - Kevin K. Whitehead
+  - Sehdev Pressley
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Background: Four-dimensional (4D) flow cardiovascular magnetic resonance
+    (CMR) captures 3D anatomy and blood velocity across the cardiac cycle, but current
+    post-processing software is closed, varies across platforms, and sits outside
+    open-source image-computing frameworks. We developed an open-source framework
+    for the import, visualization, and quantification of 4D flow and other high-dimensional
+    CMR within SlicerHeart, an extension for 3D Slicer. Methods: Import 4D Flow reads
+    vendor DICOM, applies preprocessing, and stores velocities as a time-resolved
+    vector field; Analyze 4D Flow provides measurement planes, streamline and Doppler-like
+    visualization, segmentation propagation, and quantification. Underlying both,
+    we extended the Insight Toolkit to store five- and higher-dimensional arrays.
+    Flow quantification was compared with a commercial package (cvi42) and 2D phase
+    contrast in 13 patients with congenital heart disease across 108 paired regions
+    of interest (Bland-Altman analysis and intraclass correlation coefficients, ICCs).
+    Consensus-recommended processing methods were also implemented as an open-source
+    library with an automated test suite of analytic and CFD phantoms and clinical
+    acquisitions. Results: The modules integrate with 3D Slicer''s segmentation, registration,
+    and rendering tools and export velocity fields and geometry for computational
+    modeling. Agreement with cvi42 was close: forward volume bias -0.1 mL (95% limits
+    of agreement 2.2 to -2.3; ICC 0.997), effective volume per minute bias -0.015
+    L/min (0.21 to -0.24; ICC 0.994). Against 2D phase contrast, forward volume bias
+    (-2.2 mL) and mean absolute percentage error (21.8%) matched cvi42 (-2.1 mL; 21.3%).
+    Conclusions: This open, extensible framework brings 4D flow CMR into an established
+    image-computing ecosystem and agrees closely with a commercial reference; every
+    step can be inspected, reproduced, and improved.'
+- title: 'A small HER2 reader for routine H&amp;E slides: real-world deployment'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.40662v1
+  category: psychology
+  subcategory: reading
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: https://huggingface.co/cloudkites/her2-reader
+  abstract: HER2 status decides who receives HER2-targeted therapy. Pathologists score
+    HER2 protein by immunohistochemistry (IHC); equivocal IHC 2+ tumours, their hardest
+    calls, wait for in situ hybridisation (ISH). We built a HER2 reader for routine
+    H&amp;E slides, owned end to end, as a baseline for pathologists. A 22M-parameter
+    ViT-S/16 tile encoder was trained on public TCGA slides by self-supervision, distillation
+    from H-optimus-0 and two rounds of JEPA refinement; five cross-validated attention-based
+    slide classifiers average their probabilities; and an operating point is fixed
+    on training data. Compared under one paired ten-seed protocol, readers on our
+    encoder rank first of 7 on external validation from TCGA-BRCA to Yale-HER2 (AUC
+    0.812), level with readers on encoders 4 and 50 times larger. We also rebuilt
+    PathBench's encoder benchmark on public cohorts; our replica reproduces its published
+    order of reference encoders, and under it our encoder ranks first of 7 on TCGA-BRCA
+    (0.689) and sits level with H-optimus-0 and Phikon on Yale-HER2 (0.897). On three
+    external hospitals our deployed reader reaches AUC 0.82 on Yale-HER2 (about 0.81
+    with training slides balanced for tissue size), 0.75 on HEROHE and 0.63 on BCNB
+    biopsies, and among HEROHE's 85 IHC 2+ cases it ranks ISH-amplified above non-amplified
+    tumours at 0.76, best among our TCGA-trained readers. Per-laboratory score normalisation
+    and a laboratory's own slides improve it further on a new site. Without a GPU
+    our reader needs 5-6 s per slide. It serves as a research-use pre-read in a pathology
+    platform, where it proposes a probability and a call beside IHC and helps prioritise
+    ISH for equivocal cases. Weights, per-slide predictions and the data behind every
+    figure are public at https://huggingface.co/cloudkites/her2-reader.
+- title: 'EvoSurv: Evolution-Aware Multimodal Survival Modeling Reveals Complementary
+    Prognostic Signals'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.13190v1
+  category: psychology
+  subcategory: clinical
+  authors:
+  - Wei Wang
+  - Po-Yu Liang
+  - Jun Bai
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Accurate cancer survival prediction remains challenging due to tumor heterogeneity.
+    Although multimodal survival models integrate clinical and molecular data, they
+    often overlook evolutionary information encoded in genomic alterations. To address
+    this gap, we developed eTime, a 38-dimensional evolutionary representation comprising
+    eight feature groups that characterize clonal and subclonal mutation burden, mutational
+    spectra, functional consequences, copy-number alterations, and anoikis-related
+    genomic changes. We further developed EvoSurv, a multimodal survival framework
+    integrating eTime with clinical variables and RNA expression. Across six TCGA
+    cancer cohorts comprising 2,782 patients, EvoSurv achieved the highest mean concordance
+    index (C-index) in all six cancers, averaging 0.663 and outperforming three state-of-the-art
+    survival prediction methods. More importantly, we assessed whether evolutionary
+    features provide additional prognostic information beyond clinical and transcriptomic
+    predictors. eTime remained significantly associated with survival in head and
+    neck squamous cell carcinoma (HNSC) and liver hepatocellular carcinoma (LIHC)
+    after adjustment for clinical variables and RNA-derived risk scores. Feature-group
+    analyses further revealed cancer-specific prognostic patterns. In HNSC, T&gt;G
+    substitutions were associated with increased mortality risk after clinical and
+    molecular adjustment, including in HPV-negative patients, with supporting evidence
+    from an independent CPTAC-HNSCC cohort. Overall, these findings demonstrate that
+    eTime captures survival-associated evolutionary information and highlight its
+    potential to provide prognostic value beyond clinical and transcriptomic predictors.
+- title: Causal Outcome Learning with Noisy Proxies
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.10955v1
+  category: psychology
+  subcategory: clinical
+  authors:
+  - Eric V. Strobl
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Modern observational biomedical datasets contain increasingly extensive
+    baseline and outcome measurements, yet detecting a clinically meaningful treatment
+    effect remains difficult because investigators must identify an outcome that captures
+    treatment response while adjusting for confounding distributed across numerous
+    noisy baseline variables. We introduce SCOUT (Score-based Causal Outcome Learning
+    Using Treatment signals), a framework that learns a clinically interpretable,
+    treatment-responsive outcome while adjusting for confounding throughout the learning
+    process. SCOUT constructs low-dimensional adjustment representations of high-dimensional
+    baseline measurements to estimate the average treatment effect (ATE) and conditional
+    average treatment effect (CATE) for the learned outcome. Importantly, the final
+    adjustment space is at most two-dimensional, allowing treatment-effect heterogeneity
+    to be estimated in this space rather than in the full high-dimensional covariate
+    space. SCOUT also introduces a fourth-order statistic for testing treatment-effect
+    heterogeneity that emphasizes unusually large deviations from the ATE. In synthetic
+    and semi-synthetic experiments, the algorithm achieved competitive ATE estimation
+    accuracy and substantially lower CATE estimation error. In an observational study
+    of patients with bipolar disorder, SCOUT identified a clinically recognizable
+    lithium-associated adverse-effect profile, detecting both a significant ATE (Holm-adjusted
+    $p$ = 0.0026) and significant treatment-effect heterogeneity (Holm-adjusted $p$
+    = 0.033).These results demonstrate how jointly learning outcomes and controlling
+    for confounding can facilitate the discovery of treatment effects in high-dimensional
+    observational data.
+- title: 'RadAI: Gaze-Intention Fusion Pipeline for Attention-Guided Educational Videos
+    in Chest X-Ray Interpretation'
+  date: 2026-10
+  url: https://arxiv.org/abs/2611.09955v1
+  category: applications
+  subcategory: medical
+  authors:
+  - Kavish Mehta
+  - Yuvan Siddharth Katamaneni
+  - Akash Awasthi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Chest radiograph interpretation errors often arise from failures in visual
+    search: although trainees may correctly identify an abnormality once pointed out,
+    they frequently fail to fixate on the relevant region, while expert search strategies
+    (where radiologists look, in what sequence, and for how long) remain largely implicit.
+    Eye movement modeling examples (EMME), which replay a recorded expert''s gaze
+    over the image, have been shown to improve novice detection of findings on chest
+    radiographs, but producing one requires an eye-tracking session on that specific
+    case, so teaching sets are limited to recorded sessions by experts. In this work,
+    RadAI is presented, the first end-to-end framework for transforming predicted
+    radiologist gaze into narrated instructional videos, enabling scalable gaze-guided
+    training without collecting new eye-tracking data. Given only a chest X-ray and
+    its report, RadAI predicts an expert fixation sequence, associates each interval
+    of that sequence with the diagnostic finding it pursues, extracts the corresponding
+    image region, and renders the result as an EMME-style video in which each highlighted
+    finding is narrated with synthesized speech. RadAI is evaluated on 97 cases from
+    the EGD-CXR dataset, assessing whether the highlighted regions correspond to annotated
+    abnormality locations. We position this work as a framework for scalable generation
+    of educational content for residents and medical students in the field of radiology.'
+- title: 'Effects of infertility on relationship quality and mental health outcomes
+    in sub-Saharan Africa: A scoping review.'
+  date: 2026-01
+  url: https://doi.org/10.1371/journal.pgph.0005923
+  category: application
+  subcategory: non-agentic
+  authors:
+  - Juma K
+  - Kairu C
+  - Nungo MA
+  abstract: Infertility is associated with significant psychosocial challenges, and
+    relationship strain yet remains underprioritized in sub-Saharan African policy
+    and research. We conducted a scoping review to examine the effects of infertility
+    on relationship quality and mental health outcomes among people exp
+  doi: 10.1371/journal.pgph.0005923
+  venue: MED
+- title: 'FoveaDet: Software-Hardware Co-Design of Foveated CNN-Transformer for Object
+    Detection'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.15579v1
+  category: ml-ai
+  subcategory: saliency-prediction
+  authors:
+  - Deepak Mewada
+  - Apporva Saraf
+  - Ashwin Lele
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Deploying real-time object detection on power-constrained edge platforms
+    is challenging as processing full-resolution frames is often computationally redundant.
+    Inspired by biological foveation which assigns variable resolution based on visual
+    saliency, we propose a novel software-hardware co-design framework called FoveaDet.
+    On the software side, FoveaDet dynamically identifies salient regions to predict
+    fixation points, followed by aggressive patch pruning in Vision Transformers (ViT)
+    to discard irrelevant background data. To mitigate slowdowns from sequential patch
+    generation, we implement optimized interpolation and patch selection algorithms.
+    Evaluated on standard GPUs, this foveated approach reduces floating-point operations
+    by 65.4% to 92.2% and accelerates inference by 4.76x, while suffering a negligible
+    mAP drop compared to dense baselines. To eliminate hardware bottlenecks, we complement
+    the algorithm with a custom RISC-V core featuring specialized instructions to
+    accelerate the foveated processing pipeline. FoveaDet provides a scalable, efficient
+    architecture capable of unlocking advanced vision processing on severely constrained
+    mobile platforms.
+- title: 'SWAM: Saliency-Weighted Asymmetric Merging for Efficient Vision Transformers'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.18057v1
+  category: ml-ai
+  subcategory: saliency-prediction
+  authors:
+  - Utkarsh Kumar Singh
+  - Manish Das
+  - Shiv Ram Dubey
+  - Satish Kumar Singh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Vision Transformers (ViTs) achieve strong performance on image recognition
+    tasks, yet their quadratic self-attention complexity over input tokens creates
+    prohibitive computational costs for practical deployment. Token reduction methods
+    offer a practical solution by progressively reducing the token sequence during
+    the forward pass. We propose Saliency-Weighted Asymmetric Merging (SWAM), a training-based
+    token merging framework that extends the Bipartite Soft Matching (BSM) with two
+    saliency-aware mechanisms. We introduce a two-step matching formulation in which
+    cosine similarity decides candidate pairs, while a multiplicative maximum saliency
+    penalty regulates their selection for merging. We then further use asymmetric
+    exponential saliency-weighted aggregation, which allows more salient tokens to
+    contribute more strongly to the merged representation. A lightweight MLP-based
+    saliency prediction module (75k parameters per stage, 1% of backbone parameters)
+    supervised via attention rollout is trained end-to-end jointly with a DeiT-Small
+    backbone using a composite cross-entropy, knowledge-distillation, and saliency-alignment
+    objective. On CIFAR-100, TinyImageNet, and ImageNet-100, under a conservative
+    schedule that reduces tokens from 196 to 100 patch tokens, with the CLS token
+    retained throughout, 27.5% FLOPs reduction and 1.35 times speedup, SWAM matches
+    or exceeds baseline across the reported results. Under an aggressive schedule
+    (196 to 70 tokens with the CLS token kept throughout, 33.8% FLOPs reduction, and
+    1.46 times speedup), accuracy gains are achieved on ImageNet-100 (+0.23%) with
+    minimal losses on CIFAR-100 and TinyImageNet.
+- title: 'Beyond Endpoints: Bézier Paths for Vision Foundation Model Adaptation'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.17825v1
+  category: ml-ai
+  subcategory: attention-models
+  authors:
+  - Chenzhi Zheng
+  - Xi Xiao
+  - Chih-Ting Liao
+  - Qizhen Lan
+  - Jingwen Lin
+  venue: ''
+  code_url: ''
+  project_url: https://xixiaouab.github.io/Beyond-Endpoints/
+  abstract: 'Frozen vision foundation models can be adapted by learning a few prompt
+    tokens shared across all images. When prompts are updated as data shift or tasks
+    change, the distribution of image features moves from one endpoint to another.
+    Prior theory asks which endpoints prompts can reach; we ask whether they can travel
+    between them along the shortest path. Because shared prompts compete with each
+    image''s own content for attention, they often cannot. We quantify this restriction
+    as the extra transport cost that shared attention imposes over the shortest path.
+    In an exactly solvable attention model, the reachable features form a cone; unrolling
+    it into a plane gives the exact minimum action for every pair of endpoints and
+    explicit optimal prompts on short arcs. The analysis reveals a sharp threshold
+    in content normalization, which measures how much attention each image''s own
+    tokens absorb: for same-sign endpoints, at most two distinct levels allow prompts
+    to follow the shortest path, whereas three or more force a strictly positive extra
+    cost unless the endpoints differ only by rescaling. This gap persists with more
+    prompts, small content perturbations, and aligned multihead outputs. On ViT-B/16
+    with VTAB-1k, a quadratic Bézier prompt path that minimizes feature action reduces
+    held-out transport action relative to linear and cross-entropy-trained paths between
+    the same endpoints and improves intermediate and online accuracy under unlabeled
+    distribution shift, while cross-entropy-trained paths retain higher minimum accuracy
+    when labeled calibration data are available. Reachable endpoints do not guarantee
+    a reachable shortest path: how prompts move matters, not only where they end.
+    Project page: https://xixiaouab.github.io/Beyond-Endpoints/.'
+- title: Geometric knowledge spaces, Attention pairing and Architectures
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.29526v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Shang Xu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In this paper, we propose a geometric approach to deriving attention mechanisms
+    and exploring potential new transformer architectures. We begin by formalizing
+    the notions of knowledge worlds and attention pairings, then demonstrate how this
+    framework naturally leads to the architectures of standard attention, causal attention,
+    linear attention, tensor attention, and recurrent neural networks. Finally, we
+    introduce several new geometric spaces that may inspire novel neural network architectures.
+- title: 'SZED at ArGuard Shared Tasks: Multi-Task Label-Attention and Cross-Modal
+    Fusion for Arabic Hateful Meme Detection'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.26972v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Selma Khelili
+  - Zohra Abdeli
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We present SZED''s submission to ArGuard 2026 Track A: Arabic hateful
+    meme detection. The task has two parts: binary classification (A1) and fine-grained
+    multi-label tagging (A2). For A1, we fuse MARBERTv2 and CLIP ViT-L/14 embeddings,
+    comparing concatenation, self-attention, and ensemble heads. For A2, we use a
+    multi-task label-attention architecture with per-class query vectors and an auxiliary
+    head for cascade calibration. We reach macro-F1 = 0.7597 on A1 and 0.3142 on A2
+    (averaged over 10 active classes). We report reproducibility across runs, per-class
+    error patterns, and the effect of cascade calibration on the long-tailed A2 label
+    space.'
+- title: A Geometric Theory for Nonequilibrium Transformer Dynamics
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.10691v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Aythami Bethencourt de León
+  - Darryl D. Holm
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We develop a variational and geometric theory based on statistical physics
+    for the joint evolution of Transformer attention and token representations at
+    fixed model parameters. To this end, we introduce a free energy for the attention
+    and model the evolution of the attention weights by its Fisher--Rao gradient flow.
+    At fixed token representations, we prove that the softmax matrix is the unique
+    free-energy minimiser and that every positive attention trajectory converges to
+    it. For prescribed time-dependent representations, we show that the attention
+    dynamics becomes linear after a change to logit variables. This result yields
+    tracking bounds relative to the instantaneous softmax and sufficient conditions
+    for attention to converge to a fixed matrix. Hamiltonian dynamics for the representations
+    and their momenta are then coupled to the attention relaxation driven by the same
+    energy. This coupling results in an energy-dissipation law. We also develop two
+    alternative Hamiltonians incorporating the attention value map. We prove global
+    well-posedness of the attention flow and all three coupled systems.
+- title: A Geometric Invariant of Attention Predicts Head Specialization from Weights
+    Alone
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.12206v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Miguel P. Bento
+  venue: ''
+  code_url: https://github.com/MPedraBento/rho-invariant
+  project_url: ''
+  abstract: Transformers are built with continuous symmetries in the attention mechanism.
+    We derive $ρ$, a scalar invariant that measures each head's capacity to couple
+    to rotary positional encodings. This framework allows us to analyze heads without
+    forward passes, opening a new research direction into data-independent analysis
+    of modern LLMs. Empirically, we find that $ρ$ predicts induction heads, the most-studied
+    circuit type in mechanistic interpretability, with Spearman correlation between
+    $-0.55$ and $-0.74$ across four bias-free RoPE models spanning $135$M to $7$B
+    parameters. As a preliminary proof of concept, we use $ρ$ to apply YaRN to only
+    the top-50% positional heads, which degrades perplexity less than uniform application.
+    Code is available at https://github.com/MPedraBento/rho-invariant.
+- title: An Adaptive, Context-Aware, and Stacked Attention Network-Based Recommendation
+    System to Capture Users' Temporal Preference
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.11278v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Jung-Hsien Chiang
+  - Chung-Yao Ma
+  - Chi-Shiang Wang
+  - Pei-Yi Hao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Recommendation systems have become more important since the widespread
+    use of the Internet. The large amount of information means that it is difficult
+    for users to discover they really need. However, users' preferences can change
+    over time because of the age and the impact of social networks. Recommendation
+    systems must capture users' preferences and recommend suitable items, which is
+    a difficult challenge. This study proposes a novel recommendation system that
+    adapts to the changing preferences of users. By learning and adapting to users'
+    changing preferences better recommendations are provided. This study uses context
+    factors as additional information to model users' preferences more precisely.
+    For the proposed recommendation system, the context is based on users' interaction
+    items within each defined time interval. This study proposes two novel attention
+    mechanisms for the recommendation system. The contextual item attention module
+    captures contextual information, changing pattern in users' preference and the
+    importance of items. The multi-head attention module extends the diversity of
+    users' preferences and adapts to changing preferences. The recommendation performance
+    is improved using additional item's temporal information to model the contextual
+    item's representation. Experiments compare the proposed algorithm with several
+    state-of-the-art recommendation methods using three real-world datasets. The experimental
+    results demonstrate that the proposed context-aware recommendation model outperforms
+    traditional methods and demonstrate the effectiveness with which contextual information
+    is captured by the attention mechanism.
+- title: Pattern-Based Matrix Analysis Under Permutations
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.17674v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Andrei Ermakov
+  venue: NeurIPS 2026
+  code_url: ''
+  project_url: ''
+  abstract: 'Low-rank approximation captures one important notion of matrix simplicity:
+    a matrix is simple if it is well described by a low-dimensional linear model.
+    This paper studies a complementary notion. We consider matrices that become structurally
+    simple only after permuting rows and columns, so that their mass concentrates
+    in a prescribed geometric pattern such as a band, block-diagonal, arrowhead, or
+    related form. We introduce a pattern distance that measures how close a matrix
+    is to a given pattern after optimal reordering, giving a common framework for
+    structural problems such as latent ordering, community detection, and bandwidth
+    minimization. The problem is NP-hard in general; we derive an alternating algorithm
+    based on Linear Assignment subproblems. We further introduce a pattern-plus-low-rank
+    decomposition that combines permutation-structured fitting with a low-rank residual,
+    whose permutation step is pattern fitting on the residual; its gains across pattern
+    families persist at a matched parameter budget and are substantially reduced under
+    a density-matched random-mask control. We evaluate the framework on synthetic
+    recovery tasks, real correlation and graph adjacency matrices, and transformer
+    attention heads, showing that a single universal algorithm recovers qualitatively
+    different forms of matrix structure.'
+- title: Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.40943v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Michel Fabrice Serret
+  - Laura Grigori
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The bottleneck of attention mechanisms, which are the fundamental building
+    block of modern language models, is their quadratic complexity in terms of context
+    size. There has thus been an increasing interest in the compression of the context,
+    also called KV-cache compression. In this article, we consider the problem of
+    compressing the context of attention mechanisms by first formulating it in the
+    Hilbert space associated with its kernel. In this formalism, attention can be
+    represented as the ratio of two linear maps whose interpolant is also the ratio
+    of interpolants, this allows us to consider the interpolation of the linear maps
+    directly. We thus introduce two novel KV-cache compression methods which we call
+    GAIM and Q-DAIM, based on the Generalized Empirical Interpolation Method (GEIM)
+    and the Q-Discrete Empirical Interpolation Method (Q-DEIM), respectively. As the
+    cost of these methods is quadratic in terms of context length, we propose surrogate
+    models based on the Taylor series, the Performer and the Random Fourier Features
+    method which allow the compression to be done in linear time. Finally, we extend
+    this result to the streaming attention setting, providing new methods which allow
+    one to penalize the selection of interpolation nodes based on the previously interpolated
+    context and to update the previous interpolation based on new information. We
+    then provide numerical results on the convergence of the residuals and the output
+    error in future queries and preliminary results on the LongBench-E benchmark showing
+    performance comparable to the state-of-the-art methods. These experiments suggest
+    that the range revealed by our Q-DAIM method could help identify where information
+    is concentrated in the KV cache, thus enabling an efficient compression.
+- title: Towards Multiscale Molecular Representation Learning through Geometry-Based
+    Fragmentation for Polymer Property Prediction
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.07998v2
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Makoto Takamoto
+  - Chaitanya Sampara
+  - Viktor Zaverkin
+  - Daniel Oñoro-Rubio
+  - Mathias Niepert
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: It is well established that molecular substructures can contribute unequally
+    to chemical and physical properties, with specific motifs or side chains often
+    playing dominant roles. Fragment-based representations have therefore emerged
+    as an effective strategy for incorporating chemically meaningful inductive biases,
+    as exemplified by molecular fingerprints and fragment-based attention mechanisms.
+    However, many existing fragmentation-based machine learning methods rely on predefined
+    chemical rules, which may yield suboptimal fragmentation for previously unseen
+    or chemically unfamiliar structures and often overlook the importance of multiscale
+    molecular representations. To address these limitations, we formulate molecular
+    fragmentation as a radius-constrained optimization problem inspired by the k-center
+    formulation, where the number of clusters is not fixed a priori but emerges from
+    the specified radius, and propose a geometry-based fragmentation method that partitions
+    arbitrary molecular or material structures using largely geometric information,
+    without relying on predefined chemical fragmentation rules. The method provides
+    flexible control over fragment size, enabling the construction of multiscale fragment
+    representations for scale-adaptive modeling. Building on this framework, we develop
+    a geometric fragment-based attention mechanism that integrates multiscale structural
+    information and incorporate it into a multimodal machine learning model combining
+    p-SMILES representations with three-dimensional (3D) conformational information.
+    Experiments on a benchmark polymer dataset show that incorporating 3D conformational
+    information improves prediction accuracy for several properties over models based
+    exclusively on p-SMILES representations. Explainable artificial intelligence analyses
+    further provide insights into the physical relevance of the learned representations.
+- title: Fast and Exact Relative-Position Attention via Structure-Aware Kernels
+  date: 2026-10
+  url: https://arxiv.org/abs/2611.01182v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Delyan Boychev
+  - Ivo Petrov
+  - Dimitar I. Dimitrov
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Relative-position attention mechanisms offer compelling alternatives to
+    RoPE across various transformer architectures, delivering superior performance
+    in domains such as audio. These mechanisms typically modify attention scores by
+    adding content-position or bias-position terms. Unlike RoPE, which encodes position
+    via per-token rotations directly on the queries and keys, relative-position terms
+    generally require pairwise offset-dependent computation or lookups, complicating
+    their integration into fused attention kernels and introducing severe memory,
+    bandwidth, and compute overheads as sequences scale. To address this bottleneck,
+    we propose an exact attention algorithm that incorporates additive relative-position
+    terms into FlashAttention-style tiled computation. Our method (1) uses offset-aware
+    tiling to avoid redundant indexing and memory accesses, (2) computes only the
+    necessary key/query-relation products and reuses them across token pairs in both
+    forward and backward passes, and (3) uses offset-based gradient sharding and aggregation,
+    eliminating atomic contention. We provide a unified, efficient Triton implementation
+    across diverse relative-position attention mechanisms and evaluate it against
+    naive and specialized implementations. For 8K-token sequences, our method speeds
+    up the forward (backward) pass by 1.8-6.4$\times$ (2.0-21$\times$) and reduces
+    peak memory up to 2.9-128$\times$ (1.4-54$\times$) over the strongest baseline
+    for each mechanism, enabling long-context end-to-end transcription that is 1.8$\times$
+    faster and uses 2.4$\times$ less memory. Our method thus provides a drop-in, hardware-efficient
+    solution for scaling relative-position attention transformers.
+- title: 'ARENA: Active Region attENtion Aggregation for interpretable solar flare
+    prediction'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.32758v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Luis Bauer
+  - Annalena Kofler
+  - Andrés Asensio Ramos
+  - Aparna Venkataramanasastry
+  - Valentín Martínez Pillet
+  venue: NeurIPS 2026
+  code_url: https://github.com/LuisBauer22/ARENA
+  project_url: ''
+  abstract: Predicting solar flares is a challenging space-weather forecasting problem
+    with potentially significant impacts on Earth's upper atmosphere, including disruptions
+    to radio communications. We propose Active Region attENtion Aggregation (ARENA),
+    a neural network architecture that predicts solar flares from a variable number
+    of active-region cutouts while learning to identify the region most relevant to
+    the prediction. ARENA is trained using multiple-instance learning under weak supervision,
+    requiring only a flare/no-flare label for the observation and no labels specifying
+    the flare origin. The learned attention mechanism therefore provides a means of
+    localizing the active region driving the prediction without explicit origin annotations.
+    ARENA achieves a heidke skill score of 0.45 which is comparable to other flare
+    prediction approaches. These results demonstrate that active-region-based aggregation
+    can provide an efficient and interpretable approach to solar flare prediction.
+    The code is available at https://github.com/LuisBauer22/ARENA.
+- title: 'Time Flies When You Parallelise: Pareto-efficient Time Series Foundation
+    Models with Linear Recurrences'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.16934v2
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Torben Berndt
+  - Lingyi Yang
+  - Federico Nardi
+  - Yi Heng Lim
+  - AJ Shears
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Time series foundation models have demonstrated strong zero-shot forecasting
+    performance, but computational efficiency remains a central architectural challenge.
+    Temporal self-attention incurs quadratic cost in the number of temporal tokens,
+    while nonlinear recurrent state transitions restrict parallel computation along
+    the temporal dimension. We introduce ci-proto, a family of time series foundation
+    models based on Mamba-3, whose linear state recurrences support chunk-wise parallel-in-time
+    computation during training, and inference costs that scale linearly with sequence
+    length. The architecture alternates recurrent temporal processing with cross-variate
+    attention, supporting multivariate probabilistic forecasting with past-only and
+    future-known covariates. Across fev-bench's 100 forecasting tasks, ci-proto XL
+    sets a new state of the art among time series foundation models. The five ci-proto
+    variants also make up the entire Pareto frontier for mean scaled quantile loss
+    and mean absolute scaled error against both parameter count and median runtime.
+- title: Physical-Variable-Informed Deep Learning for Robust Diagnosis in Industrial
+    Fluid Transport Systems
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.27891v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Yu Sha
+  - Junqi Tao
+  - Dixin Zhou
+  - Horst Stoecker
+  - Domagoj Vnucec
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Industrial fluid transport systems are monitored through heterogeneous
+    sensing streams, but robust fault diagnosis remains difficult because response
+    signals vary with operating conditions and differ from physical variables in sampling
+    rate, observation duration and data granularity. To address these challenges,
+    we propose a physical-variable-informed deep learning framework (PhyNet) for robust
+    fault diagnosis under real-world sampling heterogeneity. PhyNet treats physical
+    variables as global operating constraints and response signals as local diagnostic
+    evidence. Its physical-to-response cross-attention mechanism connects sequence-level
+    physical-variable tokens with a learnable global response token, enabling interaction
+    without strict temporal alignment. Across four benchmarks, including three real-world
+    cavitation datasets and one public two-phase-flow dataset, PhyNet achieves the
+    best performance across all evaluated metrics. Class-wise analyses, together with
+    attention and masking analyses, show improved discrimination of ambiguous states
+    and indicate that physical variables meaningfully constrain local response interpretation.
+    These findings demonstrate a deployment-oriented approach to robust diagnosis
+    in heterogeneous industrial environments.
+- title: 'KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.41480v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Jonas Loos
+  - Oliver Eberle
+  venue: NeurIPS 2026. Project page
+  code_url: ''
+  project_url: ''
+  abstract: Fine-tuning a language model changes how it responds, but where is this
+    fine-tuned behavior instantiated? To better understand this, we evaluate whether
+    the change in model behavior arises only during the generation of the answer tokens
+    where the change manifests, or whether altered processing of previous tokens causes
+    it via the attention mechanism. For this, we patch the KV cache from a LoRA fine-tuned
+    model into the unmodified base model, and vice versa. Our results show that for
+    some behaviors, like responding in German or emergent misalignment, patching the
+    KV cache can indeed transfer them from the fine-tuned to the base model. Correspondingly,
+    patching the KV cache from base to fine-tune can partially or fully remove fine-tuned
+    behavior. Furthermore, we find that the effect of patching grows with how much
+    of the KV cache is patched and concentrates at a few pivotal positions, with system-prompt
+    and chat-template tokens having disproportionate influence.
+- title: In-context learning of solution to simple linear regression task using transformer
+    with masked linear self-attention
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.02817v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Katsuyuki Hagiwara
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In-context learning is a remarkable property of transformers and has recently
+    received a lot of interest. In many studies of in-context learning, it has been
+    shown that transformers are capable of implementing solvers for linear and non-linear
+    regression problems, in which the most of them implement gradient descent algorithm.
+    However, it is still unclear whether those implementations have actually been
+    acquired through training. In this paper, we constructed a transformer with masked
+    linear self-attention, which in-context learns the least squares estimate in a
+    simple regression task. The point here is that the closed form (analytical) solution
+    is obtained by using layer normalization rather than an approximate solution based
+    on the gradient descent algorithm. Then, we showed an experimental example, in
+    which, by taking the non-uniqueness of the transformer representation into account,
+    our implementation for a closed form solution is used in the transformer trained
+    with the l1 regularization when the target output is the least squares estimate.
+- title: Spectral Degeneration of Self-Attention under Isotropic Score Geometry
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.02778v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Mengda Li
+  - Jianfeng Yao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We study the spectral structure of the self-attention matrix in Transformer
+    models through an idealized spectral model for the pre-softmax score matrix. Motivated
+    by the rotational isotropy of query and key representations, our model replaces
+    the random token-space orientation of the score matrix by its canonical singular-value
+    representative with a logarithmic spike--bulk separation. Empirical diagnostics
+    on pretrained vision and language transformers motivate this model: token-space
+    singular matrices have nearly uniform eigen-angle distributions, and score spectra
+    are dominated by a small number of effective directions. We then prove that the
+    row-wise softmax map transforms this structure into a degenerate attention matrix:
+    dominant modes are preserved, whereas the bulk spectral distributions concentrate
+    at zero. Stable rank remains bounded for bidirectional attention but grows logarithmically
+    for causal attention. Within the canonical model, these results explain how attention
+    can preserve a small number of dominant directions while compressing the remaining
+    bulk modes.'
+- title: Do Neural Models Prefer Their Submodels?
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.28439v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Alvaro Ribot
+  - Yulia Alexandr
+  - Anna Seigal
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: A neural model is the set of functions that can be expressed by a given
+    neural network architecture. Neural models contain natural submodels, such as
+    those obtained by setting some neurons to be inactive. We study the geometry of
+    neural models and ask whether they prefer their submodels. By this we mean whether
+    local minimizers of the loss function lie in a given submodel. We introduce a
+    geometric framework to determine if this occurs. For shallow multilayer perceptrons,
+    we show that subnetworks with inactive hidden neurons are never preferred. For
+    deep multilayer perceptrons, we give conditions under which subnetworks with inactive
+    hidden neurons are not preferred. For lightning self-attention, lower-rank submodels
+    are usually not preferred, but we identify examples where they are because they
+    lie on a boundary of the model. Our results show that, aside from a few exceptions,
+    preference for submodels cannot be explained by the geometry of the neural model,
+    and must instead come from other sources such as training dynamics.
+- title: 'Graph-dependent pooling: adaptive granularity in hierarchical graph neural
+    networks'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.33623v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Bohan Yoon
+  - Hyejin Jang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Graph Neural Networks are widely used to learn structural representations
+    of relational data. Hierarchical graph pooling learns multi-level representations
+    by progressively coarsening graphs; however, prior methods rely on predefined
+    cluster numbers or fixed pooling ratios, limiting adaptability to individual graphs.
+    We propose Graph-Dependent Pooling (GDPool), which dynamically determines pooling
+    granularity for each graph. We analyze optimization conflicts among layer-wise
+    objectives through gradient alignment, showing that independently supervised pooling
+    levels can send conflicting gradients to shared parameters. GDPool uses self-attention
+    to select graph-specific anchors representing structurally important nodes and
+    constructs coarse graphs through soft node assignment. Experiments on metal-organic
+    framework and molecular graph benchmarks show that GDPool consistently achieves
+    the best predictive performance across all benchmarks. Evaluations using modularity
+    and the effective number of clusters show that GDPool achieves consistently higher
+    modularity than existing methods while the number of active clusters decreases
+    monotonically with depth. Sensitivity analyses confirm stable behavior across
+    hyperparameter and architectural choices.
+- title: Interpretable Context-Aware Multi-Label Retinal Classification with Dual-Hub
+    Heterogeneous Graph Neural Network
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.09309v2
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Proshanto Chanda
+  - Munib Mesinovic
+  - Tingting Zhu
+  - Abhirup Banerjee
+  venue: ''
+  code_url: https://github.com/proshanto-c/ca-mlc-refactor
+  project_url: ''
+  abstract: 'Multi-label retinal screening requires capturing co-occurring pathologies
+    and clinical context, yet standard multimodal fusion remains opaque. We propose
+    a dual-hub heterogeneous graph neural network (GNN) that couples spatial fundus
+    features and structured clinical covariates through cross-modal message passing
+    while providing inherent interpretability. Rather than relying on post-hoc saliency
+    approximations, our architecture exposes multi-level decision pathways during
+    forward aggregation: spatially biased self-attention captures lesion-level patch
+    interactions, while modality-specific graph attention coefficients explicitly
+    quantify the contribution of visual regions and clinical risk factors to each
+    disease node. Evaluated on the BRSET dataset (16,266 photographs from 8,524 patients),
+    the proposed model achieves 76.1% Macro-AUPRC across seven conditions, matching
+    or exceeding image-only (75.9%) and ResNet-50+MLP fusion (75.9%) baselines, with
+    largest contextual gains in macular edema (+3.5 percentage points, pp) and diabetic
+    retinopathy (+2.1 pp). Codebase is available at: https://github.com/proshanto-c/ca-mlc-refactor.'
+- title: Stylization as Geodesic Navigation on Diffusion Manifolds
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.14097v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Yan Li
+  - Zehao Li
+  - Xinlong Sun
+  - Fuchen Long
+  - Xi Chen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Facial stylization asks for a delicate transformation: the image should
+    look unmistakably artistic, yet the person should remain unmistakably the same.
+    Existing training-free and instruction-driven methods often fail to expose such
+    control, either drifting away from identity or producing only weak stylization.
+    We introduce Stylus, a training-free framework that treats facial style transfer
+    as navigation on the curved latent manifold of a pretrained diffusion model. Rather
+    than interpolating in flat Euclidean space, \method refines the interpolated content--style
+    point by lowering a ratio-weighted discrete geodesic energy under the pullback
+    metric, made tractable by a rank-one power-iteration approximation of the Jacobian.
+    This principle drives two complementary controls: content--style latent interpolation
+    for smooth semantic fusion, and self-attention query optimization for spatially
+    adaptive style injection. The resulting dual-control mechanism provides continuous,
+    fine-grained control over stylization strength while preserving identity-critical
+    facial structure, all without additional training. Experiments show that Stylus
+    achieves the strongest identity and content preservation at competitive stylization
+    strength.'
+- title: 'Observation Assimilation Transformer: Probabilistic Weather Analysis from
+    Sparse Station Observations'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.28327v2
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Christian Donner
+  - Michele Cattaneo
+  - Maxim Samarin
+  - Francesco Zanetta
+  - Icíar Lloréns Jover
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We present the Observation Assimilation Transformer (OAT), a geometry-aware
+    neural process that corrects and refines a prior numerical weather prediction
+    (NWP) field into a high-resolution posterior field by assimilating sparse observations.
+    OAT is an encoder-decoder transformer that considers a set of observed locations
+    and their NWP prior to condition predictions at a set of arbitrary unobserved
+    query locations. Its sparse attention mechanism makes it scalable to thousands
+    of station observations and depends on relative positions between locations, never
+    on the absolute coordinates. The model allows for partially missing observations,
+    predictions at arbitrary continuous locations without grid projection, and outputs
+    are parametric distributions. A station-randomized training algorithm is developed
+    with continuous ranked probability score (CRPS) loss. We test OAT on two datasets
+    - one at regional scale with hundreds of stations, and one at continental scale
+    with thousands of stations. On these datasets OAT outperforms several baselines
+    and shows well calibrated predictions. In an illustrative case study, OAT's downscaling
+    capabilities are demonstrated by downscaling ERA5 (~31km) to COSMO (1km), where
+    OAT achieves lower mean absolute error (MAE) and CRPS for temperature and precipitation
+    on test stations compared to COSMO.
+- title: Uncertainty-Aware Joint Generative Modeling of Fault Event Sequences and
+    Sensor Time Series in Solar PV Plants
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.01425v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Jiayu Huang
+  - Boyang Xu
+  - Yongming Liu
+  - Hao Yan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This paper presents a multimodal generative model designed to simulate
+    a solar energy plant system for predictive maintenance and fault prediction. We
+    propose a novel approach to enhance system generation through conditional generation
+    by leveraging both event sequences and time-series data and improve next event
+    prediction. The framework employs a Transformer Hawkes Process (THP) to encode
+    event data and an iTransformer to encode time-series data, integrated via a co-attention
+    mechanism that effectively captures cross-modal dependencies between discrete
+    events and continuous signals. From these integrated representations, we employ
+    two specialized decoders for simulation: a Conditional Latent Diffusion Model
+    (CLDM) for modeling future sensor trajectories and the Score Matching-based UnceRtainty
+    quantiFication for Transformer Hawkes Process (SMURF-THP) for high-fidelity event
+    prediction. This dual-decoder strategy supports uncertainty-aware, history-conditioned
+    simulation by rolling the model forward for a specified number of generation iterations,
+    producing finite stochastic scenarios rather than deterministic extrapolations
+    over the full observational record. Evaluated on a comprehensive dataset from
+    the Red Rock Solar Site in Arizona, our approach improves aggregate event-prediction
+    F1 relative to baselines and supports applications in predictive maintenance,
+    fault detection, and energy optimization for solar power systems.'
+- title: 'CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.03744v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Mehrnoush Mohammadi
+  - Kamal Berahmand
+  - Mohammad Morsali
+  - Shazia Sadiq
+  - Wojtek Tomaszewski
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Knowledge tracing (KT) estimates learners' evolving knowledge states from
+    interaction histories to support adaptive learning. Retrieval-augmented KT improves
+    these estimates using cross-learner behavioral evidence, but existing approaches
+    typically separate evidence retrieval from downstream prediction. This creates
+    a retrieval-inference alignment gap because evidence relevance varies with the
+    learner's evolving state and prediction context. We propose CaRe-KT, a query-adaptive
+    framework that maintains relevance continuity between evidence acquisition and
+    inference without equating retrieval relevance with predictive utility. CaRe-KT
+    introduces an Evidence-Graph Cache (EGC) that combines persistent question-level
+    relational compatibility with interaction-level temporal validity to construct
+    query-specific evidence subgraphs. Historical learning trajectories retrieved
+    through these subgraphs are encoded alongside the target learner's history in
+    a shared representation space using outcome-supervised contrastive learning. An
+    attention mechanism combines acquisition relevance with learned query-evidence
+    compatibility, allowing relevance to inform, rather than determine, each trajectory's
+    predictive influence. Experiments across five benchmarks show that CaRe-KT outperforms
+    strong KT baselines and remains robust under sparse-history and cold-start conditions.
+    These findings support relevance continuity as a design principle for retrieval-augmented
+    knowledge tracing.
+- title: Regime-Aware Interpretable Ranking for Sector Rotation
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.26456v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Kelvin J. L. Koa
+  - Ziling Liu
+  - Xinyang Li
+  - Shuowei Feng
+  - Ruoyu Liang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Sector rotation is a common decision in benchmark-relative portfolio management,
+    where portfolio managers rank sectors for overweight and underweight positions.
+    We formulate this task as ranking sector actions by expected future risk-adjusted
+    active performance, measured with forward sector-benchmark Sharpe ratios. Such
+    rankings should preserve temporal information, express model outputs through economically
+    familiar signal characteristics, account for changes in signal relevance across
+    macroeconomic environments, and capture dependencies among sectors. We propose
+    RegimeRank, an interpretable sector-ranking model that represents fundamental
+    and technical signals through expert-defined temporal characteristics, conditions
+    them on learned macro factors via cross-attention, and models cross-sector dependencies
+    through self-attention. Expected-gradient attributions identify the contributions
+    of individual signal-transformation pairs, while macroeconomic and cross-sector
+    attention maps provide diagnostics of the learned conditioning and relational
+    structure. We evaluate RegimeRank on weekly S&amp;P 500 data from 2002 to 2024
+    under combinatorial purged cross-validation, where it outperforms representative
+    ranking and machine-learning baselines across multiple ranking metrics. Ablation
+    studies support the contributions of latent macro states, regime conditioning,
+    and cross-sector modelling, while attribution and attention analyses illustrate
+    the temporal characteristics, macro states, and sector relationships underlying
+    its rankings.
+- title: 'HiPPO Functional Memory: Coordinate-Queryable Attention for Irregular Time
+    Series'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.24501v2
+  category: ml-ai
+  subcategory: transformers
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Irregular time series require models to answer temporal queries at arbitrary
+    coordinates, yet existing approaches typically retain observation-dependent representations
+    that must be repeatedly resolved for each query. We introduce HiPPO Functional
+    Memory (HiPPO-FM), a functional-memory attention operator that compiles an irregular
+    history into a reusable coordinate-addressable state. Instead of storing observation-indexed
+    tokens or latent trajectories, HiPPO-FM writes observations into a fixed-rank
+    functional space and performs direct coordinate evaluation through matched functional
+    geometry. Kernel-smoothed HiPPO coordinates and Gram-based readout define a shared
+    write/read mechanism, while observed-support self-attention enables content-dependent
+    representations before compression. We characterize the induced finite-dimensional
+    query space and derive an error decomposition separating functional geometry approximation
+    from learned-memory mismatch. Across continuous-coordinate reconstruction, irregular
+    representation learning, real-world extrapolation, and event-sequence prediction,
+    HiPPO-FM consistently improves strong irregular time-series baselines, achieving
+    strong reconstruction accuracy on Spiral, competitive performance across 20 UEA
+    datasets, improved real-world extrapolation, and superior results on several irregular
+    event benchmarks. After encoding, the compact functional state can be reused across
+    different query sets without reprocessing the observation history.
+- title: 'LEAF: LUT-aware Efficient Attention on FPGAs'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.27078v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Arianna Cox
+  - Chang Sun
+  - Lauri Laatu
+  - Benedikt Maier
+  - Aadeesh Sharma
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We introduce Lookup-table (LUT)-aware Efficient Attention on FPGAs (LEAF).
+    LEAF is the first nanosecond-scale LUT-aware transformer for FPGAs. Deploying
+    transformers that are large enough to perform well, small enough to fit on an
+    FPGA, and fast enough to meet the sub-microsecond timescales required by real-time
+    systems such as those at CERN remains difficult, since the same attention mechanism
+    that gives these models their high expressivity also makes them costly to implement
+    in hardware. LEAF converts the query, key, and value projections and the final
+    output feed-forward layer into FPGA-native layers with LUT-aware training, creating
+    the first LUT-aware transformer and linformer layers built for ultra-low-latency
+    inference. Attention resists LUT-aware training because it multiplies two activations
+    where the method needs a constant weight to tabulate; LEAF tabulates the attention
+    block's constant matrix-vector multiplications and leaves the rest in arithmetic
+    form. On a standard jet tagging benchmark this improves accuracy by 1.8 percentage
+    points while using 2.9 times fewer LUTs than the previous state-of-the-art sub-microsecond
+    transformer at the same input size. Our most efficient LEAF-based linformer with
+    64 input particles reaches 80.4% classification accuracy at 28k LUTs and 35ns.
+- title: 'BatchParScale: Sparse Batch-Mixing for Sequence Models'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.25254v1
+  category: ml-ai
+  subcategory: transformers
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Recent test-time scaling methods improve model performance by increasing
+    inference-time compute. One practical form of this is parallel scaling, where
+    a model samples multiple independent reasoning streams and aggregates their answers
+    using methods like voting, reranking, or verification. While effective, this approach
+    leaves the streams uncoordinated, and a discovery made in one rollout cannot influence
+    any other. Multi-Sequence Verifiers jointly score candidate answers after generation,
+    but the reasoning streams remain independent during inference. ParScale takes
+    a step toward model-internal parallel scaling by learning to aggregate multiple
+    forward passes, but its streams still do not exchange information while processing
+    a sequence. We introduce BatchParScale, an attention mechanism that allows parallel
+    streams to exchange information through a small set of communication positions.
+    We evaluate BatchParScale on a new Parallel Needle-in-a-Haystack retrieval benchmark
+    and in pretraining, fine-tuning, and cooperative multi-agent reinforcement learning.
+    Across these settings, BatchParScale outperforms ParScale on language-model loss
+    and remains competitive on coordination-sensitive MARL tasks. Masked pretraining
+    runs beat an unmasked single-sequence baseline despite local sequence corruption,
+    and LoRA fine-tuning shows the mechanism can be added to a pretrained Transformer.
+    At the same time, fact retrieval performance for pretrained and finetuned BatchParScale
+    models remains unclear.
+- title: Exploring the Privacy--Size Tradeoff for Differentially Private Self-Attentive
+    Variational Autoencoders
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.05582v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Rohit Sadavarte
+  - Dhruvi Kothari
+  - Sparsh Gupta
+  - Eric Van Oeveren
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Data tends to be most useful when it is shared, and the data most worth
+    sharing is often the data that privacy obligations restrict. Synthetic data from
+    a generator trained under differential privacy (DP) is one way to reconcile the
+    two, but its utility depends on the privacy budget $\varepsilon$ and on how much
+    data the generator sees - a parameter that most data sharing applications of synthetic
+    data control. We present SAVANT, a self-attentive variational autoencoder for
+    tabular data trained with DP-SGD that, to our knowledge, is the first to combine
+    attention, a VAE, and DP in one tabular model. We evaluate it against two marginal
+    mechanisms, PrivBayes and MST, jointly over the privacy budget and the dataset
+    size on two public datasets, measuring the utility a downstream classifier loses
+    by training on synthetic rather than real data. We find that, under the same DP
+    guarantee, more data generally means more utility. For the marginal mechanisms
+    it absorbs most of what a strict budget costs, and a noise-scaling argument suggests
+    DP-SGD exchanges data fo budget at a worse rate. Two independent membership-inference
+    attacks, judged against a measured null, found no aggregate membership signal.
+- title: On the Generalization Gap of Streaming Federated Learning with Markovian
+    Data
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.38686v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Masoud Kavian
+  - Milad Sefidgaran
+  - Youssef Attia El Hili
+  - Malik Tiomoko
+  - Abdellatif Zaidi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Streaming federated learning (SFL) allows clients to train a shared model
+    from continuously arriving data without retaining large local datasets. Such streams
+    often exhibit temporal dependence, yet its effect on generalization remains poorly
+    understood. In this paper we study the expected generalization gap of the aggregated
+    model when client data follow Markov processes, using information-theoretic and
+    rate-distortion techniques. Our framework accommodates heterogeneous Markovian
+    dynamics across clients and distinguishes temporal dependence from information
+    acquired during local learning. We establish bounds under cross-entropy loss,
+    specializing them to Linear Next-Token Prediction (LNTP) and Self-Attention Next-Token
+    Prediction (SANTP). These results quantify the effects of client count, communication
+    rounds, sample size, data dimension, mixing time, and context length. In particular,
+    they reveal a communication--generalization tradeoff: although frequent aggregation
+    may help optimization, it can weaken generalization guarantees. They also suggest
+    a potential advantage of distributed over centralized streaming learning under
+    a fixed total data budget. Temporal dependence enters through the square root
+    of the mixing time. By analyzing the history-state process, we obtain refined
+    bounds with improved context-length dependence under suitable mixing conditions.
+    Experiments on GPT-style language-model pretraining with TinyStories and real-world
+    time-series forecasting illustrate how collaboration and communication frequency
+    influence generalization under temporal dependence'
+- title: 'This is SParTA: A modular, efficient and scalable transformer architecture
+    for jet-tagging'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.27106v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Rajneil Baruah
+  - Subhadeep Mondal
+  - Sunando Kumar Patra
+  - Satyajit Roy
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We present the Sparse Particle-interaction Transformer Architecture (SParTA),
+    a modular, scalable, and efficient transformer for jet tagging at high-energy
+    colliders. Exploiting the steeply falling transverse-momentum ($p_T$) spectrum
+    of jet constituents, SParTA factorizes constituent processing into two topological
+    regimes. Ordered by descending $p_T$, only the $N$ hardest constituents (the hard
+    core) participate in quadratic $O(N^2)$ differential interaction attention driven
+    by pairwise physical and learned relational features. The remaining soft constituents
+    are integrated via linear $O(lN)$ cross-attention to the hard core, preserving
+    soft-radiation and color-flow information while avoiding the $O(l^2)$ memory bottleneck
+    of full self-attention over all $l$ constituents. Pairwise interaction features
+    are computed dynamically in-network from constituent four-momenta and conditioned
+    on global jet-level substructure observables. On the quark-gluon tagging benchmark,
+    a 300K-parameter SParTA model achieves an AUC of 92.02% and accuracy of 85.06%,
+    matching the 2.14M-parameter Particle Transformer (ParT) at one-seventh the parameter
+    count and outperforming IAFormer by 21% in background rejection at 30% signal
+    efficiency. On the boosted top-tagging benchmark, SParTA outperforms ParT and
+    ParticleNet with 511K parameters, while we analyze the architectural trade-offs
+    relative to fully dense multi-layer interaction networks.
+- title: 'No Frames, Just Frequencies: Bandwidth-Efficient Deployment-Time Adaptation
+    for Smart Glasses'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.29607v2
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Francesco Corti
+  - Moritz Becker
+  - Olga Saukh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Deep neural networks deployed on smart glasses must adapt to changes in
+    the distribution of incoming data while adhering to strict privacy and device
+    constraints. We present No Frames, Just Frequencies, a bandwidth-efficient source-assisted
+    adaptation framework that characterizes distribution shifts using compact frequency
+    descriptors computed on-device. Rather than transmitting camera frames, the glasses
+    compute and send frequency descriptors to a host device that contains a replica
+    of the model. The host device maps the received frequency descriptor to a distribution
+    shift operator that synthesizes out-of-distribution data and adapts a model replica
+    using a pre-defined adaptation protocol. We evaluate the framework on mixtures
+    of ImageNet-C corruptions using convolution-based (ConvNeXtV2-Femto), self-attention-based
+    (DeiT-Tiny), and hybrid (TinyViT-5M) vision models, on person classification (Visual
+    Wake Words), and on object detection (MS-COCO). Our results reveal that adaptation
+    driven solely by the transmitted descriptors recovers $93-95\%$ of the supervised
+    oracle adaptation gain on all three architectures, $82\%$ on Visual Wake Words
+    and $94$--$98\%$ on MS-COCO. Notably, adaptation quality degrades gracefully as
+    the descriptor resolution decreases from $224 $ to $28$ pixels, consistently across
+    architectures, enabling bandwidth reductions from $213\times$ to $784\times$ across
+    the frequency descriptors.
+- title: Understanding axial attention in TSFMs through single location regression
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.40188v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Andrei-Tiberiu Pantea
+  - Aymeric Dieuleveut
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Recent advances in Time Series Foundation Models (TSFMs) increasingly
+    rely on axial attention mechanisms, but despite their empirical success, the theoretical
+    properties of axial attention remain largely unexplored. To bridge this gap, we
+    extend the Single Location Regression framework introduced in Marion et al. [2025]
+    to 2D structured data, in order to study sparse information settings where a target
+    depends on a small number of tokens. We formulate an analytically tractable axial
+    attention-type predictor and rigorously analyze its statistical properties and
+    training dynamics. We prove that under a specific asymptotic regime and with knowledge
+    of the underlying oracle parameters, our predictor achieves Bayes optimality,
+    whereas a class of semi-linear simplifications strictly fails to do so, underlining
+    the role of the inner non-linearity. We prove that for a specific temperature
+    scaling, Projected Gradient Descent converges globally to the optimal oracle parameters.
+    Extensive numerical experiments validate our theoretical findings and highlight
+    the critical role of inverse temperature scheduling in empirical convergence.
+- title: 'SVD-Attention: Efficiently Analyzing Attention Blocks in Transformers'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.34971v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Debopam Sanyal
+  - Hongjie Chen
+  - Riya Elizabeth Kuriyan
+  - Arth Tak
+  - Divya Kothandaraman
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Pretrained transformers spend a large share of their inference compute
+    inside self-attention, yet the per-head query-key interaction is structurally
+    low-rank by construction. We ask a diagnostic question: across layers and architectures,
+    which heads actually use the full rank budget on real data, and which do not?
+    We propose SVD-Attention, a post-hoc method that decomposes the per-head interaction
+    matrix $M_h$ and scores every singular mode by both its spectral magnitude and
+    its activation variance across tokens on a small calibration set. The score keeps
+    the modes the head can amplify and that real data actually activates, and discards
+    the rest; the resulting factorization is exact for the retained modes and needs
+    no finetuning. Across seven pretrained models and five task types, the diagnostic
+    finds a task-dependent pattern: redundancy sits in the early to middle layers
+    for sentiment and image classification and for generation, and in the late layers
+    for dense prediction and extractive question answering. It is also predictive:
+    truncating the layers it flags costs at most $1.75$ F1, while truncating the same
+    number of layers elsewhere in the same model costs up to $50$ F1. SVD-Attention
+    is an analysis tool rather than a compression method: acting on it reduces inference
+    FLOPs by $0.8$-$1.5\%$ on its own and by $8$-$11\%$ when composed with weight
+    pruning, with $0$-$4\%$ change in task quality.'
+- title: 'ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.14035v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Minyu Zhou
+  - Yajing Wu
+  - Yongqiang Tang
+  - Wang Jia
+  - Wensheng Zhang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Foundation models pre-trained on large unlabeled electroencephalography
+    (EEG) corpora have emerged as a transformative paradigm for Brain-Computer Interface
+    (BCI) applications. Recent EEG foundation models have shown that multi-scale representations
+    derived from fixed-length patches can improve EEG representation learning. Existing
+    frameworks commonly construct temporal scales through feature-level operations.
+    However, these operations leave the correspondence between learned features and
+    scale-specific characteristics of the original EEG signals implicit. Moreover,
+    when the self-supervised objective is not aligned with the multi-scale input representations,
+    information at some temporal scales may receive insufficient supervision during
+    pre-training. In light of this, we propose ScaleBrain, a scale-consistent pre-training
+    framework that explicitly coordinates multi-scale representations of EEG from
+    both the model input and optimization objective sides. Specifically, ScaleBrain
+    introduces multi-scale EEG tokenization to represent the same EEG segment through
+    analysis windows with different temporal spans and shared temporal anchors, and
+    pairs these representations with scale-specific reconstruction to align with the
+    multi-scale input structure and provide supervision across temporal resolutions
+    during self-supervised learning. We further develop an axial spatio-temporal attention
+    mechanism to contextualize the fused multi-scale representation along spatial
+    and temporal dimensions. Extensive evaluations on six public BCI benchmarks against
+    12 representative baselines show that ScaleBrain achieves the highest mean Balanced
+    Accuracy on five datasets and ranks third on the remaining one, with only 5.0M
+    parameters, demonstrating strong performance and favorable parameter efficiency.
+- title: 'Beyond Frame-Level Accuracy: Analyzing Video-Level Stability in Transformer-Based
+    Deepfake Forensics'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.10249v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Syed Azmul Hasan
+  - Mowmita Pervin Hera
+  - Afroza Lona Mim
+  - M M Jihad Hossain
+  - Hazrat Ali
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Deepfake videos generated by advanced generative models pose serious
+    threats to digital security, misinformation control, and media forensics. Although
+    numerous detection methods have been proposed, their reported performances are
+    often based on heterogeneous preprocessing pipelines, inconsistent data splits,
+    and model-specific training protocols, hindering fair architectural comparison.
+    This work presents a controlled and reproducible comparative study of convolutional
+    neural networks (ResNet-18 and EfficientNet-B0) and a transformer-based architecture
+    (ViT-B/16) within a unified, face-centric deepfake detection framework. All models
+    are trained using identical preprocessing, augmentation, optimization settings,
+    and data splits on Celeb-DF v2 and FaceForensics++, and results are validated
+    across three independent random seeds with bootstrapped confidence intervals.
+    Experimental results show that while CNN-based models perform competitively at
+    the frame level, their performance degrades after video-level aggregation. In
+    contrast, ViT-B/16 demonstrates more stable video-level performance, achieving
+    92.8\% [95\% CI: 91.7--94.0] video-level accuracy and an AUC of 0.950 [95\% CI:
+    0.934--0.964] on Celeb-DF v2 (3-seed bootstrapped). Cross-dataset evaluation across
+    the same three random seeds reveals a large, asymmetric generalization gap (AUC
+    0.79 FF++$\rightarrow$Celeb-DF vs. 0.64 Celeb-DF$\rightarrow$FF++), indicating
+    that in-domain video-level stability does not transfer to unseen manipulation
+    domains. These findings indicate that global self-attention improves robustness
+    and video-level stability for deepfake detection within a given data domain, while
+    highlighting the need for further work on cross-domain generalization.'
+- title: How Depth Growth and Looping Shape In-Context Learning in Language Models
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.31421v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Ferdinand Kapl
+  - Kaitlin Maile
+  - Stefan Bauer
+  - Johannes von Oswald
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Looped and depth-grown language models reuse computations across depth
+    and have attracted interest for their reasoning capabilities. Building on prior
+    suggestive evidence of improved in-context-learning (ICL), we investigate how
+    such reuse favors ICL, including how it shapes the acquisition, retention, and
+    mechanisms of this ability. Our analysis spans pretrained language models up to
+    3B parameters and controlled tasks. The experiments provide evidence for a shared
+    inductive bias toward learning from context: grown and looped models rely more
+    on information in context and, compared with a full-depth dense reference, acquire
+    ICL earlier in controlled tasks and retain it more strongly when learning fixed
+    associations in the weights is also possible. Tracing attention heads through
+    training reveals that depth growth propagates early induction heads across layers.
+    Ablations show that grown and looped models rely more strongly on induction-ranked
+    heads for both few-shot performance and later-token prediction. Together, these
+    findings provide evidence for a shared inductive bias toward learning from context
+    and suggest that (soft) parameter reuse shapes how this ability develops and which
+    attention mechanisms support it.'
+- title: 'DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization
+    in Egocentric Procedural Videos'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.41402v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Mohammed Aman Bhuiyan
+  - Md. Sazzad Hossain Adib
+  - Samiul Basir Bhuiyan
+  - Mir Faiyaz Hossain
+  - Syed Mohammed Shamsul Islam
+  venue: ''
+  code_url: ''
+  project_url: https://aman554-eq.github.io/DUGO
+  abstract: 'Online Temporal Action Localization (OnTAL) aims to detect and localize
+    action instances from untrimmed streaming videos in real time. Unlike offline
+    approaches, OnTAL models have no access to future frames and cannot go back and
+    refine earlier predictions, which makes the task considerably harder given the
+    strict real-time constraints and narrow temporal window available. Most existing
+    OnTAL methods lean on either brief anchor-based context or a single-scale memory
+    of past frames, which limits how well they can capture actions unfolding across
+    multiple time scales or requiring long-range reasoning in Procedural Videos. To
+    address these gaps, we present DUGO (Dual-Scale Encoding and Gaussian Memory Online),
+    a new OnTAL framework that jointly models local motion dynamics and long-range
+    temporal dependencies. At its core, DUGO uses a Dual-Scale Temporal Encoder, pairing
+    depth-wise local representations with global self-attention so it can pick up
+    both fine-grained temporal patterns and broader contextual cues. We also introduce
+    a Gaussian Memory Bank, which represents action memory as stochastic, input-conditioned
+    Gaussian prototypes, allowing for richer temporal memory through gated cross-attention
+    applied at both the encoder and anchor-query stages. Extensive experiments on
+    procedural egocentric datasets (EGTEA, EPIC-Kitchens-100) demonstrate that DUGO
+    achieves state-of-the-art performance while also providing substantial improvements
+    on non-egocentric benchmarks such as Muses. The project page is available at:
+    https://aman554-eq.github.io/DUGO'
+- title: A Hybrid TFT-NBEATS Framework for Robust Multi-Horizon Photovoltaic Power
+    Forecasting
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.27155v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Shafi Bin Sultan
+  - Sabik Bin Sultan
+  - Mohammad Tajrian Arafat Alvi
+  - Rayhanul Islam Sony
+  - Abdulah Al Numan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Accurate multi-horizon photovoltaic (PV) power forecasting is essential
+    for grid stability, energy scheduling, and the efficient operation of PVbatterygrid
+    systems. However, existing models often fail to jointly capture short-term variability
+    and long-term temporal patterns, while lacking unified multi-horizon capability
+    and interpretability. To address these limitations, this study proposes a novel
+    hybrid deep learning framework that integrates a Temporal Fusion Transformer (TFT)
+    and N-BEATS within an attention-based fusion architecture. The proposed model
+    leverages TFT to learn short-term temporal dependencies and dynamic feature importance,
+    while N-BEATS captures long-term trend and seasonal components through interpretable
+    basis decomposition. An adaptive attention mechanism dynamically fuses both branches,
+    enabling balanced multi-scale learning. The framework simultaneously generates
+    forecasts for 30-minute, 2-hour, 6-hour, 12-hour, and 24-hour horizons within
+    a single unified pipeline. The model is evaluated using multi-year real-world
+    datasets from the Desert Knowledge Australia Solar Centre (DKASC). Experimental
+    results demonstrate superior performance over statistical, machine learning, and
+    deep learning baselines. The proposed model achieves RMSE values of 42.35, 46.27,
+    52.29, and 48.11 across the 20162017, 2023, 2024, and 20252026 datasets, respectively,
+    corresponding to a 3540% reduction compared to the best baseline (TFT). Additionally,
+    MAPE remains below 5% across all datasets, indicating high predictive accuracy
+    and stability. The model also provides interpretability through attention visualization
+    and trendseasonality decomposition, and is deployed on a cloud-based platform
+    for real-time forecasting. These results demonstrate that the proposed framework
+    is robust, interpretable, and suitable for practical renewable energy applications.
+- title: 'TB-Transolver: Parallelized and Coherent Long-Horizon Rollouts via Temporal
+    Bundling for Time-Dependent PDEs'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.04063v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Sidharth S. Menon
+  - Ameya D. Jagtap
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Transolver has recently gained widespread adoption for solving diverse
+    physical problems on unstructured geometric meshes by leveraging its Physics-Attention
+    mechanism, which seamlessly extends standard softmax attention to handle physical
+    domains at scale. For time-dependent problems, existing literature relies on time-conditioned
+    or autoregressive rollouts to preserve temporal causality while retaining Physics-Attention
+    as the spatial backbone. However, a fundamental limitation of this formulation
+    is its sequential execution model, wherein computational costs scale linearly
+    with the temporal horizon, rendering standard Transolver inefficient for transient
+    problems despite its exceptional spatial efficacy. This bottleneck has historically
+    hindered its broader application in time-dependent physical modeling. To address
+    this limitation, we introduce TB-Transolver (also referred to as Temporally Bundled
+    Transolver), an efficient framework built on temporal bundling that scales Transolver
+    for time-dependent PDEs. Furthermore, we propose \emph{spatiotemporal coherence}
+    (${\rm C(K)}$) as a general metric to systematically quantify snapshot correlation
+    within a temporal bundle, enabling the \emph{a priori} selection of optimal bundle
+    widths using training data alone, thereby avoiding expensive grid searches. We
+    demonstrate the computational efficacy of TB-Transolver across four physically
+    distinct domains, namely, plasticity, fluid dynamics, reaction-diffusion, and
+    global weather forecasting; achieving training speedups of up to $29\times$ over
+    conventional autoregressive and time-conditioned baselines. Finally, these computational
+    gains are further amplified through distributed multi-node and multi-GPU parallelism,
+    yielding aggregated speedups of up to $45.6\times$ at optimal bundle widths for
+    systems exhibiting high spatiotemporal coherence compared to single-GPU implementations.
+- title: 'SpecLST: Spectral-Enhanced Long-Short Term Spatio-Temporal Multimodal Modeling
+    for Traffic Forecasting'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.36393v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Kenan Kang
+  - Matthew M. Y. Kuo
+  - Weihua Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Modeling multi-scale dynamics in urban road networks is essential for
+    intelligent transportation systems but is often hindered by the computational
+    cost of long-range historical context and the challenge of fusing heterogeneous
+    modalities. Existing spatio-temporal frameworks face a trade-off between sequence
+    length and memory overhead, while frequently neglecting the transient effects
+    of exogenous factors such as road incidents and weather. To address these limitations,
+    we propose SpecLST, a frequency-enhanced long-short-term spatio-temporal multimodal
+    framework. SpecLST leverages a fast Fourier transform-based frequency-domain representation
+    module to efficiently encode multi-week historical dependencies, bypassing the
+    memory bottlenecks of standard attention mechanisms over raw long sequences. Heterogeneous
+    context is integrated through attention-based fusion, followed by a sparse Mixture-of-Experts
+    backbone with graph augmentation for spatio-temporal representation learning.
+    Additionally, a frequency-enhanced residual head isolates high-frequency transients,
+    improving sensitivity to abrupt traffic anomalies. At the 60-minute horizon, SpecLST
+    achieves mean relative error reductions of 14.10% in MAE, 10.35% in RMSE, and
+    15.78% in MAPE across eight neural forecasting baselines and four datasets, with
+    the dataset- and metric-specific average reductions ranging from 5.63% to 22.21%.
+- title: Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive
+    Video Generation
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.11452v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Weizhong Huang
+  - Huaijia Kou
+  - Tianyu Xie
+  - Xiawu Zheng
+  - Liujuan Cao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Agentic autoregressive video generation combines semantic planning, sequential
+    generation, and visual verification for controllable synthesis. Growing visual
+    histories enlarge the key-value (KV) cache, increasing memory use and attention
+    costs across candidate rollouts. Existing compression methods primarily optimize
+    individual generators without the planner's semantic constraints, risking low
+    priority for states supporting requested attributes or actions. We introduce SemanticKV,
+    a training-free method for semantically aligned KV cache compression. To our knowledge,
+    SemanticKV is the first KV cache compression method for agentic autoregressive
+    video generation that explicitly uses planner-extracted semantic constraints to
+    guide retention. Text cross-attention identifies constraint-related video positions,
+    whose self-attention queries are collected into separate groups. Attention weights
+    are averaged within each group and maximized across groups, giving each cached
+    entry a high score when strongly used by any represented constraint. A single
+    top-k selection retains high-scoring entries under the memory budget, leaving
+    their keys, values, and positions unchanged. For fixed query groups and equal
+    entry costs, this selection minimizes an additive upper bound on worst-group discarded
+    attention. The method operates independently within each candidate without retraining
+    or additional video generations. We evaluate four AR video backbones on three
+    benchmarks for 5-, 30-, and 60-second generation. On Causal Forcing at a compression
+    ratio of 0.7, SemanticKV obtains a VBench Total Score of 84.10, compared with
+    84.05 for the strongest compressed baseline and 83.99 for Full KV. It achieves
+    a 1.22x speedup over Full KV and reduces KV-cache memory from 6.04 GB to 1.81
+    GB, a 3.35x reduction.
+- title: 'Joint Dynamic Lane Reversal and Variable Speed Limit Control: A Graphormer-Based
+    Approach'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.35070v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Hamed Araab
+  - Abbas Ahmadi
+  - Mohammad Hossein Basiri
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Connected and automated vehicles could allow reassigning lane directions
+    and speed limits on every road frequently, but the benefit hinges on how traffic
+    reroutes, and one-way roads can isolate junctions. We formulate network-wide dynamic
+    lane allocation and directional speed limit control with one-way roads, lane clearing
+    before each reversal, and a navigable graph kept strongly connected at all times.
+    An action-resolution algorithm grounded in graph orientation theory admits a proposal
+    closing a direction only if the network stays strongly connected and otherwise
+    relaxes or reverts it, keeping all junctions mutually reachable within the model,
+    even during clearing. All road controllers share one transformer whose attention,
+    Global Endpoint Relation-Aware Spatio-Temporal Self-Attention (GERASTSA), spans
+    all road-time tokens, biased by the endpoint relations between roads. It is pretrained
+    on action-conditioned traffic forecasting and fine-tuned with per-road proximal
+    policy optimization under a mixed reward that also credits neighboring roads and
+    the network. On a 6 x 6 grid with commuter rush hours, the learned policy makes
+    about two thirds of roads one-way in the peak direction and cuts daily delay by
+    90% against the initial configuration held fixed and by 85% against a tuned two-way
+    load balancer. Restricted to two-way roads at test time, it gains only about as
+    much as this balancer, whereas its learned speed limits add delay. Pretraining
+    roughly halves the updates needed to surpass the fixed configuration. Of the ablations,
+    only removing the relational bias or the spatial embedding clearly matters, multiplying
+    delay about fivefold.
+- title: Learning to Rank Propagators in Constraint Programming
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.11447v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Matija Lojović
+  - Mladen Nikolić
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The order in which propagators are executed can substantially affect the
+    performance of constraint programming solvers, yet propagator priorities are typically
+    determined by fixed, manually designed heuristics. In this work, we explore learning
+    instance-dependent propagator priorities from static problem features. We formulate
+    the task as a learning-to-rank problem, addressing the challenge that the quality
+    of a priority assignment can be measured through solver runtime, while the desired
+    priorities of individual propagators are not directly observable. A self-attention-based
+    model jointly scores the propagators present in an instance and is trained using
+    pairwise preferences derived from solver runtimes measured under randomized propagator
+    priority assignments, with a Plackett-Luce-based ranking objective. Predicted
+    rankings are mapped to the discrete priority levels of the Choco solver before
+    search begins, without modifying its propagation or search procedures. We evaluate
+    the approach on XCSP3 instances and demonstrate that propagator ordering can have
+    a substantial impact on solving time. On a test set of 698 instances, picked out
+    as most difficult by problem class, the learned priorities increase the number
+    of solved instances from 634 to 654, reduce median solver runtime by 27.93%, and
+    reduce aggregate penalized runtime (PAR1) by 12.65% compared with Choco's default
+    priorities. We further observe that improvements vary across problem classes and
+    show that a simple policy selecting between learned and default priorities further
+    increases the number of solved instances. These results demonstrate the potential
+    of learning instance-dependent propagator priorities to improve constraint programming
+    performance, particularly on difficult instances.
+- title: Dual Representation Enhanced Diffusion Policy for Flexible Job Shop Scheduling
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.15246v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Yunyi Zhao
+  - Wei Zhang
+  - Cheng Xiang
+  - Vadakkepat Prahlad
+  - Zuming Liu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The Flexible Job-Shop Scheduling Problem (FJSP) is a fundamental and challenging
+    optimization problem in smart manufacturing. Although recent deep reinforcement
+    learning (DRL) approaches can learn effective scheduling policies through interaction
+    with the environment, their performance often degrades as problem scale and processing-time
+    uncertainty increase. In this paper, we propose DredRL, a dual representation
+    enhanced diffusion-policy reinforcement learning scheduler. DredRL first constructs
+    enhanced dual representations of operations and machines through self- and cross-attention
+    mechanisms to capture both intra-entity and inter-entity dependencies. A diffusion
+    model is further employed as the policy network, generating scheduling decisions
+    through iterative denoising conditioned on the encoded state to enhance policy
+    expressiveness and robustness. Extensive experiments on synthetic, public, large-scale,
+    and stochastic FJSP benchmarks demonstrate that DredRL outperforms state-of-the-art
+    learning-based schedulers across most configurations. Compared with SOTA learning-based
+    methods, DredRL reduces makespan by up to 5.44% on synthetic instances. It also
+    achieves the best learning-based performance on three of four public benchmarks
+    and outperforms the stochasticity-aware algorithms on stochastic benchmarks. These
+    results demonstrate that combining enhanced dual representations with diffusion-based
+    policies provides an effective and robust approach for large scale scalable FJSP
+    scheduling in complicated environment.
+- title: 'RADIANT: Object-Centric Feed-Forward Global Illumination'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.32075v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Sarah Zhang
+  - Zhiyang Dou
+  - Minghao Guo
+  - Benjamin Tod Jones
+  - Wojciech Matusik
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Feed-forward neural renderers synthesize global illumination across novel
+    3D scenes without per-scene optimization or runtime ray tracing. Existing transformer-based
+    renderers tokenize individual triangles, so self-attention scales quadratically
+    with mesh resolution. Yet macroscopic radiative transport is governed by the underlying
+    surface geometry and object arrangements rather than a particular mesh discretization;
+    finer tessellation can thus inflate token counts without changing the underlying
+    transport physics, motivating a discretization-agnostic and object-centric representation.
+    We introduce RADIANT (RADiance-based Inter-Actor Neural Transformer), an object-centric
+    architecture for feed-forward global illumination from point inputs. By representing
+    each object with a compact budget of 32 surface-patch tokens, RADIANT decouples
+    attention sequence length from polygon counts. In a single network, an inter-object
+    scene transformer models 3D radiative exchange and a view decoder renders images
+    at target camera poses. To capture light transport without materializing O(N^2)
+    bias matrices, invariant form-factor attention embeds geometric distances and
+    surface orientations directly into query-key dot products as SE(3)-invariant inner
+    products weighted by learned area and material gains. For primary visibility without
+    mesh connectivity, camera rays cross-attend scene tokens guided by depth-tested
+    point splats in a shared spherical frame. Across a 1.03M-scene benchmark under
+    matched model capacity, RADIANT reaches 25 dB tone-mapped PSNR in 5x fewer training
+    steps than RenderFormer, and achieves 32.2 dB at 600k steps (+3.3 dB over RenderFormer
+    and +7.6 dB over RenderFormer-V2). We further demonstrate the scalability of RADIANT,
+    which completes a 512x512 forward pass of a 500-object scene in 0.83 s, with computational
+    cost scaling with the number of objects rather than polygons.
+- title: 'GM-GReFEL: Geometry-Guided Spatiotemporal State-Space Learning for Robust
+    Dynamic Facial Expression Recognition'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.31140v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Yudhistira Arditya Pratama
+  - Yi-Zeng Hsieh
+  venue: ''
+  code_url: https://github.com/ardiytama/GroupMamba-DFER
+  project_url: ''
+  abstract: 'Recognizing facial expressions in unconstrained video suffers from two
+    coupled problems: self-attention grows quadratically in cost with clip length,
+    and crowdsourced labels are noisy. We present GM-GReFEL, a spatiotemporal state-space
+    network with a geometry-aware decision stage. Its Modulated GroupMamba backbone
+    replaces a spatiotemporal Vision Transformer. Six channel groups are scanned separately,
+    four over the frame plane and two over time, so the cost grows linearly with sequence
+    length ($\mathcal{O}(N)$); after each layer, a Channel Affinity Modulation gate
+    mixes the groups again. On top of the backbone, a GReFEL reliability module turns
+    the normalized entropy of each prediction into a mixing weight between the classifier
+    output and a vote from trainable geometric anchors, so that facial geometry counts
+    for more when the network is unsure. The model is initialized by static-to-dynamic
+    weight transfer and trained with a Triple Loss. In five-fold cross-validation,
+    the best fold scores 66.57\%/76.46\% UAR/WAR on DFEW, 0.3 points or less below
+    the strongest compared method, and 45.66\%/62.27\% on MAFW, ahead of all compared
+    methods; on FERV39k the mean over five splits, 42.30\%/52.66\%, is competitive.
+    The five-fold means are 64.07\%/74.54\% on DFEW, on par with recent large pre-trained
+    models, and 38.90\%/54.37\% on MAFW, below the best of them. A paired $t$-test
+    on DFEW indicates a modest benefit of temporal modeling (+1.61 UAR points, one-sided
+    $p=0.031$). Attention stays on plausible facial regions, and latency is close
+    to a ViT-B/16 baseline (47.4 vs.\ 46.8 ms per clip). Code: https://github.com/ardiytama/GroupMamba-DFER.'
+- title: Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.02746v2
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Yiqiao Qiu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Multi-teacher on-policy distillation (MOPD) distills several domain experts
+    into one student and is used in the post-training of recent large language models.
+    It trains on all domains at once, so every expert must be available at the same
+    time. In practice, capabilities often arrive one after another, and the experts
+    of earlier domains may be gone when a new domain is learned. Distilling the experts
+    in sequence then suffers from catastrophic forgetting of the earlier domains.
+    Some recent pipelines store a snapshot after every stage and end with a multi-teacher
+    recovery stage taught by all snapshots. The number of stored models then grows
+    with the number of stages. Different from these pipelines, this paper formulates
+    continual MOPD by what is kept from earlier stages and studies replay toward the
+    previous student. Inside every stage, prompts of earlier domains are replayed
+    with the student of the previous stage as their teacher, so neither earlier experts
+    nor stage snapshots are kept. Two design choices of replay are explored. The replay
+    budget of a stage is either shared among the earlier domains or fixed per earlier
+    domain. Replay steps either distill the token distribution alone or add alignment
+    of hidden states, region-pooled self-attention scores and value relations. A five-domain
+    benchmark of logic, math, code, safety and instruction following is built from
+    public experts of one 1.5B student. Experiments on its 14 benchmarks show that,
+    without storing any snapshot, replay toward the previous student closes most of
+    the gap between sequential distillation and joint MOPD. With a fixed replay share
+    per earlier domain, it performs on par with recovery from all stored snapshots.
+- title: 'GateFormer: Forecast-Space Decomposition for Intra-Hour Solar Irradiance
+    Prediction from Sky Images'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.30942v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - David Hamlyn
+  - Sunny Chaudhary
+  - Jonathon Hare
+  - Tasmiat Rahman
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Sub-hourly dispatch, balancing, and storage control increasingly depend
+    on forecasts that anticipate rapid variability in solar generation. Accurate sky-image-based
+    irradiance forecasting requires a combination of visual cloud dynamics with recent
+    irradiance state while adapting to different short-term irradiance-change regimes.
+    To address this, we introduce GateFormer, a GHI-conditioned dual-decoder ViT for
+    intra-hour global horizontal irradiance (GHI) forecasting through forecast-space
+    decomposition. GateFormer embeds observed GHI into the visual token stream, allowing
+    interaction with sky-image patch features through self-attention. From this shared
+    representation, a Trajectory Head predicts future GHI sequence, while a Delta
+    Head predicts final-horizon change from the latest observed GHI. The two final-horizon
+    forecasts are adaptively weighted in prediction space, with magnitude- and direction-supervision
+    targeting the remaining error. On the NREL-TSI benchmark, GateFormer attains 125.01
+    W/m^2 RMSE at +30 min, improving over a state-of-the-art transformer baseline
+    by 9.6% under paired-timestamp evaluation. Across NREL-TSI, Chilbolton, and SIRTA,
+    GateFormer achieves the lowest final-horizon RMSE among the evaluated baselines,
+    with forecast skill of 22.97-28.86% relative to smart persistence. Component ablations
+    show adaptive weighting outperforms both individual decoders and fixed averaging,
+    distinguishing GateFormer from conventional forecast combination, while the supervised
+    correction further reduces RMSE by 1.68 W/m^2 and MAE by 4.86 W/m^2. Ramp-regime
+    diagnostics show larger gains during operationally important positive ramps, reducing
+    RMSE by 26.27 W/m^2. These results identify forecast-space decomposition as an
+    alternative forecasting formulation, with potential relevance to other multimodal
+    short-horizon forecasting tasks and deployment using only sky images and measured
+    GHI.
+- title: 'SCANO: Restoring Boundary-Condition Completeness in Sampled Meshes with
+    a Sliced-Cross-Attention Neural Operator for 3D Thermal Fields'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.04603v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Tianyu Li
+  - Zhiwei Cao
+  - Qingang Zhang
+  - Ruihang Wang
+  - Binyang Song
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Training neural operators on million-cell meshes can exceed GPU memory
+    limits. Models are therefore trained on subsamples and deployed on whole meshes
+    or selected regions. However, subsampling can distort boundary information, degrading
+    accuracy. We ask when boundary conditioning under sampling stays consistent with
+    whole-mesh training, and how to aggregate and inject boundary data. Representing
+    the solution as an integral of boundary data against type-dependent measures,
+    we show that subsampling distorts this conditioning in three ways: incomplete
+    boundary coverage or a sample-dependent global state, face weighting by count
+    rather than area, and compression of boundary inputs into a low-dimensional vector.
+    This analysis yields four measurable consistency conditions checkable before training.
+    We satisfy them with two backbone-agnostic modules. Boundary Quadrature Attention
+    (BQA) aggregates all boundary faces, typed and area-weighted, into slice tokens
+    that every query point reads at every layer. Anchored Global State (AGS) estimates
+    the global state from anchors independent of the sampled points. Adding both to
+    a scalable message-passing and slice-attention backbone yields SCANO. We evaluate
+    the approach on controlled and public benchmarks and a data-centre thermal simulation
+    dataset (DCTS) containing million-cell meshes. On both benchmarks, BQA improves
+    every backbone, reducing whole-mesh error up to 15-fold. On all three datasets,
+    AGS aligns regional with whole-mesh predictions, cutting regional error at least
+    tenfold for most backbones on the public benchmark. Together, the modules nearly
+    halve the best original backbone''s whole-mesh error on both benchmarks. SCANO
+    predicts a room-scale field in under one second, over 100 times faster than whole-room
+    anchor self-attention.'
+- title: 'Sanity Checks for Attention Surgery: Null Models and Matched Interventions
+    for Representation-Motivated Design'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.13543v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Basavaraj R M
+  - Aryan Bharat Kumar
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Transformer architectural modifications frequently measure a statistic
+    on internal representations, observe that it is large, remove it architecturally,
+    and report an improvement. Interpreting that sequence requires evaluating whether
+    the statistic exceeds its noise floor, whether it survives a geometric null, and
+    whether the training gain requires the specific direction removed. We formulate
+    these requirements as three reusable checks and apply them to self-attention removal,
+    which deletes the component of an attention head's output aligned with its own
+    value vector. Across nine multi-head pretrained models (5,408 heads, 124M to 6.9B
+    parameters), an earlier-position causal null accounts for 48% to 63% of the head-value
+    cosine alignment, with no monotone scale trend. Under grouped-query attention,
+    this alignment is specific to each head's own key-value group and reverses across
+    groups (+0.24 to +0.27 within-group, -0.11 to -0.19 across-group). Split-half
+    reliability demonstrates that the per-head intervention effect is resolvable in
+    GPT-2 ($r_Δ= 0.80$) but attenuated in Pythia-160M (0.42) and Pythia-410M (0.53),
+    whereas structural self-cosine reliability is near-perfect in all three ($r_{\text{stat}}
+    &gt; 0.99$); which statistic predicts its own intervention is model-dependent.
+    In a pre-registered 3-arm by 8-seed paired factorial at $4.0 \times 10^8$ tokens
+    per run (399,900,672 tokens), a fixed arbitrary rank-one direction does not differ
+    from baseline (+0.0011 nats, $p = 0.197$), while self-directed removal lowers
+    validation loss (-0.0029 nats, Holm-corrected $p = 0.0023$) and outperforms the
+    fixed arbitrary control directly (-0.0040 nats, $p = 0.0018$). At 50.9M scale
+    the training benefit requires the own-value direction rather than a fixed arbitrary
+    one, but a large cosine alignment alone does not establish redundancy in frozen
+    models.
+- title: 'Watch Your Step: Anticipated Perception for Humanoid Locomotion'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.29612v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Matthias Heyrman
+  - Chenhao Li
+  - Ioannis Dadiotis
+  - Marco Hutter
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Perceptive locomotion policies typically observe a dense robot-centric
+    elevation map, although only the terrain beneath and around the next footsteps
+    informs the control decision. Learned encoders compress the whole visual input,
+    leaving the policy to work out which inputs matter while learning the baseline
+    locomotion task. Learning both at once slows training and, without computationally
+    expensive attention mechanisms, makes generalization to new terrain harder. We
+    instead remove redundant inputs from the elevation map before the policy sees
+    it. A lightweight foothold prediction model (FPM) predicts future footholds from
+    proprioception and the velocity command alone, and we sample the elevation map
+    only in small patches around these predicted footholds. We train the prediction
+    model alongside the locomotion policy, periodically retraining it on new policy
+    rollouts as the robot's gait matures. This allows the perception to anticipate
+    where the policy will step, while the policy learns to leverage terrain information
+    around those steps. With the proposed lightweight preprocessing, the policy reaches
+    a given terrain difficulty in roughly a third of the training iterations required
+    with the complete map. It outperforms policies that observe the complete map where
+    footholds are sparse, including in narrow walled corridors, and on unseen terrain,
+    and it matches an attention-based encoder trained at several times the cost. The
+    policy transfers zero-shot to a Unitree G1 humanoid traversing various obstacles,
+    stairs, gaps, and step-downs beyond the training distribution in both indoor and
+    outdoor environments.
+- title: Geometric and algebraic inference in humans and neural networks
+  date: 2026-10
+  url: https://arxiv.org/abs/2611.00387v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Jacob Russin
+  - Joonhwa Kim
+  - Ellie Pavlick
+  - Michael J. Frank
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Humans possess a remarkable ability to draw inferences from limited data.
+    While some inferences are made intuitively from past experience, others require
+    online reasoning based on novel information given in context. Here, we formalize
+    these strategies, which we term geometric and algebraic inference, and study their
+    computational tradeoffs in humans and neural networks. The geometric strategy
+    gradually shapes representational geometry to reflect underlying relational structure,
+    making subsequent inference cheap. The algebraic strategy flexibly attends to
+    and reasons over novel relations given in context, but costs additional computation
+    at inference time. We identify opposing signatures of these two strategies in
+    transitive inference, a domain widely studied across species, and characterize
+    the conditions under which each is observed. Our framework predicts that the geometric
+    strategy should be dominant when relations are familiar, whereas the algebraic
+    should emerge to support de novo inferences drawn in context. Multiple experiments
+    demonstrate these opposing signatures in humans, neural networks trained from
+    scratch, and large language models (LLMs). Causal interventions in the neural
+    networks reveal that the geometric and algebraic strategies depend on representational
+    geometry and selective attention mechanisms, respectively, and reproduce the effects
+    of analogous neurobiological disruptions in humans. Our framework unifies these
+    effects with disparate phenomena, including content effects observed in human
+    and LLM reasoning and data-distribution effects observed in machine learning.
+    Our findings reconcile competing views of cognitive flexibility that emphasize
+    either representational geometry or algebraic manipulation by showing that each
+    can have unique strengths, and can characterize different aspects of both human
+    and neural network behavior.
+- title: 'NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity
+    Target Speaker Extraction'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.29815v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Julian Silva
+  - Jaliya Kodithuwakku
+  - Navindu Sirimanna
+  - Shaveen Herath
+  - Wageesha N. Manamperi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Driven by recent advancements in hearing assistive devices, target speaker
+    extraction (TSE) in multi-talker environments has drawn significant attention.
+    To address this, hearing technologies identify attention using neural signals
+    recorded via electroencephalography (EEG) to guide TSE, enabling neuro-steered
+    auditory attention decoding. However, most existing techniques rely on time-frequency
+    masking, which suffers from low fidelity in spectro-temporally overlapping regions
+    and is often restricted to narrowband audio. In contrast, we introduce NeuroCodec,
+    which, to the best of our knowledge, is the first generative EEG-guided TSE framework
+    operating in the latent space of a neural audio codec. Specifically, NeuroCodec
+    models spatial EEG dependencies via graph convolutions and fuses cross-modal EEG
+    and speech representations through attention mechanisms and Mamba-based temporal
+    modeling. We further introduce a six-phase training curriculum that progressively
+    incorporates latent reconstruction, multi-scale spectral, and adversarial objectives
+    to ensure stable, high-fidelity speech generation. Experiments on the public Cocktail
+    Party and KUL datasets show NeuroCodec outperforms baselines, across several perceptual
+    metrics. A listening experiment with 20 participants validated that NeuroCodec
+    offers greater perceptual accuracy, achieving a mean score of 82.24 compared with
+    49.63 for M3ANet. Additionally, the proposed method is seen to enable 44.1 kHz
+    reconstruction with spectral content extending up to 20 kHz, further supporting
+    the perceptual results. Finally, we extend NeuroCodec with a causal streaming
+    formulation suited for real-time processing, providing a basis for hearing assistive
+    devices.
+- title: Motor compound fault diagnosis using an attention-based cross-talk architecture
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.25893v1
+  category: ml-ai
+  subcategory: transformers
+  authors:
+  - Wonjun Yi
+  - Wonho Jung
+  - Junho Kim
+  - Rismaya Kumar Mishra
+  - Yong-Hwa Park
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As physical AI increasingly relies on sensing to understand physical systems,
+    reliable condition monitoring of industrial machinery has become more important.
+    Motors are ubiquitous in industrial systems, and increasing system complexity
+    raises the likelihood of simultaneous faults. Accordingly, compound fault diagnosis
+    that identifies multiple fault components and their severities is increasingly
+    required. Because different fault components jointly affect the same vibration
+    signal, their severity classification can be formulated as related tasks, making
+    multi-task learning (MTL) suitable for exploiting shared information. However,
+    conventional shared-trunk architectures force tasks to share a common representation,
+    potentially causing negative transfer because fault components are characterized
+    by different time-frequency regions. To address this issue, this study proposes
+    a Residual Neural Dimension Reductor with Time-Frequency Channel Attention (RNDR-TFCA),
+    an attention-enhanced cross-talk architecture for multi-output compound fault
+    diagnosis. RNDR-TFCA preserves task-specific feature extractors while selectively
+    exchanging information across tasks. Time-frequency attention emphasizes informative
+    intra-task regions, while channel attention enhances useful inter-task information
+    after nonlinear feature fusion. Experiments on a rotor-bearing system with inner-race
+    fault, outer-race fault, misalignment, and unbalance showed that RNDR-TFCA achieved
+    a macro F1 score of 0.898, outperforming single-task, multi-class, shared-trunk,
+    and cross-talk baselines. Ablation experiments confirmed the benefit of jointly
+    applying both attention mechanisms. RNDR-TFCA required 713 K parameters and 170.42
+    MMACs, only slightly higher than RNDR. Channel-expanded baselines still underperformed
+    RNDR-TFCA, indicating that the gain was not simply attributable to increased model
+    capacity.
+- title: A risk-aware individualized blood pressure target to avoid hypotension in
+    surgery
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.16757v1
+  category: psychology
+  subcategory: reading
+  authors:
+  - Simon Bur{é}
+  - Jona Joachim
+  - Florent Di Meglio
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We propose an online method for choosing both a blood pressure target
+    and a norepinephrine dose for an individual surgical patient. From a short record
+    of mean arterial pressure (MAP) and norepinephrine delivery, the method fits a
+    reduced pharmacokinetic/pharmacodynamic model and uses a local Gaussian approximation
+    to propagate uncertainty to future MAP readings. It searches for the lowest target
+    for which a bolus and constant infusion keep the predicted probability of at least
+    one MAP reading below 65 mmHg after the rise phase within a prescribed limit.
+    If no such target is found, the decision returns to the clinician. We assess calibration
+    of the predicted minimum MAP on retrospective surgical records under the doses
+    actually administered. In a cohort of 4,096 virtual patients, the method recommended
+    a dose for 74 % of patients at a nominal risk of 5 %. Among the patients receiving
+    a recommendation, 6.9 % had a reading below 65 mmHg. A fixed target of 70 mmHg
+    yielded a rate of 25 % when applied to the full virtual cohort.
+- title: 'Deciphering multiple binding modes in large protein complexes via Enhanced
+    Sampling and beta-VAE: the CYFIP1-eIF4E case'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.18236v1
+  category: psychology
+  subcategory: clinical
+  authors:
+  - Francesco Pignotti
+  - Emanuele Telari
+  - Edoardo Milanetti
+  - Anna La Teana
+  - Jesmina Rexha
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Eukaryotic initiation factor 4E (eIF4E) drives cap-dependent translation,
+    regulated by 4E-binding proteins (4E-BPs) competing for its dorsal and lateral
+    surfaces. CYFIP1, a scaffold protein, is both a WAVE Regulatory Complex component
+    and a non-canonical 4E-BP repressing translation via a short helical motif, linked
+    to autism spectrum disorders and cancer. Prior work modeled only this isolated
+    motif as a peptide, leaving the full interface uncharacterized. Starting from
+    this preliminary evidence, we modeled the full-length proteins as flexible partners:
+    all-atom simulations fed a data-driven docking search (HADDOCK3), which guided
+    funnel-restrained Temperature-Accelerated Molecular Dynamics of a coarse-grained
+    Martini 3 representation. Ten replicas accumulated 100 $μ$s of enhanced sampling.
+    Funnel-restraint variables efficiently sample binding and unbinding but are structurally
+    degenerate: direct clustering of the raw trajectory collapses these poses into
+    poorly resolved groups. We instead reweighted the biased trajectories onto a contact-based
+    latent space built by benchmarking PCA against a beta-Variational Autoencoder,
+    then clustered minima of the equilibrium free-energy surface: only intermediate
+    regularization resolved distinct, homogeneous modes. Three such modes recur, engaging
+    eIF4E''s canonical dorsal site, its non-canonical lateral site, and both. We find
+    that CYFIP1 also engages eIF4E through a second surface, the same that mediates
+    its WAVE-complex dimerization, and a basic patch. Both plausibly explain residual
+    binding previously reported after motif mutation. This suggests its translational
+    and cytoskeletal roles compete for the same surface. Most contacts on eIF4E fall
+    outside this dorsal/lateral interface. This heterogeneous, plastic ensemble offers
+    a structural basis for mutagenesis and therapeutic peptide design.'
+- title: PDO Drug Screening Data for Evaluating and Training AI Drug Response Prediction
+    Models
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.15769v1
+  category: psychology
+  subcategory: clinical
+  authors:
+  - Y. Zhu
+  - K. Marlor
+  - V. Lavelle
+  - T. S. Brettin
+  - M. Sacco
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Anti-cancer drug response prediction (DRP) is critically important for
+    precision oncology and therapeutic development. Currently, most DRP models are
+    developed using drug screening data from immortalized cancer cell lines, which
+    can differ substantially from patient tumors at the genomic and molecular levels,
+    even though patient tumor response is the ultimate prediction target. To help
+    bridge this gap and bring DRP models closer to their intended clinical application,
+    we conducted four drug screening studies using patient-derived organoids (PDOs),
+    which more faithfully recapitulate patient tumors than immortalized cell lines.
+    These studies generated data for improving and evaluating DRP models, including
+    multi-omics profiles of PDO lines, drug feature data, and treatment response measurements.
+    Using these data, we retrained and evaluated multiple publicly available DRP models
+    under three model-building scenarios: training models using cell line data only,
+    training models using combined cell line and PDO data, and pretraining models
+    on cell line data followed by fine-tuning on PDO data. We then evaluated and compared
+    model prediction performance on PDOs across these analysis scenarios. In addition,
+    we also assessed the consistency of drug screening viability data generated by
+    different laboratories using different assay technologies and/or experimental
+    protocols.'
+- title: 'More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics
+    Prediction from Histology'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.17899v1
+  category: psychology
+  subcategory: clinical
+  authors:
+  - Songming Zhang
+  - Yuxiao Luo
+  - Shifu Luo
+  - Siran Chen
+  - Shuquan Su
+  venue: KDD 2027
+  code_url: https://github.com/ZZhangsm/GeneFlow
+  project_url: ''
+  abstract: 'Spatial transcriptomics (ST) prediction from histology aims to infer
+    spatially resolved gene expression profiles directly from tissue images. This
+    is a challenging problem that is currently often addressed with complicated model
+    architectures, additional inputs, and complicated training procedures, while remaining
+    limited to fixed, small gene panels. This raises a natural question: Is there
+    an efficient method for large-panel ST prediction? Here, we present GeneFlow,
+    a simpler yet effective framework for large-scale spatial gene expression prediction
+    that unifies flow-matching generative modeling with structured multimodal fusion.
+    Specifically, GeneFlow first encodes both histological morphology and cross-gene
+    interactions in spatial spots through histology and gene tokenizers. The model
+    directly predicts spatial gene expression, rather than an intermediate velocity
+    field, while being trained with a velocity-based flow-matching objective. We show
+    that, even without relying on heavy generative pipelines, GeneFlow achieves state-of-the-art
+    performance across multiple ST benchmarks, with up to 56.8% gains in 1,000-gene
+    prediction. Extensive experiments further show that GeneFlow produces biologically
+    meaningful spot profiles while reducing computational cost by orders of magnitude,
+    thereby improving efficiency and scalability, particularly in clinical settings.
+    We believe GeneFlow provides an opportunity for leveraging widely available histology
+    images for downstream biological discovery. Code is available at: https://github.com/ZZhangsm/GeneFlow'
+- title: 'Physiological Trajectories and Observation Patterns in ICU Mortality Prediction:
+    Transportability Under Changing Measurement Conditions'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.42126v1
+  category: psychology
+  subcategory: clinical
+  authors:
+  - Benjamin T. Pike
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Objective: To distinguish the transferable predictive value of physiological
+    trajectories from that of observation patterns in ICU mortality prediction, and
+    to assess whether measurement timing affects performance independently of observation
+    quantity. Materials and Methods: In-hospital mortality was predicted at 48 hours
+    using MIMIC-III, MIMIC-IV, and eICU. Nested representations progressively integrated
+    latest-value snapshots (R1), longitudinal physiological summaries (R2), and measurement
+    frequency and timing features (R3). Models fitted on 7,762 MetaVision patients
+    were evaluated on 21,682 MIMIC-IV patients and 43,878 eICU patients across 204
+    hospitals. The effect of measurement timing was assessed while holding the number
+    of retained observations constant. Results: Physiological trajectories improved
+    external prediction in eICU (R2-R1 log-loss difference -0.00922, 95% CI -0.01148
+    to -0.00704). Observation-pattern features improved locally developed eICU models
+    (R3-R2 -0.00257, 95% CI -0.00370 to -0.00146), but not clearly after transfer
+    from MetaVision (-0.00012, 95% CI -0.00206 to +0.00208). R3 was favoured in 10
+    of 30 source bootstrap refits. At matched observation counts, retaining measurements
+    spread throughout the window reduced log loss relative to random retention by
+    0.03280 for R3 versus 0.00703 for R2. Removing the final 12 hours increased log
+    loss relative to count-matched random removal by 0.01947 for R3 versus 0.00822
+    for R2. Under reduced availability, the local R3 increment changed from beneficial
+    to harmful. Discussion: Physiological trajectories transferred more consistently,
+    while observation-pattern features were particularly sensitive to the timing and
+    availability of measurements. Conclusion: Clinical prediction models should be
+    evaluated not only in new patient populations but also under the measurement conditions
+    that supply their inputs.'
